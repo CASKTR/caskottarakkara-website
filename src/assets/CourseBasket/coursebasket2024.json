@@ -1,0 +1,2380 @@
+{
+  "courseData": [
+    {
+      "discipline": "FYUGP Computer Science",
+      "courses": [
+        {
+          "semester": 1,
+          "category": "DSC",
+          "code": "UK1DSCCSC100",
+          "name": "Essentials of Computer Science"
+        },
+        {
+          "semester": 1,
+          "category": "DSC",
+          "code": "UK1DSCCSC102",
+          "name": "Digital Electronics"
+        },
+        {
+          "semester": 1,
+          "category": "DSC",
+          "code": "UK1DSCCSC103",
+          "name": "Introduction to Web Programming"
+        },
+        {
+          "semester": 1,
+          "category": "MDC",
+          "code": "UK1MDCCSC101",
+          "name": "Introduction to IT"
+        },
+        {
+          "semester": 1,
+          "category": "MDC",
+          "code": "UK1MDCCSC102",
+          "name": "Basics of Microprocessors"
+        },
+        {
+          "semester": 1,
+          "category": "MDC",
+          "code": "UK1MDCCSC103",
+          "name": "Introduction to Data Science"
+        },
+        {
+          "semester": 2,
+          "category": "DSC",
+          "code": "UK2DSCCSC100",
+          "name": "Free and Open Source Softwares"
+        },
+        {
+          "semester": 2,
+          "category": "DSC",
+          "code": "UK2DSCCSC101",
+          "name": "Python Programming"
+        },
+        {
+          "semester": 2,
+          "category": "DSC",
+          "code": "UK2DSCCSC104",
+          "name": "E-Commerce"
+        },
+        {
+          "semester": 2,
+          "category": "DSC",
+          "code": "UK2DSCCSC107",
+          "name": "R Programming for Data Science"
+        },
+        {
+          "semester": 2,
+          "category": "MDC",
+          "code": "UK2MDCCSC100",
+          "name": "Digital Marketing"
+        },
+        {
+          "semester": 2,
+          "category": "MDC",
+          "code": "UK2MDCCSC103",
+          "name": "Digital Logic Systems"
+        },
+        {
+          "semester": 2,
+          "category": "MDC",
+          "code": "UK2MDCCSC104",
+          "name": "Data Science using Python"
+        },
+        {
+          "semester": 3,
+          "category": "DSC",
+          "code": "UK3DSCCSC200",
+          "name": "Data Structures"
+        },
+        {
+          "semester": 3,
+          "category": "DSC",
+          "code": "UK3DSCCSC202",
+          "name": "Microprocessor and Assembly Language Programming"
+        },
+        {
+          "semester": 3,
+          "category": "DSC",
+          "code": "UK3DSCCSC207",
+          "name": "Cyber Crimes & Laws"
+        },
+        {
+          "semester": 3,
+          "category": "DSC",
+          "code": "UK3DSCCSC209",
+          "name": "Data Mining Concepts and Techniques"
+        },
+        {
+          "semester": 3,
+          "category": "DSC",
+          "code": "UK3DSCCSC211",
+          "name": "Introduction to Machine Learning"
+        },
+        {
+          "semester": 3,
+          "category": "DSE",
+          "code": "UK3DSECSC202",
+          "name": "Introduction to Artificial Intelligence"
+        },
+        {
+          "semester": 3,
+          "category": "DSE",
+          "code": "UK3DSECSC203",
+          "name": "Web Development Using HTML5 and CSS"
+        },
+        {
+          "semester": 3,
+          "category": "VAC",
+          "code": "UK3VACCSC200",
+          "name": "Coding Standards and Practices"
+        },
+        {
+          "semester": 3,
+          "category": "VAC",
+          "code": "UK3VACCSC201",
+          "name": "Professional Ethics in Computer Science"
+        },
+        {
+          "semester": 4,
+          "category": "DSC",
+          "code": "UK4DSCCSC200",
+          "name": "Database Management System"
+        },
+        {
+          "semester": 4,
+          "category": "DSC",
+          "code": "UK4DSCCSC203",
+          "name": "Computer Organization"
+        },
+        {
+          "semester": 4,
+          "category": "DSE",
+          "code": "UK4DSECSC202",
+          "name": "Knowledge Representation and Intelligent Agents"
+        },
+        {
+          "semester": 4,
+          "category": "DSE",
+          "code": "UK4DSECSC203",
+          "name": "Web Scripting Using JavaScript"
+        },
+        {
+          "semester": 4,
+          "category": "SEC",
+          "code": "UK4SECCSC200",
+          "name": "Content Management System"
+        },
+        {
+          "semester": 4,
+          "category": "SEC",
+          "code": "UK4SECCSC201",
+          "name": "Computer Hardware Maintenance"
+        },
+        {
+          "semester": 4,
+          "category": "VAC",
+          "code": "UK4VACCSC202",
+          "name": "Ethical AI and Responsible Computing"
+        },
+        {
+          "semester": 4,
+          "category": "VAC",
+          "code": "UK4VACCSC203",
+          "name": "Preface to Cyber Laws"
+        },
+        {
+          "semester": 5,
+          "category": "DSC",
+          "code": "UK5DSCCSC300",
+          "name": "Programming in Java"
+        },
+        {
+          "semester": 5,
+          "category": "DSC",
+          "code": "UK5DSCCSC302",
+          "name": "Software Engineering"
+        },
+        {
+          "semester": 5,
+          "category": "DSC",
+          "code": "UK5DSCCSC303",
+          "name": "Computer Networks"
+        },
+        {
+          "semester": 5,
+          "category": "DSE",
+          "code": "UK5DSECSC300",
+          "name": "Cryptography & Network Security"
+        },
+        {
+          "semester": 5,
+          "category": "DSE",
+          "code": "UK5DSECSC301",
+          "name": "Cyber Forensics"
+        },
+        {
+          "semester": 5,
+          "category": "DSE",
+          "code": "UK5DSECSC305",
+          "name": "Artificial Neural Networks"
+        },
+        {
+          "semester": 5,
+          "category": "SEC",
+          "code": "UK5SECCSC300",
+          "name": "Software Testing"
+        },
+        {
+          "semester": 5,
+          "category": "SEC",
+          "code": "UK5SECCSC301",
+          "name": "Web Application Development"
+        },
+        {
+          "semester": 5,
+          "category": "SEC",
+          "code": "UK5SECCSC302",
+          "name": "Android Programming using Kotlin"
+        },
+        {
+          "semester": 6,
+          "category": "DSC",
+          "code": "UK6DSCCSC301",
+          "name": "Object Oriented Analysis and Design"
+        },
+        {
+          "semester": 6,
+          "category": "DSC",
+          "code": "UK6DSCCSC303",
+          "name": "Operating Systems"
+        },
+        {
+          "semester": 6,
+          "category": "DSE",
+          "code": "UK6DSECSC300",
+          "name": "Image Security"
+        },
+        {
+          "semester": 6,
+          "category": "DSE",
+          "code": "UK6DSECSC302",
+          "name": "Data Visualisation"
+        },
+        {
+          "semester": 6,
+          "category": "SEC",
+          "code": "UK6SECCSC300",
+          "name": "Mobile Application Development"
+        },
+        {
+          "semester": 6,
+          "category": "SEC",
+          "code": "UK6SECCSC302",
+          "name": "Image Processing and Applications"
+        },
+        {
+          "semester": 7,
+          "category": "DSC",
+          "code": "UK7DSCCSC402",
+          "name": "Natural Language Processing"
+        },
+        {
+          "semester": 7,
+          "category": "DSC",
+          "code": "UK7DSCCSC411",
+          "name": "Image Processing and Applications"
+        },
+        {
+          "semester": 7,
+          "category": "DSC",
+          "code": "UK7DSCCSC420",
+          "name": "Artificial Neural Networks"
+        },
+        {
+          "semester": 7,
+          "category": "DSE",
+          "code": "UK7DSECSC402",
+          "name": "Computer Vision"
+        },
+        {
+          "semester": 7,
+          "category": "DSE",
+          "code": "UK7DSECSC403",
+          "name": "Full Stack Development"
+        }
+      ]
+    },
+    {
+      "discipline": "FYUGP Commerce ",
+      "courses": [
+        {
+          "semester": 1,
+          "category": "MDC",
+          "code": "UK1MDCCOM100",
+          "name": "Accounting for Everyone"
+        },
+        {
+          "semester": 1,
+          "category": "MDC",
+          "code": "UK1MDCCOM101",
+          "name": "Fundamentals of Investment"
+        },
+        {
+          "semester": 2,
+          "category": "MDC",
+          "code": "UK2MDCCOM100",
+          "name": "Personal Financial Planning"
+        },
+        {
+          "semester": 2,
+          "category": "MDC",
+          "code": "UK2MDCCOM101",
+          "name": "Investing in Stock Market"
+        },
+        {
+          "semester": 3,
+          "category": "VAC",
+          "code": "UK3VACCOM200",
+          "name": "Business and Professional Ethics"
+        },
+        {
+          "semester": 4,
+          "category": "SEC",
+          "code": "UK4SECCOM200",
+          "name": "Entrepreneurial Skills"
+        },
+        {
+          "semester": 4,
+          "category": "SEC",
+          "code": "UK4SECCOM201",
+          "name": "Digital Media Marketing"
+        },
+        {
+          "semester": 4,
+          "category": "VAC",
+          "code": "UK4VACCOM200",
+          "name": "Consumer Rights and Protection"
+        },
+        {
+          "semester": 4,
+          "category": "VAC",
+          "code": "UK4VACCOM201",
+          "name": "Sustainable Business Practices"
+        },
+        {
+          "semester": 5,
+          "category": "SEC",
+          "code": "UK5SECCOM300",
+          "name": "Data Analysis and Visualization in Finance"
+        },
+        {
+          "semester": 5,
+          "category": "SEC",
+          "code": "UK5SECCOM301",
+          "name": "Forensic Accounting and Fraud Detection"
+        },
+        {
+          "semester": 6,
+          "category": "SEC",
+          "code": "UK6SECCOM300",
+          "name": "Accounting Software"
+        }
+      ]
+    },
+    {
+      "discipline": "FYUGP Commerce - Co-operation Stream",
+      "courses": [
+        {
+          "semester": 1,
+          "category": "DSC",
+          "code": "UK1DSCCOM100",
+          "name": "Accounting Principles and Standards (Mandatory)"
+        },
+        {
+          "semester": 1,
+          "category": "DSC",
+          "code": "UK1DSCCOM101",
+          "name": "Management Concepts and Practices"
+        },
+        {
+          "semester": 1,
+          "category": "DSC",
+          "code": "UK1DSCCOM104",
+          "name": "Indian Financial System"
+        },
+        {
+          "semester": 2,
+          "category": "DSC",
+          "code": "UK2DSCCOM100",
+          "name": "Financial Accounting (Mandatory)"
+        },
+        {
+          "semester": 2,
+          "category": "DSC",
+          "code": "UK2DSCCOM101",
+          "name": "Functional Management"
+        },
+        {
+          "semester": 2,
+          "category": "DSC",
+          "code": "UK2DSCCOM102",
+          "name": "E-business and Governance"
+        },
+        {
+          "semester": 3,
+          "category": "DSC",
+          "code": "UK3DSCCOM201",
+          "name": "Corporate Accounting"
+        },
+        {
+          "semester": 3,
+          "category": "DSC",
+          "code": "UK3DSCCOM202",
+          "name": "Entrepreneurship Development"
+        },
+        {
+          "semester": 3,
+          "category": "DSC",
+          "code": "UK3DSCCOM204",
+          "name": "Principles of Marketing"
+        },
+        {
+          "semester": 3,
+          "category": "DSE",
+          "code": "UK3DSECOM201",
+          "name": "Conceptual Framework of Co-operation"
+        },
+        {
+          "semester": 3,
+          "category": "DSE",
+          "code": "UK3DSECOM202",
+          "name": "International Business"
+        },
+        {
+          "semester": 3,
+          "category": "DSE",
+          "code": "UK3DSECOM204",
+          "name": "Consumer Behaviour"
+        },
+        {
+          "semester": 4,
+          "category": "DSC",
+          "code": "UK4DSCCOM200",
+          "name": "Business Statistics"
+        },
+        {
+          "semester": 4,
+          "category": "DSC",
+          "code": "UK4DSCCOM201",
+          "name": "Company Administration"
+        },
+        {
+          "semester": 4,
+          "category": "DSC",
+          "code": "UK4DSCCOM203",
+          "name": "Innovation and Start-ups"
+        },
+        {
+          "semester": 4,
+          "category": "DSE",
+          "code": "UK4DSECOM201",
+          "name": "Co-operation and Community Development"
+        },
+        {
+          "semester": 4,
+          "category": "DSE",
+          "code": "UK4DSECOM204",
+          "name": "Brand Management"
+        },
+        {
+          "semester": 5,
+          "category": "DSC",
+          "code": "UK5DSCCOM300",
+          "name": "Financial Management"
+        },
+        {
+          "semester": 5,
+          "category": "DSC",
+          "code": "UK5DSCCOM302",
+          "name": "Cost Accounting (Mandatory)"
+        },
+        {
+          "semester": 5,
+          "category": "DSC",
+          "code": "UK5DSCCOM303",
+          "name": "Human Resource Management"
+        },
+        {
+          "semester": 5,
+          "category": "DSE",
+          "code": "UK5DSECOM302",
+          "name": "Global Perspectives in Co-operatives"
+        },
+        {
+          "semester": 5,
+          "category": "DSE",
+          "code": "UK5DSECOM303",
+          "name": "Co-operative Legal Framework"
+        },
+        {
+          "semester": 5,
+          "category": "DSE",
+          "code": "UK5DSECOM309",
+          "name": "Advertising and Sales Promotion"
+        },
+        {
+          "semester": 6,
+          "category": "DSC",
+          "code": "UK6DSCCOM303",
+          "name": "Auditing Principles and Practices (Mandatory)"
+        },
+        {
+          "semester": 6,
+          "category": "DSC",
+          "code": "UK6DSCCOM304",
+          "name": "Strategic Management"
+        },
+        {
+          "semester": 6,
+          "category": "DSC",
+          "code": "UK6DSCCOM305",
+          "name": "Research Methodology"
+        },
+        {
+          "semester": 6,
+          "category": "DSE",
+          "code": "UK6DSECOM302",
+          "name": "Co-operative Governance"
+        },
+        {
+          "semester": 6,
+          "category": "DSE",
+          "code": "UK6DSECOM303",
+          "name": "Co-operative Accounting and Auditing"
+        },
+        {
+          "semester": 6,
+          "category": "DSE",
+          "code": "UK6DSECOM308",
+          "name": "Service Marketing"
+        },
+        {
+          "semester": 7,
+          "category": "DSC",
+          "code": "UK7DSCCOM400",
+          "name": "Statistics for Business Research"
+        },
+        {
+          "semester": 7,
+          "category": "DSC",
+          "code": "UK7DSCCOM401",
+          "name": "Accounting Standards and Disclosure"
+        },
+        {
+          "semester": 7,
+          "category": "DSC",
+          "code": "UK7DSCCOM402",
+          "name": "Strategic Financial Management"
+        },
+        {
+          "semester": 7,
+          "category": "DSE",
+          "code": "UK7DSECOM401",
+          "name": "Co-operative Research and Digital Application"
+        },
+        {
+          "semester": 7,
+          "category": "DSE",
+          "code": "UK7DSECOM402",
+          "name": "Global Taxation Regime"
+        },
+        {
+          "semester": 7,
+          "category": "DSE",
+          "code": "UK7DSECOM404",
+          "name": "International Marketing"
+        }
+      ]
+    },
+    {
+      "discipline": "FYUGP Commerce - Finance",
+      "courses": [
+        {
+          "semester": 1,
+          "category": "DSC",
+          "code": "UK1DSCCOM100",
+          "name": "Accounting Principles and Standards (Mandatory)"
+        },
+        {
+          "semester": 1,
+          "category": "DSC",
+          "code": "UK1DSCCOM101",
+          "name": "Management Concepts and Practices"
+        },
+        {
+          "semester": 1,
+          "category": "DSC",
+          "code": "UK1DSCCOM104",
+          "name": "Indian Financial System"
+        },
+        {
+          "semester": 2,
+          "category": "DSC",
+          "code": "UK2DSCCOM100",
+          "name": "Financial Accounting (Mandatory)"
+        },
+        {
+          "semester": 2,
+          "category": "DSC",
+          "code": "UK2DSCCOM102",
+          "name": "E-business and Governance"
+        },
+        {
+          "semester": 2,
+          "category": "DSC",
+          "code": "UK2DSCCOM103",
+          "name": "Motivation and Leadership in Business"
+        },
+        {
+          "semester": 3,
+          "category": "DSC",
+          "code": "UK3DSCCOM202",
+          "name": "Entrepreneurship Development"
+        },
+        {
+          "semester": 3,
+          "category": "DSC",
+          "code": "UK3DSCCOM204",
+          "name": "Principles of Marketing"
+        },
+        {
+          "semester": 3,
+          "category": "DSC",
+          "code": "UK3DSCCOM205",
+          "name": "Retail Banking"
+        },
+        {
+          "semester": 3,
+          "category": "DSE",
+          "code": "UK3DSECOM200",
+          "name": "Investment Management"
+        },
+        {
+          "semester": 3,
+          "category": "DSE",
+          "code": "UK3DSECOM204",
+          "name": "Consumer Behaviour"
+        },
+        {
+          "semester": 4,
+          "category": "DSC",
+          "code": "UK4DSCCOM200",
+          "name": "Business Statistics"
+        },
+        {
+          "semester": 4,
+          "category": "DSC",
+          "code": "UK4DSCCOM201",
+          "name": "Company Administration"
+        },
+        {
+          "semester": 4,
+          "category": "DSC",
+          "code": "UK4DSCCOM203",
+          "name": "Innovation and Start-ups"
+        },
+        {
+          "semester": 4,
+          "category": "DSE",
+          "code": "UK4DSECOM200",
+          "name": "Financial Markets and Services"
+        },
+        {
+          "semester": 4,
+          "category": "DSE",
+          "code": "UK4DSECOM204",
+          "name": "Brand Management"
+        },
+        {
+          "semester": 5,
+          "category": "DSC",
+          "code": "UK5DSCCOM301",
+          "name": "Fundamentals of Income Tax"
+        },
+        {
+          "semester": 5,
+          "category": "DSC",
+          "code": "UK5DSCCOM302",
+          "name": "Cost Accounting (Mandatory)"
+        },
+        {
+          "semester": 5,
+          "category": "DSC",
+          "code": "UK5DSCCOM303",
+          "name": "Human Resource Management"
+        },
+        {
+          "semester": 5,
+          "category": "DSE",
+          "code": "UK5DSECOM300",
+          "name": "Stock Exchanges: Operations and Regulations"
+        },
+        {
+          "semester": 5,
+          "category": "DSE",
+          "code": "UK5DSECOM309",
+          "name": "Advertising and Sales Promotion"
+        },
+        {
+          "semester": 5,
+          "category": "DSE",
+          "code": "UK5DSECOM310",
+          "name": "Income Tax Assessment"
+        },
+        {
+          "semester": 6,
+          "category": "DSC",
+          "code": "UK6DSCCOM303",
+          "name": "Auditing Principles and Practices (Mandatory)"
+        },
+        {
+          "semester": 6,
+          "category": "DSC",
+          "code": "UK6DSCCOM304",
+          "name": "Strategic Management"
+        },
+        {
+          "semester": 6,
+          "category": "DSC",
+          "code": "UK6DSCCOM305",
+          "name": "Research Methodology"
+        },
+        {
+          "semester": 6,
+          "category": "DSE",
+          "code": "UK6DSECOM300",
+          "name": "Security Analysis and Portfolio Management"
+        },
+        {
+          "semester": 6,
+          "category": "DSE",
+          "code": "UK6DSECOM308",
+          "name": "Service Marketing"
+        },
+        {
+          "semester": 7,
+          "category": "DSC",
+          "code": "UK7DSCCOM400",
+          "name": "Statistics for Business Research"
+        },
+        {
+          "semester": 7,
+          "category": "DSC",
+          "code": "UK7DSCCOM401",
+          "name": "Accounting Standards and Disclosure"
+        },
+        {
+          "semester": 7,
+          "category": "DSC",
+          "code": "UK7DSCCOM402",
+          "name": "Strategic Financial Management"
+        },
+        {
+          "semester": 7,
+          "category": "DSE",
+          "code": "UK7DSECOM402",
+          "name": "Global Taxation Regime"
+        },
+        {
+          "semester": 7,
+          "category": "DSE",
+          "code": "UK7DSECOM404",
+          "name": "International Marketing"
+        }
+      ]
+    },
+    {
+      "discipline": "FYUGP Journalism",
+      "courses": [
+        {
+          "semester": 1,
+          "category": "DSC",
+          "code": "UK1DSCJMC100",
+          "name": "Basics of Journalism Practices"
+        },
+        {
+          "semester": 1,
+          "category": "DSC",
+          "code": "UK1DSCJMC103",
+          "name": "Sports Journalism"
+        },
+        {
+          "semester": 1,
+          "category": "DSC",
+          "code": "UK1DSCJMC105",
+          "name": "Basics of Photography"
+        },
+        {
+          "semester": 1,
+          "category": "MDC",
+          "code": "UK1MDCJMC100",
+          "name": "Introduction to Photography"
+        },
+        {
+          "semester": 2,
+          "category": "DSC",
+          "code": "UK2DSCJMC100",
+          "name": "Basics of Communication"
+        },
+        {
+          "semester": 2,
+          "category": "DSC",
+          "code": "UK2DSCJMC104",
+          "name": "MoJo Production"
+        },
+        {
+          "semester": 2,
+          "category": "DSC",
+          "code": "UK2DSCJMC105",
+          "name": "Videography Practices"
+        },
+        {
+          "semester": 2,
+          "category": "MDC",
+          "code": "UK2MDCJMC100",
+          "name": "Basics of Videography"
+        },
+        {
+          "semester": 3,
+          "category": "DSC",
+          "code": "UK3DSCJMC201",
+          "name": "Introduction to Cinema"
+        },
+        {
+          "semester": 3,
+          "category": "DSC",
+          "code": "UK3DSCJMC203",
+          "name": "Newsreading and Anchoring"
+        },
+        {
+          "semester": 3,
+          "category": "DSC",
+          "code": "UK3DSCJMC204",
+          "name": "Media and Human Rights"
+        },
+        {
+          "semester": 3,
+          "category": "DSE",
+          "code": "UK3DSEJMC200",
+          "name": "Online Journalism"
+        },
+        {
+          "semester": 3,
+          "category": "VAC",
+          "code": "UK3VACJMC200",
+          "name": "Media & Civic Engagement"
+        },
+        {
+          "semester": 4,
+          "category": "DSC",
+          "code": "UK4DSCJMC200",
+          "name": "Advanced Journalism Practices"
+        },
+        {
+          "semester": 4,
+          "category": "DSC",
+          "code": "UK4DSCJMC201",
+          "name": "Theories of Mass Communication"
+        },
+        {
+          "semester": 4,
+          "category": "DSC",
+          "code": "UK4DSCJMC203",
+          "name": "Technical Writing"
+        },
+        {
+          "semester": 4,
+          "category": "DSE",
+          "code": "UK4DSEJMC200",
+          "name": "Film Appreciation"
+        },
+        {
+          "semester": 4,
+          "category": "SEC",
+          "code": "UK4SECJMC200",
+          "name": "Visual Design"
+        },
+        {
+          "semester": 4,
+          "category": "VAC",
+          "code": "UK4VACJMC200",
+          "name": "Environmental Journalism"
+        },
+        {
+          "semester": 4,
+          "category": "VAC",
+          "code": "UK4VACJMC201",
+          "name": "Inclusivity and Media Practices"
+        },
+        {
+          "semester": 5,
+          "category": "DSC",
+          "code": "UK5DSCJMC302",
+          "name": "Business Journalism"
+        },
+        {
+          "semester": 5,
+          "category": "DSC",
+          "code": "UK5DSCJMC303",
+          "name": "Script Writing"
+        },
+        {
+          "semester": 5,
+          "category": "DSC",
+          "code": "UK5DSCJMC304",
+          "name": "Acting – Elementary Principles"
+        },
+        {
+          "semester": 5,
+          "category": "DSC",
+          "code": "UK5DSCJMC305",
+          "name": "AI and Media"
+        },
+        {
+          "semester": 5,
+          "category": "DSE",
+          "code": "UK5DSEJMC300",
+          "name": "Media Management"
+        },
+        {
+          "semester": 5,
+          "category": "DSE",
+          "code": "UK5DSEJMC301",
+          "name": "Multimedia Production"
+        },
+        {
+          "semester": 5,
+          "category": "SEC",
+          "code": "UK5SECJMC300",
+          "name": "Content Writing"
+        },
+        {
+          "semester": 6,
+          "category": "DSC",
+          "code": "UK6DSCJMC300",
+          "name": "Public Relations & Corporate Communication"
+        },
+        {
+          "semester": 6,
+          "category": "DSC",
+          "code": "UK6DSCJMC301",
+          "name": "Advertising Practices"
+        },
+        {
+          "semester": 6,
+          "category": "DSC",
+          "code": "UK6DSCJMC302",
+          "name": "Media Laws & Ethics"
+        },
+        {
+          "semester": 6,
+          "category": "DSC",
+          "code": "UK6DSCJMC303",
+          "name": "Documentary Film"
+        },
+        {
+          "semester": 6,
+          "category": "DSE",
+          "code": "UK6DSEJMC300",
+          "name": "Visual Arts Merchandising"
+        },
+        {
+          "semester": 6,
+          "category": "DSE",
+          "code": "UK6DSEJMC301",
+          "name": "Data Journalism"
+        },
+        {
+          "semester": 6,
+          "category": "SEC",
+          "code": "UK6SECJMC300",
+          "name": "Digital Story Telling"
+        },
+        {
+          "semester": 7,
+          "category": "DSC",
+          "code": "UK7DSCJMC400",
+          "name": "Mass Media Research"
+        },
+        {
+          "semester": 7,
+          "category": "DSC",
+          "code": "UK7DSCJMC401",
+          "name": "Development Communication"
+        },
+        {
+          "semester": 7,
+          "category": "DSE",
+          "code": "UK7DSEJMC400",
+          "name": "Communication Campaign"
+        },
+        {
+          "semester": 8,
+          "category": "DSC",
+          "code": "UK8DSCJMC400",
+          "name": "Media, Society & Culture"
+        },
+        {
+          "semester": 8,
+          "category": "DSC",
+          "code": "UK8DSCJMC401",
+          "name": "Academic Writing"
+        }
+      ]
+    },
+    {
+      "discipline": "FYUGP Psychology",
+      "courses": [
+        {
+          "semester": 1,
+          "category": "DSC",
+          "code": "UK1DSCPSY101",
+          "name": "Fundamentals of Psychology"
+        },
+        {
+          "semester": 1,
+          "category": "DSC",
+          "code": "UK1DSCPSY102",
+          "name": "Psychology for Personal Growth"
+        },
+        {
+          "semester": 1,
+          "category": "DSC",
+          "code": "UK1DSCPSY107",
+          "name": "Adolescent Psychology"
+        },
+        {
+          "semester": 1,
+          "category": "MDC",
+          "code": "UK1MDCPSY100",
+          "name": "Essential Psychology for Graduate Students"
+        },
+        {
+          "semester": 1,
+          "category": "MDC",
+          "code": "UK1MDCPSY101",
+          "name": "Psychology of Happiness"
+        },
+        {
+          "semester": 1,
+          "category": "MDC",
+          "code": "UK1MDCPSY102",
+          "name": "Yoga and Stress Management"
+        },
+        {
+          "semester": 2,
+          "category": "DSC",
+          "code": "UK2DSCPSY111",
+          "name": "Foundations of Psychological Processes"
+        },
+        {
+          "semester": 2,
+          "category": "DSC",
+          "code": "UK2DSCPSY113",
+          "name": "Positive Psychology"
+        },
+        {
+          "semester": 2,
+          "category": "DSC",
+          "code": "UK2DSCPSY114",
+          "name": "Psychology of Relationships"
+        },
+        {
+          "semester": 2,
+          "category": "MDC",
+          "code": "UK2MDCPSY103",
+          "name": "Understanding Adolescence and Youth"
+        },
+        {
+          "semester": 2,
+          "category": "MDC",
+          "code": "UK2MDCPSY104",
+          "name": "Psycho-cultural Analysis of Film and Cultural Products"
+        },
+        {
+          "semester": 2,
+          "category": "MDC",
+          "code": "UK2MDCPSY106",
+          "name": "Life Skills Development"
+        },
+        {
+          "semester": 3,
+          "category": "DSC",
+          "code": "UK3DSCPSY200",
+          "name": "Motivation, Emotion and Individual Differences (Mandatory)"
+        },
+        {
+          "semester": 3,
+          "category": "DSC",
+          "code": "UK3DSCPSY202",
+          "name": "Psychology of Human Development"
+        },
+        {
+          "semester": 3,
+          "category": "DSC",
+          "code": "UK3DSCPSY207",
+          "name": "Criminal Psychology"
+        },
+        {
+          "semester": 3,
+          "category": "DSE",
+          "code": "UK3DSEPSY200",
+          "name": "Psychological Techniques for Academic Achievement"
+        },
+        {
+          "semester": 3,
+          "category": "DSE",
+          "code": "UK3DSEPSY201",
+          "name": "Academic Writing in Psychology"
+        },
+        {
+          "semester": 3,
+          "category": "VAC",
+          "code": "UK3VACPSY200",
+          "name": "Essentials of Psychological First Aid"
+        },
+        {
+          "semester": 3,
+          "category": "VAC",
+          "code": "UK3VACPSY202",
+          "name": "Theme-centered Interaction for Personal and Professional Development"
+        },
+        {
+          "semester": 4,
+          "category": "DSC",
+          "code": "UK4DSCPSY208",
+          "name": "Biopsychology"
+        },
+        {
+          "semester": 4,
+          "category": "DSC",
+          "code": "UK4DSCPSY209",
+          "name": "Health Psychology"
+        },
+        {
+          "semester": 4,
+          "category": "DSC",
+          "code": "UK4DSCPSY210",
+          "name": "Developmental Psychology (Mandatory)"
+        },
+        {
+          "semester": 4,
+          "category": "DSE",
+          "code": "UK4DSEPSY202",
+          "name": "Introduction to Criminal Psychology"
+        },
+        {
+          "semester": 4,
+          "category": "DSE",
+          "code": "UK4DSEPSY203",
+          "name": "Psychology of Adolescence"
+        },
+        {
+          "semester": 4,
+          "category": "DSE",
+          "code": "UK4DSEPSY206",
+          "name": "Cyberpsychology"
+        },
+        {
+          "semester": 4,
+          "category": "SEC",
+          "code": "UK4SECPSY200",
+          "name": "Bettering Communications through Transactional Analysis"
+        },
+        {
+          "semester": 4,
+          "category": "SEC",
+          "code": "UK4SECPSY201",
+          "name": "Skills for Emotion Management"
+        },
+        {
+          "semester": 4,
+          "category": "VAC",
+          "code": "UK4VACPSY203",
+          "name": "Psychology of Relationships"
+        },
+        {
+          "semester": 4,
+          "category": "VAC",
+          "code": "UK4VACPSY204",
+          "name": "Psychology of Well-being"
+        },
+        {
+          "semester": 5,
+          "category": "DSC",
+          "code": "UK5DSCPSY300",
+          "name": "Counselling Psychology (Mandatory)"
+        },
+        {
+          "semester": 5,
+          "category": "DSC",
+          "code": "UK5DSCPSY301",
+          "name": "Social Behaviour (Mandatory)"
+        },
+        {
+          "semester": 5,
+          "category": "DSC",
+          "code": "UK5DSCPSY302",
+          "name": "Abnormal Psychology-I (Mandatory)"
+        },
+        {
+          "semester": 5,
+          "category": "DSE",
+          "code": "UK5DSEPSY306",
+          "name": "Forensic Psychology"
+        },
+        {
+          "semester": 5,
+          "category": "DSE",
+          "code": "UK5DSEPSY308",
+          "name": "Psycho-oncology"
+        },
+        {
+          "semester": 5,
+          "category": "DSE",
+          "code": "UK5DSEPSY310",
+          "name": "Suicide Prevention"
+        },
+        {
+          "semester": 5,
+          "category": "SEC",
+          "code": "UK5SECPSY300",
+          "name": "Essential Skills for Counselling"
+        },
+        {
+          "semester": 5,
+          "category": "SEC",
+          "code": "UK5SECPSY301",
+          "name": "Mindfulness and Relaxation Techniques"
+        },
+        {
+          "semester": 6,
+          "category": "DSC",
+          "code": "UK6DSCPSY303",
+          "name": "Fundamentals of Psychological Research (Mandatory)"
+        },
+        {
+          "semester": 6,
+          "category": "DSC",
+          "code": "UK6DSCPSY304",
+          "name": "Abnormal Psychology-II"
+        },
+        {
+          "semester": 6,
+          "category": "DSC",
+          "code": "UK6DSCPSY308",
+          "name": "Theories and Techniques in Counselling"
+        },
+        {
+          "semester": 6,
+          "category": "DSE",
+          "code": "UK6DSEPSY319",
+          "name": "Psychology of Addictive Behaviours"
+        },
+        {
+          "semester": 6,
+          "category": "DSE",
+          "code": "UK6DSEPSY320",
+          "name": "Identification and Management of Children with Special Needs"
+        },
+        {
+          "semester": 6,
+          "category": "DSE",
+          "code": "UK6DSEPSY321",
+          "name": "Data and Data Analysis"
+        },
+        {
+          "semester": 6,
+          "category": "SEC",
+          "code": "UK6SECPSY302",
+          "name": "Premarital Counselling"
+        },
+        {
+          "semester": 6,
+          "category": "SEC",
+          "code": "UK6SECPSY304",
+          "name": "Assertiveness Skills"
+        },
+        {
+          "semester": 7,
+          "category": "DSC",
+          "code": "UK7DSCPSY400",
+          "name": "Advanced Research Methodology"
+        },
+        {
+          "semester": 7,
+          "category": "DSC",
+          "code": "UK7DSCPSY401",
+          "name": "Advanced Cognitive Processes"
+        },
+        {
+          "semester": 7,
+          "category": "DSC",
+          "code": "UK7DSCPSY402",
+          "name": "Psychotherapy (Mandatory)"
+        },
+        {
+          "semester": 7,
+          "category": "DSE",
+          "code": "UK7DSEPSY400",
+          "name": "Counselling in Special Settings"
+        },
+        {
+          "semester": 7,
+          "category": "DSE",
+          "code": "UK7DSEPSY402",
+          "name": "Neuropsychology"
+        }
+      ]
+    },
+    {
+      "discipline": "FYUGP English",
+      "courses": [
+        {
+          "semester": 1,
+          "category": "AEC",
+          "code": "UK1AECENG102",
+          "name": "Food, Literature and Culture I"
+        },
+        {
+          "semester": 1,
+          "category": "AEC",
+          "code": "UK1AECENG104",
+          "name": "Business Communication I"
+        },
+        {
+          "semester": 1,
+          "category": "AEC",
+          "code": "UK1AECENG113",
+          "name": "Listening and Speaking in English"
+        },
+        {
+          "semester": 2,
+          "category": "AEC",
+          "code": "UK2AECENG109",
+          "name": "Literature, Law, and Culture II"
+        },
+        {
+          "semester": 2,
+          "category": "AEC",
+          "code": "UK2AECENG111",
+          "name": "Technology, Science, and Imagination II"
+        },
+        {
+          "semester": 2,
+          "category": "AEC",
+          "code": "UK2AECENG113",
+          "name": "Reading and Writing in English"
+        },
+        {
+          "semester": 3,
+          "category": "MDC",
+          "code": "UK3MDCENG200",
+          "name": "Kerala Studies-History and Society"
+        },
+        {
+          "semester": 3,
+          "category": "MDC",
+          "code": "UK3MDCENG201",
+          "name": "Kerala Studies-Art and Culture"
+        },
+        {
+          "semester": 3,
+          "category": "VAC",
+          "code": "UK3VACENG200",
+          "name": "Diversity, Equity and Inclusion"
+        },
+        {
+          "semester": 3,
+          "category": "VAC",
+          "code": "UK3VACENG201",
+          "name": "Environmental Narratives"
+        },
+        {
+          "semester": 4,
+          "category": "SEC",
+          "code": "UK4SECENG202",
+          "name": "Tourism and Cultural Communication"
+        },
+        {
+          "semester": 4,
+          "category": "SEC",
+          "code": "UK4SECENG203",
+          "name": "Soft Skills for Tourism and Hospitality"
+        },
+        {
+          "semester": 4,
+          "category": "VAC",
+          "code": "UK4VACENG200",
+          "name": "Cinema and the Art of Communication"
+        },
+        {
+          "semester": 4,
+          "category": "VAC",
+          "code": "UK4VACENG201",
+          "name": "Digital Empowerment"
+        },
+        {
+          "semester": 5,
+          "category": "SEC",
+          "code": "UK5SECENG300",
+          "name": "English for Professional Communication"
+        },
+        {
+          "semester": 5,
+          "category": "SEC",
+          "code": "UK5SECENG301",
+          "name": "Personality Development and Communication Mastery for Career Success"
+        },
+        {
+          "semester": 6,
+          "category": "SEC",
+          "code": "UK6SECENG300",
+          "name": "Writing for Print Media"
+        },
+        {
+          "semester": 6,
+          "category": "SEC",
+          "code": "UK6SECENG301",
+          "name": "Developing and Curating Digital Content"
+        }
+      ]
+    },
+    {
+      "discipline": "FYUGP Hindi",
+      "courses": [
+        {
+          "semester": 1,
+          "category": "AEC",
+          "code": "UK1AECHIN100",
+          "name": "Hindi Ekanki"
+        },
+        {
+          "semester": 1,
+          "category": "AEC",
+          "code": "UK1AECHIN101",
+          "name": "Hindi Kahani"
+        },
+        {
+          "semester": 1,
+          "category": "AEC",
+          "code": "UK1AECHIN102",
+          "name": "Hindi Kavita"
+        },
+        {
+          "semester": 1,
+          "category": "AEC",
+          "code": "UK1AECHIN103",
+          "name": "Hindi Natak"
+        },
+        {
+          "semester": 1,
+          "category": "AEC",
+          "code": "UK1AECHIN104",
+          "name": "Hindi Gadya"
+        },
+        {
+          "semester": 2,
+          "category": "AEC",
+          "code": "UK2AECHIN100",
+          "name": "Hindi Sanrachna Aur Web Lekhan"
+        },
+        {
+          "semester": 2,
+          "category": "AEC",
+          "code": "UK2AECHIN101",
+          "name": "Jeevani, Aatmakatha Aur Social Media"
+        },
+        {
+          "semester": 2,
+          "category": "AEC",
+          "code": "UK2AECHIN102",
+          "name": "Vyavaharik Hindi"
+        },
+        {
+          "semester": 2,
+          "category": "AEC",
+          "code": "UK2AECHIN103",
+          "name": "Hindi Cinema"
+        },
+        {
+          "semester": 2,
+          "category": "AEC",
+          "code": "UK2AECHIN104",
+          "name": "Hindi Patrakarita"
+        },
+        {
+          "semester": 3,
+          "category": "MDC",
+          "code": "UK3MDCHIN200",
+          "name": "Keral Ki Kalayen"
+        },
+        {
+          "semester": 3,
+          "category": "MDC",
+          "code": "UK3MDCHIN201",
+          "name": "Keral Ke Tyohar"
+        },
+        {
+          "semester": 3,
+          "category": "VAC",
+          "code": "UK3VACHIN200",
+          "name": "Prakruti Ke Saath"
+        },
+        {
+          "semester": 4,
+          "category": "SEC",
+          "code": "UK4SECHIN200",
+          "name": "Hindi Computing"
+        },
+        {
+          "semester": 4,
+          "category": "SEC",
+          "code": "UK4SECHIN201",
+          "name": "Bolchal Ki Hindi"
+        },
+        {
+          "semester": 4,
+          "category": "VAC",
+          "code": "UK4VACHIN200",
+          "name": "Bahumulya Kahaniyan"
+        },
+        {
+          "semester": 4,
+          "category": "VAC",
+          "code": "UK4VACHIN201",
+          "name": "Gandhi Mere Bheetar"
+        },
+        {
+          "semester": 5,
+          "category": "SEC",
+          "code": "UK5SECHIN300",
+          "name": "Web Literature in Hindi"
+        },
+        {
+          "semester": 5,
+          "category": "SEC",
+          "code": "UK5SECHIN301",
+          "name": "Creative Writing in Hindi"
+        },
+        {
+          "semester": 6,
+          "category": "SEC",
+          "code": "UK6SECHIN300",
+          "name": "Art of Advertisement"
+        },
+        {
+          "semester": 6,
+          "category": "SEC",
+          "code": "UK6SECHIN301",
+          "name": "Script Writing in Hindi"
+        }
+      ]
+    },
+    {
+      "discipline": "FYUGP Malayalam",
+      "courses": [
+        {
+          "semester": 1,
+          "category": "AEC",
+          "code": "UK1AECMLM100",
+          "name": "കഥാസാഹിത്യം"
+        },
+        {
+          "semester": 1,
+          "category": "AEC",
+          "code": "UK1AECMLM101",
+          "name": "കവിത"
+        },
+        {
+          "semester": 1,
+          "category": "AEC",
+          "code": "UK1AECMLM102",
+          "name": "നാടകം"
+        },
+        {
+          "semester": 1,
+          "category": "AEC",
+          "code": "UK1AECMLM103",
+          "name": "ഗദ്യസാഹിത്യം"
+        },
+        {
+          "semester": 2,
+          "category": "AEC",
+          "code": "UK2AECMLM100",
+          "name": "മലയാളഭാഷാ ചരിത്രം"
+        },
+        {
+          "semester": 2,
+          "category": "AEC",
+          "code": "UK2AECMLM101",
+          "name": "ഭാഷാഭാഷിതം"
+        },
+        {
+          "semester": 2,
+          "category": "AEC",
+          "code": "UK2AECMLM102",
+          "name": "വിനിമയം മലയാളത്തിൽ"
+        },
+        {
+          "semester": 2,
+          "category": "AEC",
+          "code": "UK2AECMLM103",
+          "name": "മലയാള സിനിമ"
+        },
+        {
+          "semester": 3,
+          "category": "MDC",
+          "code": "UK3MDCMLM200",
+          "name": "കേരളചരിത്രം"
+        },
+        {
+          "semester": 3,
+          "category": "MDC",
+          "code": "UK3MDCMLM201",
+          "name": "കേരളത്തിലെ കലകൾ"
+        },
+        {
+          "semester": 3,
+          "category": "VAC",
+          "code": "UK3VACMLM200",
+          "name": "പരിസ്ഥിതി പഠനം"
+        },
+        {
+          "semester": 3,
+          "category": "VAC",
+          "code": "UK3VACMLM201",
+          "name": "സർഗവിജ്ഞാനവും മലയാള സാഹിത്യവും"
+        },
+        {
+          "semester": 4,
+          "category": "SEC",
+          "code": "UK4SECMLM200",
+          "name": "മലയാളഭാഷയും സംസ്കാരവും"
+        },
+        {
+          "semester": 4,
+          "category": "SEC",
+          "code": "UK4SECMLM201",
+          "name": "മലയാളത്തിൽ തിരഞ്ഞെടുത്ത പാഠിപ്പ്"
+        },
+        {
+          "semester": 4,
+          "category": "VAC",
+          "code": "UK4VACMLM200",
+          "name": "കലയും സമൂഹവും"
+        },
+        {
+          "semester": 4,
+          "category": "VAC",
+          "code": "UK4VACMLM201",
+          "name": "ജീവചരിത്ര പഠനം"
+        },
+        {
+          "semester": 5,
+          "category": "SEC",
+          "code": "UK5SECMLM300",
+          "name": "വ്യവസായ ഭാഷ മലയാളത്തിൽ"
+        },
+        {
+          "semester": 5,
+          "category": "SEC",
+          "code": "UK5SECMLM301",
+          "name": "ഭാഷാ പരിശീലനം"
+        },
+        {
+          "semester": 6,
+          "category": "SEC",
+          "code": "UK6SECMLM300",
+          "name": "മലയാള സ്ക്രിപ്റ്റ് റൈറ്റിംഗ്"
+        },
+        {
+          "semester": 6,
+          "category": "SEC",
+          "code": "UK6SECMLM301",
+          "name": "ഭാഷാ പ്രക്രിയയും സമൂഹവും"
+        }
+      ]
+    },
+
+    {
+      "discipline": "FYUGP Zoology",
+      "courses": [
+        {
+          "semester": 1,
+          "category": "DSC",
+          "code": "UK1DSCZLG100",
+          "name": "Animal Diversity – Non-chordata I"
+        },
+        {
+          "semester": 1,
+          "category": "DSC",
+          "code": "UK1DSCZLG101",
+          "name": "Cell Biology"
+        },
+        {
+          "semester": 1,
+          "category": "DSC",
+          "code": "UK1DSCZLG102",
+          "name": "Biochemistry"
+        },
+        {
+          "semester": 2,
+          "category": "DSC",
+          "code": "UK2DSCZLG103",
+          "name": "Animal Diversity – Non-chordata II"
+        },
+        {
+          "semester": 2,
+          "category": "DSC",
+          "code": "UK2DSCZLG104",
+          "name": "Ecology"
+        },
+        {
+          "semester": 2,
+          "category": "DSC",
+          "code": "UK2DSCZLG105",
+          "name": "Ethology"
+        },
+        {
+          "semester": 3,
+          "category": "DSC",
+          "code": "UK3DSCZLG200",
+          "name": "Animal Diversity – Chordata I"
+        },
+        {
+          "semester": 3,
+          "category": "DSC",
+          "code": "UK3DSCZLG201",
+          "name": "Evolutionary Biology"
+        },
+        {
+          "semester": 3,
+          "category": "DSC",
+          "code": "UK3DSCZLG202",
+          "name": "Microbiology"
+        },
+        {
+          "semester": 3,
+          "category": "DSE",
+          "code": "UK3DSEZLG200",
+          "name": "Applied Zoology – Sericulture / Apiculture / Aquaculture"
+        },
+        {
+          "semester": 3,
+          "category": "VAC",
+          "code": "UK3VACZLG200",
+          "name": "Applied Zoology – Vermiculture"
+        },
+        {
+          "semester": 4,
+          "category": "DSC",
+          "code": "UK4DSCZLG203",
+          "name": "Animal Diversity – Chordata II"
+        },
+        {
+          "semester": 4,
+          "category": "DSC",
+          "code": "UK4DSCZLG204",
+          "name": "Physiology"
+        },
+        {
+          "semester": 4,
+          "category": "DSC",
+          "code": "UK4DSCZLG205",
+          "name": "Developmental Biology"
+        },
+        {
+          "semester": 4,
+          "category": "DSE",
+          "code": "UK4DSEZLG201",
+          "name": "Wildlife Conservation and Management"
+        },
+        {
+          "semester": 4,
+          "category": "SEC",
+          "code": "UK4SECZLG200",
+          "name": "Poultry Science"
+        },
+        {
+          "semester": 4,
+          "category": "VAC",
+          "code": "UK4VACZLG200",
+          "name": "Applied Zoology – Ornamental Fish Culture"
+        },
+        {
+          "semester": 5,
+          "category": "DSC",
+          "code": "UK5DSCZLG300",
+          "name": "Molecular Biology"
+        },
+        {
+          "semester": 5,
+          "category": "DSC",
+          "code": "UK5DSCZLG301",
+          "name": "Biotechnology"
+        },
+        {
+          "semester": 5,
+          "category": "DSC",
+          "code": "UK5DSCZLG302",
+          "name": "Immunology"
+        },
+        {
+          "semester": 5,
+          "category": "DSE",
+          "code": "UK5DSEZLG300",
+          "name": "Environmental Biology"
+        },
+        {
+          "semester": 5,
+          "category": "SEC",
+          "code": "UK5SECZLG300",
+          "name": "Public Health and Hygiene"
+        },
+        {
+          "semester": 6,
+          "category": "DSC",
+          "code": "UK6DSCZLG303",
+          "name": "Genetics"
+        },
+        {
+          "semester": 6,
+          "category": "DSC",
+          "code": "UK6DSCZLG304",
+          "name": "Biostatistics and Research Methodology"
+        },
+        {
+          "semester": 6,
+          "category": "DSC",
+          "code": "UK6DSCZLG305",
+          "name": "Biophysics and Instrumentation"
+        },
+        {
+          "semester": 6,
+          "category": "DSE",
+          "code": "UK6DSEZLG301",
+          "name": "Aquatic Biology"
+        },
+        {
+          "semester": 6,
+          "category": "SEC",
+          "code": "UK6SECZLG301",
+          "name": "Vermitechnology"
+        }
+      ]
+    },
+    {
+      "discipline": "FYUGP Statistics",
+      "courses": [
+        {
+          "semester": 1,
+          "category": "DSC",
+          "code": "UK1DSCSTA100",
+          "name": "Descriptive Statistics"
+        },
+        {
+          "semester": 1,
+          "category": "DSC",
+          "code": "UK1DSCSTA101",
+          "name": "Probability Theory I"
+        },
+        {
+          "semester": 1,
+          "category": "DSC",
+          "code": "UK1DSCSTA102",
+          "name": "Applied Statistics I"
+        },
+        {
+          "semester": 2,
+          "category": "DSC",
+          "code": "UK2DSCSTA103",
+          "name": "Probability Theory II"
+        },
+        {
+          "semester": 2,
+          "category": "DSC",
+          "code": "UK2DSCSTA104",
+          "name": "Applied Statistics II"
+        },
+        {
+          "semester": 2,
+          "category": "DSC",
+          "code": "UK2DSCSTA105",
+          "name": "Statistical Computing Using R I"
+        },
+        {
+          "semester": 3,
+          "category": "DSC",
+          "code": "UK3DSCSTA200",
+          "name": "Sampling Theory"
+        },
+        {
+          "semester": 3,
+          "category": "DSC",
+          "code": "UK3DSCSTA201",
+          "name": "Statistical Inference I"
+        },
+        {
+          "semester": 3,
+          "category": "DSC",
+          "code": "UK3DSCSTA202",
+          "name": "Statistical Computing Using R II"
+        },
+        {
+          "semester": 3,
+          "category": "DSE",
+          "code": "UK3DSESTA200",
+          "name": "Actuarial Statistics"
+        },
+        {
+          "semester": 3,
+          "category": "VAC",
+          "code": "UK3VACSTA200",
+          "name": "Statistics for Competitive Exams"
+        },
+        {
+          "semester": 4,
+          "category": "DSC",
+          "code": "UK4DSCSTA203",
+          "name": "Design of Experiments"
+        },
+        {
+          "semester": 4,
+          "category": "DSC",
+          "code": "UK4DSCSTA204",
+          "name": "Statistical Inference II"
+        },
+        {
+          "semester": 4,
+          "category": "DSC",
+          "code": "UK4DSCSTA205",
+          "name": "Statistical Computing Using R III"
+        },
+        {
+          "semester": 4,
+          "category": "DSE",
+          "code": "UK4DSESTA201",
+          "name": "Biostatistics"
+        },
+        {
+          "semester": 4,
+          "category": "SEC",
+          "code": "UK4SECSTA200",
+          "name": "Statistical Data Analysis Using Excel"
+        },
+        {
+          "semester": 4,
+          "category": "VAC",
+          "code": "UK4VACSTA200",
+          "name": "Big Data Analytics"
+        },
+        {
+          "semester": 5,
+          "category": "DSC",
+          "code": "UK5DSCSTA300",
+          "name": "Regression Analysis"
+        },
+        {
+          "semester": 5,
+          "category": "DSC",
+          "code": "UK5DSCSTA301",
+          "name": "Time Series Analysis"
+        },
+        {
+          "semester": 5,
+          "category": "DSC",
+          "code": "UK5DSCSTA302",
+          "name": "Multivariate Analysis"
+        },
+        {
+          "semester": 5,
+          "category": "DSE",
+          "code": "UK5DSESTA300",
+          "name": "Operations Research"
+        },
+        {
+          "semester": 5,
+          "category": "SEC",
+          "code": "UK5SECSTA300",
+          "name": "Data Mining Techniques"
+        },
+        {
+          "semester": 6,
+          "category": "DSC",
+          "code": "UK6DSCSTA303",
+          "name": "Non-parametric Methods"
+        },
+        {
+          "semester": 6,
+          "category": "DSC",
+          "code": "UK6DSCSTA304",
+          "name": "Bayesian Inference"
+        },
+        {
+          "semester": 6,
+          "category": "DSC",
+          "code": "UK6DSCSTA305",
+          "name": "Statistical Quality Control"
+        },
+        {
+          "semester": 6,
+          "category": "DSE",
+          "code": "UK6DSESTA301",
+          "name": "Econometrics"
+        },
+        {
+          "semester": 6,
+          "category": "SEC",
+          "code": "UK6SECSTA301",
+          "name": "Machine Learning with R"
+        }
+      ]
+    },
+    {
+      "discipline": "FYUGP Mathematics",
+      "courses": [
+        {
+          "semester": 1,
+          "category": "DSC",
+          "code": "UK1DSCMAT100",
+          "name": "Calculus I"
+        },
+        {
+          "semester": 1,
+          "category": "DSC",
+          "code": "UK1DSCMAT101",
+          "name": "Algebra I"
+        },
+        {
+          "semester": 1,
+          "category": "DSC",
+          "code": "UK1DSCMAT102",
+          "name": "Trigonometry and Differential Equations"
+        },
+        {
+          "semester": 2,
+          "category": "DSC",
+          "code": "UK2DSCMAT103",
+          "name": "Calculus II"
+        },
+        {
+          "semester": 2,
+          "category": "DSC",
+          "code": "UK2DSCMAT104",
+          "name": "Analytical Geometry"
+        },
+        {
+          "semester": 2,
+          "category": "DSC",
+          "code": "UK2DSCMAT105",
+          "name": "Vector Calculus"
+        },
+        {
+          "semester": 3,
+          "category": "DSC",
+          "code": "UK3DSCMAT200",
+          "name": "Real Analysis I"
+        },
+        {
+          "semester": 3,
+          "category": "DSC",
+          "code": "UK3DSCMAT201",
+          "name": "Mechanics"
+        },
+        {
+          "semester": 3,
+          "category": "DSC",
+          "code": "UK3DSCMAT202",
+          "name": "Algebra II"
+        },
+        {
+          "semester": 3,
+          "category": "DSE",
+          "code": "UK3DSEMAT200",
+          "name": "Graph Theory"
+        },
+        {
+          "semester": 3,
+          "category": "VAC",
+          "code": "UK3VACMAT200",
+          "name": "Vedic Mathematics"
+        },
+        {
+          "semester": 4,
+          "category": "DSC",
+          "code": "UK4DSCMAT203",
+          "name": "Real Analysis II"
+        },
+        {
+          "semester": 4,
+          "category": "DSC",
+          "code": "UK4DSCMAT204",
+          "name": "Linear Algebra"
+        },
+        {
+          "semester": 4,
+          "category": "DSC",
+          "code": "UK4DSCMAT205",
+          "name": "Differential Equations"
+        },
+        {
+          "semester": 4,
+          "category": "DSE",
+          "code": "UK4DSEMAT201",
+          "name": "Number Theory"
+        },
+        {
+          "semester": 4,
+          "category": "SEC",
+          "code": "UK4SECMAT200",
+          "name": "Mathematics for Competitive Examinations"
+        },
+        {
+          "semester": 4,
+          "category": "VAC",
+          "code": "UK4VACMAT200",
+          "name": "Mathematics in Nature"
+        },
+        {
+          "semester": 5,
+          "category": "DSC",
+          "code": "UK5DSCMAT300",
+          "name": "Complex Analysis"
+        },
+        {
+          "semester": 5,
+          "category": "DSC",
+          "code": "UK5DSCMAT301",
+          "name": "Abstract Algebra"
+        },
+        {
+          "semester": 5,
+          "category": "DSC",
+          "code": "UK5DSCMAT302",
+          "name": "Numerical Analysis"
+        },
+        {
+          "semester": 5,
+          "category": "DSE",
+          "code": "UK5DSEMAT300",
+          "name": "Operations Research"
+        },
+        {
+          "semester": 5,
+          "category": "SEC",
+          "code": "UK5SECMAT300",
+          "name": "Mathematical Softwares"
+        },
+        {
+          "semester": 6,
+          "category": "DSC",
+          "code": "UK6DSCMAT303",
+          "name": "Topology"
+        },
+        {
+          "semester": 6,
+          "category": "DSC",
+          "code": "UK6DSCMAT304",
+          "name": "Complex Analysis II"
+        },
+        {
+          "semester": 6,
+          "category": "DSC",
+          "code": "UK6DSCMAT305",
+          "name": "Mathematical Modelling"
+        },
+        {
+          "semester": 6,
+          "category": "DSE",
+          "code": "UK6DSEMAT301",
+          "name": "Discrete Mathematics"
+        },
+        {
+          "semester": 6,
+          "category": "SEC",
+          "code": "UK6SECMAT301",
+          "name": "LaTeX and Documentation"
+        }
+      ]
+    },
+    {
+      "discipline": "FYUGP Electronics",
+      "courses": [
+        {
+          "semester": 1,
+          "category": "DSC",
+          "code": "UK1DSCELC100",
+          "name": "Basic Electronics"
+        },
+        {
+          "semester": 1,
+          "category": "DSC",
+          "code": "UK1DSCELC101",
+          "name": "Network Analysis"
+        },
+        {
+          "semester": 1,
+          "category": "DSC",
+          "code": "UK1DSCELC102",
+          "name": "Electronic Devices"
+        },
+        {
+          "semester": 2,
+          "category": "DSC",
+          "code": "UK2DSCELC103",
+          "name": "Analog Circuits"
+        },
+        {
+          "semester": 2,
+          "category": "DSC",
+          "code": "UK2DSCELC104",
+          "name": "Digital Electronics I"
+        },
+        {
+          "semester": 2,
+          "category": "DSC",
+          "code": "UK2DSCELC105",
+          "name": "Electronic Instrumentation"
+        },
+        {
+          "semester": 3,
+          "category": "DSC",
+          "code": "UK3DSCELC200",
+          "name": "Digital Electronics II"
+        },
+        {
+          "semester": 3,
+          "category": "DSC",
+          "code": "UK3DSCELC201",
+          "name": "Microprocessor and Microcontroller"
+        },
+        {
+          "semester": 3,
+          "category": "DSC",
+          "code": "UK3DSCELC202",
+          "name": "Signals and Systems"
+        },
+        {
+          "semester": 3,
+          "category": "DSE",
+          "code": "UK3DSEELC200",
+          "name": "Consumer Electronics"
+        },
+        {
+          "semester": 3,
+          "category": "VAC",
+          "code": "UK3VACELC200",
+          "name": "Basic Electrical Engineering"
+        },
+        {
+          "semester": 4,
+          "category": "DSC",
+          "code": "UK4DSCELC203",
+          "name": "Communication Systems"
+        },
+        {
+          "semester": 4,
+          "category": "DSC",
+          "code": "UK4DSCELC204",
+          "name": "Electromagnetic Theory"
+        },
+        {
+          "semester": 4,
+          "category": "DSC",
+          "code": "UK4DSCELC205",
+          "name": "Linear Integrated Circuits"
+        },
+        {
+          "semester": 4,
+          "category": "DSE",
+          "code": "UK4DSEELC201",
+          "name": "Medical Electronics"
+        },
+        {
+          "semester": 4,
+          "category": "SEC",
+          "code": "UK4SECELC200",
+          "name": "PCB Designing"
+        },
+        {
+          "semester": 4,
+          "category": "VAC",
+          "code": "UK4VACELC200",
+          "name": "Renewable Energy Systems"
+        },
+        {
+          "semester": 5,
+          "category": "DSC",
+          "code": "UK5DSCELC300",
+          "name": "VLSI Design"
+        },
+        {
+          "semester": 5,
+          "category": "DSC",
+          "code": "UK5DSCELC301",
+          "name": "Control Systems"
+        },
+        {
+          "semester": 5,
+          "category": "DSC",
+          "code": "UK5DSCELC302",
+          "name": "Power Electronics"
+        },
+        {
+          "semester": 5,
+          "category": "DSE",
+          "code": "UK5DSEELC300",
+          "name": "Nanoelectronics"
+        },
+        {
+          "semester": 5,
+          "category": "SEC",
+          "code": "UK5SECELC300",
+          "name": "Electronic Circuit Simulation"
+        },
+        {
+          "semester": 6,
+          "category": "DSC",
+          "code": "UK6DSCELC303",
+          "name": "Embedded Systems"
+        },
+        {
+          "semester": 6,
+          "category": "DSC",
+          "code": "UK6DSCELC304",
+          "name": "Microwave Electronics"
+        },
+        {
+          "semester": 6,
+          "category": "DSC",
+          "code": "UK6DSCELC305",
+          "name": "Digital Signal Processing"
+        },
+        {
+          "semester": 6,
+          "category": "DSE",
+          "code": "UK6DSEELC301",
+          "name": "Optoelectronics"
+        },
+        {
+          "semester": 6,
+          "category": "SEC",
+          "code": "UK6SECELC301",
+          "name": "Arduino Programming"
+        }
+      ]
+    }
+  ]
+}
