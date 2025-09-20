@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Menu, X, ChevronDown, ChevronRight } from "lucide-react";
+import { Menu, X, ChevronDown, ChevronRight, Phone, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
 
 interface HeaderProps {
@@ -57,6 +57,26 @@ const TopBar: React.FC<{ onNavigate: (section: string) => void }> = ({
               </div>
             </div>
           </Link>
+          {/* Contact Info on the right side */}
+          <div className="flex flex-col items-end ml-auto text-right font-sans">
+            <span className="flex items-center gap-2 text-gray-700 text-[13px] md:text-[15px] font-semibold">
+              <Phone size={18} className="text-blue-600" />
+              Call Us:
+              <a href="tel:8089754259" className="hover:underline">
+                8089754259
+              </a>
+            </span>
+            <span className="flex items-center gap-2 text-gray-700 text-[13px] md:text-[15px] font-semibold mt-1">
+              <Mail size={18} className="text-blue-600" />
+              E-Mail:
+              <a
+                href="mailto:caskottarakkara.ihrd@gmail.com"
+                className="hover:underline"
+              >
+                caskottarakkara.ihrd@gmail.com
+              </a>
+            </span>
+          </div>
         </div>
       </div>
     </div>

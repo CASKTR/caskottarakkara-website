@@ -20,60 +20,32 @@ import Footer from "../../../components/Footer";
 
 const facultyData = [
   {
-    name: "Dr. Rajesh Kumar",
-    designation: "Professor & Head of Department",
-    qualifications: "Ph.D. Computer Science, M.Tech CSE",
+    name: "Ms. Jincy Johnson",
+    designation: "Assistant Professor & Head of Department",
+    qualifications: "MSc Psychology, SET",
     phone: "+91-9876543211",
     email: "hod.cse@cas.edu.in",
     image:
       "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400",
   },
   {
-    name: "Dr. Priya Nair",
-    designation: "Associate Professor",
-    qualifications: "Ph.D. Psychology, M.A. Clinical Psychology",
-    experience: "12+ years",
-    phone: "+91-9876543212",
-    email: "priya.nair@cas.edu.in",
+    name: "Ms. Nisa Babu",
+    designation: "Assistant Professor",
+    qualifications: "MSc Psychology, SET",
+    phone: "+91-9567989420",
+    email: "nisababu143@gmail.com",
     image:
       "https://images.pexels.com/photos/3727464/pexels-photo-3727464.jpeg?auto=compress&cs=tinysrgb&w=400",
   },
   {
-    name: "Dr. Arun Pillai",
-    designation: "Associate Professor",
-    qualifications: "Ph.D. Information Technology, M.Tech CSE",
+    name: "Ms. Teena Thankachan",
+    designation: "Assistant Professor",
+    qualifications: "MSc Psychology",
 
-    phone: "+91-9876543213",
-    email: "arun.pillai@cas.edu.in",
+    phone: "+91-7902390112",
+    email: "teenathankachan115@gmail.com",
     image:
       "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400",
-  },
-  {
-    name: "Prof. Kavitha Menon",
-    designation: "Assistant Professor",
-    qualifications: "M.Tech CSE, B.Tech CSE",
-    phone: "+91-9876543214",
-    email: "kavitha.menon@cas.edu.in",
-    image:
-      "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400",
-  },
-  {
-    name: "Prof. Suresh Kumar",
-    designation: "Assistant Professor",
-    qualifications: "M.Tech Data Science, B.Tech CSE",
-    phone: "+91-9876543215",
-    email: "suresh.kumar@cas.edu.in",
-    image:
-      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=400",
-  },
-  {
-    name: "Prof. Anjali Raj",
-    designation: "Assistant Professor",
-    qualifications: "M.Tech Computer Networks, B.Tech CSE",
-    phone: "+91-9876543216",
-    email: "anjali.raj@cas.edu.in",
-    image:
-      "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=400",
   },
 ];
 
@@ -424,24 +396,9 @@ const PsychologyPage: React.FC = () => {
                       </p>
 
                       <div className="space-y-2 mb-4">
-                        <div className="text-sm">
-                          <span className="font-medium text-gray-900">
-                            Specialization:{" "}
-                          </span>
-                        </div>
-                        <div className="text-sm">
-                          <span className="font-medium text-gray-900">
-                            Experience:{" "}
-                          </span>
-                          <span className="text-gray-600">
-                            {faculty.experience}
-                          </span>
-                        </div>
-                        <div className="text-sm">
-                          <span className="font-medium text-gray-900">
-                            Publications:{" "}
-                          </span>
-                        </div>
+                        <div className="text-sm"></div>
+                        <div className="text-sm"></div>
+                        <div className="text-sm"></div>
                       </div>
 
                       <div className="space-y-2 border-t pt-4">

@@ -20,76 +20,31 @@ import Footer from "../../../components/Footer";
 
 const facultyData = [
   {
-    name: "Dr. Rajesh Kumar",
-    designation: "Professor & Head of Department",
-    qualifications: "Ph.D. Computer Science, M.Tech CSE",
-    specialization: "Machine Learning, Data Mining",
-    experience: "15+ years",
+    name: "Ms. Sangeetha Santhosh",
+    designation: "Assistant Professor & Head of Department",
+    qualifications: "MA in Journalism & Mass Communication, SET, NET",
     phone: "+91-9876543211",
     email: "hod.cse@cas.edu.in",
-    publications: "35+ research papers",
     image:
       "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400",
   },
   {
-    name: "Dr. Priya Nair",
-    designation: "Associate Professor",
-    qualifications: "Ph.D. Computer Science, M.Tech IT",
-    specialization: "Artificial Intelligence, Neural Networks",
-    experience: "12+ years",
+    name: "Ms. Arunima Sanal",
+    designation: "Assistant Professor",
+    qualifications: "MA Mass Communication with UGC NET",
     phone: "+91-9876543212",
     email: "priya.nair@cas.edu.in",
-    publications: "28+ research papers",
     image:
       "https://images.pexels.com/photos/3727464/pexels-photo-3727464.jpeg?auto=compress&cs=tinysrgb&w=400",
   },
   {
-    name: "Dr. Arun Pillai",
-    designation: "Associate Professor",
+    name: "Sri. Prasanth. P",
+    designation: "Assistant Professor",
     qualifications: "Ph.D. Information Technology, M.Tech CSE",
-    specialization: "Cybersecurity, Network Security",
-    experience: "10+ years",
     phone: "+91-9876543213",
     email: "arun.pillai@cas.edu.in",
-    publications: "22+ research papers",
     image:
       "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400",
-  },
-  {
-    name: "Prof. Kavitha Menon",
-    designation: "Assistant Professor",
-    qualifications: "M.Tech CSE, B.Tech CSE",
-    specialization: "Web Development, Software Engineering",
-    experience: "8+ years",
-    phone: "+91-9876543214",
-    email: "kavitha.menon@cas.edu.in",
-    publications: "15+ research papers",
-    image:
-      "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400",
-  },
-  {
-    name: "Prof. Suresh Kumar",
-    designation: "Assistant Professor",
-    qualifications: "M.Tech Data Science, B.Tech CSE",
-    specialization: "Data Analytics, Big Data",
-    experience: "6+ years",
-    phone: "+91-9876543215",
-    email: "suresh.kumar@cas.edu.in",
-    publications: "12+ research papers",
-    image:
-      "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=400",
-  },
-  {
-    name: "Prof. Anjali Raj",
-    designation: "Assistant Professor",
-    qualifications: "M.Tech Computer Networks, B.Tech CSE",
-    specialization: "Computer Networks, IoT",
-    experience: "5+ years",
-    phone: "+91-9876543216",
-    email: "anjali.raj@cas.edu.in",
-    publications: "10+ research papers",
-    image:
-      "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=400",
   },
 ];
 
@@ -445,30 +400,9 @@ const JournalismPage: React.FC = () => {
                       </p>
 
                       <div className="space-y-2 mb-4">
-                        <div className="text-sm">
-                          <span className="font-medium text-gray-900">
-                            Specialization:{" "}
-                          </span>
-                          <span className="text-gray-600">
-                            {faculty.specialization}
-                          </span>
-                        </div>
-                        <div className="text-sm">
-                          <span className="font-medium text-gray-900">
-                            Experience:{" "}
-                          </span>
-                          <span className="text-gray-600">
-                            {faculty.experience}
-                          </span>
-                        </div>
-                        <div className="text-sm">
-                          <span className="font-medium text-gray-900">
-                            Publications:{" "}
-                          </span>
-                          <span className="text-gray-600">
-                            {faculty.publications}
-                          </span>
-                        </div>
+                        <div className="text-sm"></div>
+                        <div className="text-sm"></div>
+                        <div className="text-sm"></div>
                       </div>
 
                       <div className="space-y-2 border-t pt-4">
