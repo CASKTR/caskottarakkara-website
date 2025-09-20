@@ -228,7 +228,7 @@ const MainNavBar: React.FC<{
       id: "information",
       label: "Information",
       submenu: [
-        { label: "Contact", route: "Contact" },
+        { label: "Contact Us", route: "/information/contactus" },
 
         { label: "Downloads", route: "/information/downloads" },
         { label: "RTI Details", route: "/information/rtidetails" },

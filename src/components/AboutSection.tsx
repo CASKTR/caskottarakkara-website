@@ -199,10 +199,15 @@ const AboutSection: React.FC = () => {
                   Establishment
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Established in 2023, the College of Applied Science,
-                  Kottarakkara is among the newest institutions under IHRD,
-                  bringing modern facilities and updated curricula to meet the
-                  needs of today’s learners.
+                  Founded in 2023, the College of Applied Science, Kottarakkara
+                  stands as one of the newest and most dynamic institutions
+                  under IHRD. Despite its young age, the college has quickly
+                  gained recognition for its state-of-the-art facilities, modern
+                  infrastructure, and innovative curriculum designed to meet the
+                  evolving demands of today’s learners. With a forward-looking
+                  vision, the institution is committed to nurturing academic
+                  excellence, fostering creativity, and equipping students with
+                  skills for the future.
                 </p>
               </div>
               <div className="bg-gradient-to-r from-purple-50 to-violet-50 rounded-2xl p-6 ring-1 ring-violet-100 shadow-sm hover:shadow-md transition-shadow">

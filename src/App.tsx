@@ -41,6 +41,7 @@ import CollegeSenate from "./pages/StudentLife/Clubs&Cells/CollegeSenate";
 import TransportationPage from "./pages/StudentLife/Transportation";
 import AlumniSection from "./components/AlumniSection";
 import GallerySection from "./components/GallerySection";
+import ContactUs from "./pages/Information/Contact";
 
 function HomePage({
   activeSection,
@@ -65,6 +66,7 @@ function HomePage({
         <Hero onNavigate={scrollToSection} />
         <AboutSection />
       </main>
+
       <Footer onNavigate={scrollToSection} />
     </>
   );
@@ -230,6 +232,7 @@ function App() {
           path="/studentlife/clubs&cells/antiraggingcell"
           element={<AntiRaggingCell />}
         />
+        <Route path="/information/contactus" element={<ContactUs />} />
         <Route path="/gallery" element={<GallerySection />} />{" "}
         <Route path="/alumni" element={<AlumniSection />} />{" "}
       </Routes>

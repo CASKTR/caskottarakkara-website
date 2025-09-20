@@ -1,101 +1,373 @@
-import React from 'react';
+import { useEffect, useRef, useState } from "react";
+import {
+  FileText,
+  Info,
+  Users,
+  ChevronRight,
+  Clock,
+  Shield,
+  Eye,
+  MapPin,
+  Calendar,
+  CheckCircle,
+  AlertCircle,
+} from "lucide-react";
 
-const RTIDetails: React.FC = () => {
-	return (
-		<section id="rti-details" className="py-12 bg-white">
-			<div className="max-w-4xl mx-auto">
-				<div className="text-center mb-12">
-					<h3 className="text-2xl font-bold text-gray-900 mb-4">Right to Information (RTI) Details</h3>
-					<p className="text-gray-600">Transparency and accountability through RTI Act implementation</p>
-				</div>
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 
-				<div className="grid md:grid-cols-2 gap-8">
-					{/* CPIO Details */}
-					<div className="bg-white rounded-2xl shadow-lg p-8">
-						<h4 className="text-xl font-bold text-gray-900 mb-6">Central Public Information Officer (CPIO)</h4>
-						<div className="space-y-4">
-							<div className="bg-blue-50 rounded-xl p-6">
-								<h5 className="font-semibold text-gray-900 mb-2">Mr. Suresh Kumar</h5>
-								<p className="text-blue-600 font-medium mb-2">Registrar</p>
-								<div className="space-y-1 text-sm text-gray-600">
-									<p><strong>Email:</strong> rti@cas.edu.in</p>
-									<p><strong>Phone:</strong> +91-487-2345679</p>
-									<p><strong>Office:</strong> Administrative Block, Room 101</p>
-									<p><strong>Office Hours:</strong> 10:00 AM - 5:00 PM</p>
-								</div>
-							</div>
-						</div>
-					</div>
+const RTIDetails = () => {
+  const [scrollY, setScrollY] = useState(0);
+  const [isNavHidden, setIsNavHidden] = useState(false);
+  const lastScrollYRef = useRef(0);
 
-					{/* Appellate Authority */}
-					<div className="bg-white rounded-2xl shadow-lg p-8">
-						<h4 className="text-xl font-bold text-gray-900 mb-6">Appellate Authority</h4>
-						<div className="space-y-4">
-							<div className="bg-green-50 rounded-xl p-6">
-								<h5 className="font-semibold text-gray-900 mb-2">Dr. Priya Nair</h5>
-								<p className="text-green-600 font-medium mb-2">Principal</p>
-								<div className="space-y-1 text-sm text-gray-600">
-									<p><strong>Email:</strong> principal@cas.edu.in</p>
-									<p><strong>Phone:</strong> +91-487-2345680</p>
-									<p><strong>Office:</strong> Principal's Chamber</p>
-									<p><strong>Office Hours:</strong> 11:00 AM - 4:00 PM</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentY = window.scrollY;
+      const isScrollingDown = currentY > lastScrollYRef.current;
+      setIsNavHidden(isScrollingDown && currentY > 60);
+      lastScrollYRef.current = currentY;
+      setScrollY(currentY);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
-				{/* RTI Process */}
-				<div className="mt-12 bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8">
-					<h4 className="text-xl font-bold text-gray-900 mb-6">How to File RTI Application</h4>
-					<div className="grid md:grid-cols-3 gap-6">
-						<div className="bg-white rounded-xl p-6 text-center">
-							<div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-4 text-white font-bold">
-								1
-							</div>
-							<h5 className="font-semibold text-gray-900 mb-2">Submit Application</h5>
-							<p className="text-gray-600 text-sm">Submit RTI application with ₹10 fee to CPIO office</p>
-						</div>
-						<div className="bg-white rounded-xl p-6 text-center">
-							<div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-4 text-white font-bold">
-								2
-							</div>
-							<h5 className="font-semibold text-gray-900 mb-2">Processing</h5>
-							<p className="text-gray-600 text-sm">CPIO processes application within 30 days</p>
-						</div>
-						<div className="bg-white rounded-xl p-6 text-center">
-							<div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-4 text-white font-bold">
-								3
-							</div>
-							<h5 className="font-semibent text-gray-900 mb-2">Response</h5>
-							<p className="text-gray-600 text-sm">Receive information or file appeal if unsatisfied</p>
-						</div>
-					</div>
-				</div>
+  const noopNavigate = () => {};
 
-				{/* Information Available */}
-				<div className="mt-12 bg-white rounded-2xl shadow-lg p-8">
-					<h4 className="text-xl font-bold text-gray-900 mb-6">Information Available Under RTI</h4>
-					<div className="grid md:grid-cols-2 gap-6">
-						<ul className="space-y-2 text-gray-700">
-							<li>• College policies and procedures</li>
-							<li>• Administrative decisions and records</li>
-							<li>• Financial information and budgets</li>
-							<li>• Faculty and staff information</li>
-							<li>• Admission procedures and criteria</li>
-						</ul>
-						<ul className="space-y-2 text-gray-700">
-							<li>• Infrastructure development plans</li>
-							<li>• Committee meeting minutes</li>
-							<li>• Grievance redressal records</li>
-							<li>• Procurement and tender details</li>
-							<li>• Student services information</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</section>
-	);
+  return (
+    <div className="flex flex-col min-h-screen bg-gray-50">
+      <Header
+        activeSection="rti"
+        onNavigate={noopNavigate}
+        scrollY={scrollY}
+        isHidden={isNavHidden}
+      />
+
+      {/* Page title band */}
+      <section className="pt-[155px] md:pt-[170px] lg:pt-[185px] bg-gradient-to-br from-blue-800 to-indigo-950 text-white">
+        <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 py-10">
+          <div className="flex items-center text-sm text-white/80 mb-3">
+            <span className="hover:text-white transition-colors cursor-pointer">
+              Information{" "}
+            </span>
+            <ChevronRight className="mx-2 h-4 w-4 opacity-70" />
+            <span className="text-white">RTI Details</span>
+          </div>
+          <h1 className="text-3xl md:text-4xl font-bold">RTI Details </h1>
+          <p className="mt-2 text-white/90 max-w-2xl">
+            Promoting transparency and accountability in the working of our
+            institution through the Right to Information Act, 2005.
+          </p>
+        </div>
+      </section>
+
+      {/* RTI Introduction */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-3xl font-bold text-gray-900 mb-6">
+              RTI Act Implementation
+            </h2>
+            <p className="text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
+              The Right to Information Act, 2005 has been enacted by the
+              Parliament and came into force from 15 June 2005. This Act
+              provides citizens with the right to secure access to information
+              under the control of public authorities.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-8 mb-12">
+            <div className="text-center p-6 bg-blue-50 rounded-2xl">
+              <Eye className="h-12 w-12 text-blue-600 mx-auto mb-4" />
+              <h3 className="text-xl font-bold text-gray-900 mb-3">
+                Transparency
+              </h3>
+              <p className="text-gray-600">
+                Promoting openness in institutional operations and
+                decision-making processes
+              </p>
+            </div>
+            <div className="text-center p-6 bg-green-50 rounded-2xl">
+              <Shield className="h-12 w-12 text-green-600 mx-auto mb-4" />
+              <h3 className="text-xl font-bold text-gray-900 mb-3">
+                Accountability
+              </h3>
+              <p className="text-gray-600">
+                Ensuring responsible governance and administrative practices
+              </p>
+            </div>
+            <div className="text-center p-6 bg-purple-50 rounded-2xl">
+              <Users className="h-12 w-12 text-purple-600 mx-auto mb-4" />
+              <h3 className="text-xl font-bold text-gray-900 mb-3">
+                Citizen Rights
+              </h3>
+              <p className="text-gray-600">
+                Empowering citizens with access to public information
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Act Details Section */}
+      <section className="py-16 bg-gradient-to-br from-blue-50 to-indigo-50">
+        <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-3xl md:text-3xl font-bold text-gray-900 mb-6">
+                About the RTI Act
+              </h2>
+              <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                The <strong>Right to Information Act, 2005 (22 of 2005)</strong>{" "}
+                provides for a right to information for citizens to secure
+                access to information under the control of public authorities in
+                order to promote transparency and accountability.
+              </p>
+              <div className="space-y-4">
+                <div className="flex items-start gap-4">
+                  <div className="bg-blue-500 rounded-full p-2 mt-1">
+                    <Calendar className="h-5 w-5 text-white" />
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-900 mb-1">
+                      Effective Date
+                    </h4>
+                    <p className="text-gray-600">
+                      The Act came into force from 15 June 2005
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
+                  <div className="bg-green-500 rounded-full p-2 mt-1">
+                    <CheckCircle className="h-5 w-5 text-white" />
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-900 mb-1">
+                      Institutional Compliance
+                    </h4>
+                    <p className="text-gray-600">
+                      All Universities and Colleges established by law come
+                      within the meaning of Public Authority
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
+                  <div className="bg-purple-500 rounded-full p-2 mt-1">
+                    <FileText className="h-5 w-5 text-white" />
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-900 mb-1">
+                      Proactive Disclosure
+                    </h4>
+                    <p className="text-gray-600">
+                      Information must be made available to the public through
+                      institutional websites
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="relative">
+              <div className="absolute -inset-4 bg-gradient-to-r from-blue-400 to-indigo-500 rounded-2xl opacity-20 blur-lg"></div>
+              <div className="relative bg-white rounded-2xl p-8 shadow-2xl">
+                <div className="text-center">
+                  <div className="bg-blue-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
+                    <Info className="h-10 w-10 text-blue-600" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                    RTI Act 2005
+                  </h3>
+                  <p className="text-gray-600 mb-6">
+                    Parliamentary Act No. 22 of 2005
+                  </p>
+                  <div className="bg-blue-50 rounded-lg p-4">
+                    <p className="text-sm text-blue-800 font-medium">
+                      "Every citizen has the right to information"
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* College Compliance Section */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-3xl font-bold text-gray-900 mb-6">
+              Our Commitment to RTI
+            </h2>
+            <p className="text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
+              College of Applied Science, Kottarakkara complies with the Act
+              enacted by the Parliament and is committed to transparency in all
+              its operations.
+            </p>
+          </div>
+          <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 md:p-12">
+            <div className="flex items-start gap-6">
+              <div className="bg-green-500 rounded-full p-3 mt-1">
+                <CheckCircle className="h-8 w-8 text-white" />
+              </div>
+              <div className="flex-1">
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                  Full Compliance Statement
+                </h3>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  The college complies with the Act enacted by the Parliament.
+                  All Universities and Colleges established by law made by
+                  Parliament or by the State Legislature or by notification by
+                  the appropriate Government or owned, controlled or
+                  substantially financed directly or indirectly by funds
+                  provided by the Government shall come within the meaning of a
+                  Public Authority under this Act.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Information Section */}
+      <section className="py-16 bg-gradient-to-br from-gray-50 to-blue-50">
+        <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-3xl font-bold text-gray-900 mb-6">
+              Contact Information
+            </h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              For RTI applications and information requests, please contact our
+              office using the details below.
+            </p>
+          </div>
+
+          <div className="max-w-2xl mx-auto">
+            <div className="bg-white rounded-2xl p-8 md:p-12 shadow-xl">
+              <div className="text-center mb-8">
+                <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                  <Users className="h-8 w-8 text-blue-600" />
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">
+                  Public Information Officer
+                </h3>
+                <p className="text-gray-600">Contact for RTI Applications</p>
+              </div>
+
+              <div className="space-y-6">
+                <div className="flex items-start gap-4 p-4 bg-blue-50 rounded-lg">
+                  <Users className="h-6 w-6 text-blue-600 mt-1" />
+                  <div>
+                    <h4 className="font-semibold text-gray-900 mb-1">
+                      The Principal
+                    </h4>
+                    <p className="text-gray-600">
+                      College of Applied Science, Kottarakkara
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4 p-4 bg-green-50 rounded-lg">
+                  <MapPin className="h-6 w-6 text-green-600 mt-1" />
+                  <div>
+                    <h4 className="font-semibold text-gray-900 mb-1">
+                      Address
+                    </h4>
+                    <p className="text-gray-600">
+                      Kottarakkara P.O
+                      <br />
+                      Kollam (Dist) - 691531
+                      <br />
+                      Kerala, India
+                    </p>
+                  </div>
+                </div>
+
+                <div className="bg-yellow-50 rounded-lg p-6">
+                  <div className="flex items-center gap-3 mb-3">
+                    <AlertCircle className="h-6 w-6 text-yellow-600" />
+                    <h4 className="font-semibold text-gray-900">
+                      RTI Application Process
+                    </h4>
+                  </div>
+                  <p className="text-gray-600 text-sm leading-relaxed">
+                    RTI applications should be submitted in writing to the above
+                    address. Applications must clearly specify the information
+                    sought and include the prescribed fee as per RTI rules.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Important Information */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-3xl font-bold text-gray-900 mb-6">
+              Important Information
+            </h2>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-blue-50 rounded-2xl p-8">
+              <div className="flex items-center gap-4 mb-6">
+                <Clock className="h-8 w-8 text-blue-600" />
+                <h3 className="text-xl font-bold text-gray-900">
+                  Response Timeline
+                </h3>
+              </div>
+              <ul className="space-y-3 text-gray-700">
+                <li className="flex items-start gap-3">
+                  <div className="w-2 h-2 bg-blue-500 rounded-full mt-2"></div>
+                  <span>
+                    Information to be provided within 30 days of application
+                  </span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-2 h-2 bg-blue-500 rounded-full mt-2"></div>
+                  <span>
+                    Response within 48 hours for life and liberty matters
+                  </span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-2 h-2 bg-blue-500 rounded-full mt-2"></div>
+                  <span>Additional 30 days if third party is involved</span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-green-50 rounded-2xl p-8">
+              <div className="flex items-center gap-4 mb-6">
+                <FileText className="h-8 w-8 text-green-600" />
+                <h3 className="text-xl font-bold text-gray-900">
+                  Application Requirements
+                </h3>
+              </div>
+              <ul className="space-y-3 text-gray-700">
+                <li className="flex items-start gap-3">
+                  <div className="w-2 h-2 bg-green-500 rounded-full mt-2"></div>
+                  <span>Written application in prescribed format</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-2 h-2 bg-green-500 rounded-full mt-2"></div>
+                  <span>Clear specification of information sought</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-2 h-2 bg-green-500 rounded-full mt-2"></div>
+                  <span>Payment of prescribed fees as applicable</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <Footer onNavigate={noopNavigate} />
+    </div>
+  );
 };
 
 export default RTIDetails;
