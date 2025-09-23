@@ -12,7 +12,6 @@ import AboutSection from "./components/AboutSection";
 import Footer from "./components/Footer";
 import PrincipalPage from "./pages/Administration/Principal";
 import HeadOfDepartmentsPage from "./pages/Administration/HeadOfDepartments";
-import FacultyMembersPage from "./pages/Administration/FacultyMembers";
 import AdministrativeStaffPage from "./pages/Administration/AdministrativeStaff";
 import ManagementPage from "./pages/Administration/Management";
 import PTAPage from "./pages/Administration/PTA";
@@ -135,10 +134,6 @@ function App() {
         <Route
           path="/administration/headofdepartments"
           element={<HeadOfDepartmentsPage />}
-        />
-        <Route
-          path="/administration/facultymembers"
-          element={<FacultyMembersPage />}
         />
         <Route path="/administration/pta" element={<PTAPage />} />
         <Route

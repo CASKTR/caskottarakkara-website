@@ -1,0 +1,83 @@
+{
+  "calendar2024": [
+    { "no": 1, "item": "Commencement of classes", "date": "June 2, 2025" },
+    { "no": 2, "item": "Course Registration", "date": "Up to June 13, 2025" },
+    {
+      "no": 3,
+      "item": "College Union Election",
+      "date": "Before August 30, 2025"
+    },
+    {
+      "no": 4,
+      "item": "Exam Registration",
+      "date": "On or before September 30, 2024"
+    },
+    {
+      "no": 5,
+      "item": "First Semester Examination Timetable",
+      "date": "October 15, 2025"
+    },
+    {
+      "no": 6,
+      "item": "End of regular classes of 3rd semester",
+      "date": "October 8, 2025"
+    },
+    {
+      "no": 7,
+      "item": "Finalization of Internal Assessment Mark",
+      "date": "Before October 10, 2025"
+    },
+    {
+      "no": 8,
+      "item": "Commencement of 4th Semester",
+      "date": "October 9, 2025"
+    },
+    {
+      "no": 9,
+      "item": "3rd Semester Examinations",
+      "date": "November 3–18, 2025"
+    },
+    {
+      "no": 10,
+      "item": "Publication of 3rd Semester Examination Results",
+      "date": "On or before December 15, 2025"
+    },
+    { "no": 11, "item": "Resume of 4th Semester", "date": "November 27, 2025" },
+    {
+      "no": 12,
+      "item": "Sports (College/ University Level)",
+      "date": "Before December 19, 2025"
+    },
+    {
+      "no": 13,
+      "item": "Arts Festival (College/ University Level)",
+      "date": "Before January 31, 2026"
+    },
+    {
+      "no": 14,
+      "item": "Interuniversity Youth and Sports Festival",
+      "date": "Before February 28, 2026"
+    },
+    {
+      "no": 15,
+      "item": "Last working day of 4th semester",
+      "date": "March 31, 2026"
+    },
+    {
+      "no": 16,
+      "item": "Finalisation of Internal Marks",
+      "date": "March 31, 2026"
+    },
+    {
+      "no": 17,
+      "item": "4th Semester Examination",
+      "date": "April 6–24, 2026"
+    },
+    {
+      "no": 18,
+      "item": "Publication of 4th Semester Examination Results",
+      "date": "On or before May 25, 2026"
+    },
+    { "no": 19, "item": "Internship", "date": "May 2026" }
+  ]
+}

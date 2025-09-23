@@ -113,7 +113,6 @@ const MainNavBar: React.FC<{
           route: "/administration/headofdepartments",
         },
         { label: "Parent Teacher Association", route: "/administration/pta" },
-        { label: "Faculty Members", route: "/administration/facultymembers" },
         {
           label: "Administrative Staff",
           route: "/administration/administrativestaff",

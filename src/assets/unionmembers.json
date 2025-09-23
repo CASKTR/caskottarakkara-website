@@ -1,0 +1,78 @@
+{
+  "executiveMembers": [
+    {
+      "position": "Chairman",
+      "name": "*******",
+      "course": "*******",
+      "category": "executive",
+      "priority": 1
+    },
+    {
+      "position": "General Secretary",
+      "name": "*******",
+      "course": "*******",
+      "category": "executive",
+      "priority": 2
+    },
+    {
+      "position": "Vice Chairman",
+      "name": "*******",
+      "course": "*******",
+      "category": "executive",
+      "priority": 3
+    },
+    {
+      "position": "University Union Councillor",
+      "name": "*******",
+      "course": "*******",
+      "category": "executive",
+      "priority": 4
+    }
+  ],
+  "secretaryMembers": [
+    {
+      "position": "Arts Club Secretary",
+      "name": "*******",
+      "course": "*******",
+      "category": "secretary"
+    },
+    {
+      "position": "Magazine Editor",
+      "name": "*******",
+      "course": "*******",
+      "category": "secretary"
+    },
+    {
+      "position": "Sports Secretary",
+      "name": "*******",
+      "course": "*******",
+      "category": "secretary"
+    }
+  ],
+  "ladyRepresentatives": [
+    {
+      "name": "*******",
+      "course": "*******",
+      "category": "representative"
+    },
+    {
+      "name": "*******",
+      "course": "*******",
+      "category": "representative"
+    }
+  ],
+  "yearRepresentatives": [
+    {
+      "position": "1st Year Representative",
+      "name": "*******",
+      "course": "*******",
+      "category": "representative"
+    },
+    {
+      "position": "2nd Year Representative",
+      "name": "*******",
+      "course": "*******",
+      "category": "representative"
+    }
+  ]
+}
