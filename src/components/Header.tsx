@@ -157,7 +157,7 @@ const MainNavBar: React.FC<{
               route: "/academics/departments/psychology",
             },
             {
-              label: "Department of Journalism",
+              label: "Department of Journalism & Mass Communication",
               route: "/academics/departments/journalism",
             },
           ],

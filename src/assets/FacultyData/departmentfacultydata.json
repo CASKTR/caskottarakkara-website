@@ -1,0 +1,107 @@
+{
+  "computersciencefaculty": [
+    {
+      "name": "Smt. Bindu. S",
+      "designation": "Assistant Professor & Head of Department",
+      "qualifications": "Msc. Computer Science",
+      "phone": "+91-9876543211",
+      "email": "hod.cse@cas.edu.in",
+      "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "name": "Smt. Anzalna. H",
+      "designation": "Assistant Professor",
+      "qualifications": "Msc. Computer Science, Mphil Computer Science",
+      "phone": "+91-9876543212",
+      "email": "priya.nair@cas.edu.in",
+      "image": "https://images.pexels.com/photos/3727464/pexels-photo-3727464.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "name": "Smt. Afsana. N",
+      "designation": "Assistant Professor",
+      "qualifications": "Msc Computer Science",
+      "phone": "+91-9876543213",
+      "email": "arun.pillai@cas.edu.in",
+      "image": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "name": "Smt. Saranya. S",
+      "designation": "Assistant Professor",
+      "qualifications": "BCA, Msc Computer Science",
+      "phone": "+91-9876543213",
+      "email": "arun.pillai@cas.edu.in",
+      "image": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400"
+    }
+  ],
+
+  "commercefaculty": [
+    {
+      "name": "Ms. Aadarsha. S",
+      "designation": "Assistant Professor & Head of Department",
+      "qualifications": "MCom Finance, SET, NET",
+      "phone": "+91-9876543211",
+      "email": "hod.commerce@cas.edu.in",
+      "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "name": "Sri. Manoj MS",
+      "designation": "Assistant Professor",
+      "qualifications": "MCom, NET",
+      "phone": "+91-8746662683",
+      "email": "msmanoj.madhu83@gmail.com",
+      "image": "https://images.pexels.com/photos/3727464/pexels-photo-3727464.jpeg?auto=compress&cs=tinysrgb&w=400"
+    }
+  ],
+  "psychologyfaculty": [
+    {
+      "name": "Ms. Jincy Johnson",
+      "designation": "Assistant Professor & Head of Department",
+      "qualifications": "MSc Psychology, SET",
+      "phone": "+91-9876543211",
+      "email": "hod.commerce@cas.edu.in",
+      "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "name": "Ms. Nisa Babu",
+      "designation": "Assistant Professor",
+      "qualifications": "MSc Psychology, SET",
+      "phone": "+91-9567989420",
+      "email": "nisababu143@gmail.com",
+      "image": "https://images.pexels.com/photos/3727464/pexels-photo-3727464.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "name": "Ms. Teena Thankachan",
+      "designation": "Assistant Professor",
+      "qualifications": "MSc Psychology",
+      "phone": "+91-7902390112",
+      "email": "teenathankachan115@gmail.com",
+      "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
+    }
+  ],
+  "journalismfaculty": [
+    {
+      "name": "Ms. Sangeetha Santhosh",
+      "designation": "Assistant Professor & Head of Department",
+      "qualifications": "MA in Journalism & Mass Communication, SET, NET",
+      "phone": "+91-9876543211",
+      "email": "hod.commerce@cas.edu.in",
+      "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "name": "Ms. Arunima Sanal",
+      "designation": "Assistant Professor",
+      "qualifications": "MA Mass Communication with UGC NET",
+      "phone": "+91-9876543212",
+      "email": "priya.nair@cas.edu.in",
+      "image": "https://images.pexels.com/photos/3727464/pexels-photo-3727464.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "name": "Sri. Prasanth. P",
+      "designation": "Assistant Professor",
+      "qualifications": "Sri. Prasanth. P",
+      "phone": "+91-9876543213",
+      "email": "arun.pillai@cas.edu.in",
+      "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
+    }
+  ]
+}

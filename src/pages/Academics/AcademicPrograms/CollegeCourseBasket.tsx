@@ -50,7 +50,6 @@ const CollegeCourseBasket = () => {
   const [semesterDropdownOpen, setSemesterDropdownOpen] = useState(false);
   const [categoryDropdownOpen, setCategoryDropdownOpen] = useState(false);
 
-  // For hiding navbar on scroll (from principal.tsx)
   const [scrollY, setScrollY] = useState(0);
   const [isNavHidden, setIsNavHidden] = useState(false);
   const lastScrollYRef = useRef(0);
@@ -212,7 +211,6 @@ const CollegeCourseBasket = () => {
 
   return (
     <div className="flex flex-col min-h-screen bg-gray-50">
-      {/* Header/Navbar/Topbar from principal.tsx */}
       <Header
         activeSection="academics"
         onNavigate={noopNavigate}
@@ -220,7 +218,6 @@ const CollegeCourseBasket = () => {
         isHidden={isNavHidden}
       />
 
-      {/* Hero Section (keep, but adjust top padding for new header height) */}
       <section className="pt-[155px] md:pt-[170px] lg:pt-[185px] bg-gradient-to-br from-blue-800 to-indigo-950 text-white">
         <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 py-12">
           <div className="flex items-center text-sm text-white/80 mb-3">

@@ -17,37 +17,7 @@ import {
 } from "lucide-react";
 import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
-
-const facultyData = [
-  {
-    name: "Ms. Jincy Johnson",
-    designation: "Assistant Professor & Head of Department",
-    qualifications: "MSc Psychology, SET",
-    phone: "+91-9876543211",
-    email: "hod.cse@cas.edu.in",
-    image:
-      "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400",
-  },
-  {
-    name: "Ms. Nisa Babu",
-    designation: "Assistant Professor",
-    qualifications: "MSc Psychology, SET",
-    phone: "+91-9567989420",
-    email: "nisababu143@gmail.com",
-    image:
-      "https://images.pexels.com/photos/3727464/pexels-photo-3727464.jpeg?auto=compress&cs=tinysrgb&w=400",
-  },
-  {
-    name: "Ms. Teena Thankachan",
-    designation: "Assistant Professor",
-    qualifications: "MSc Psychology",
-
-    phone: "+91-7902390112",
-    email: "teenathankachan115@gmail.com",
-    image:
-      "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400",
-  },
-];
+import facultyDataJson from "../../../assets/FacultyData/departmentfacultydata.json";
 
 const achievements = [
   {
@@ -371,49 +341,51 @@ const PsychologyPage: React.FC = () => {
 
             <div className="rounded-3xl bg-white shadow-xl ring-1 ring-gray-100 p-6 md:p-8">
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {facultyData.map((faculty, index) => (
-                  <div
-                    key={index}
-                    className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group ring-1 ring-gray-100"
-                  >
-                    <div className="relative">
-                      <img
-                        src={faculty.image}
-                        alt={faculty.name}
-                        className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                    </div>
-                    <div className="p-6">
-                      <h3 className="text-xl font-bold text-gray-900 mb-1">
-                        {faculty.name}
-                      </h3>
-                      <p className="text-blue-600 font-semibold mb-2">
-                        {faculty.designation}
-                      </p>
-                      <p className="text-gray-600 text-sm mb-3">
-                        {faculty.qualifications}
-                      </p>
-
-                      <div className="space-y-2 mb-4">
-                        <div className="text-sm"></div>
-                        <div className="text-sm"></div>
-                        <div className="text-sm"></div>
+                {facultyDataJson.psychologyfaculty.map(
+                  (psychologyfaculty: any, index: number) => (
+                    <div
+                      key={index}
+                      className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group ring-1 ring-gray-100"
+                    >
+                      <div className="relative">
+                        <img
+                          src={psychologyfaculty.image}
+                          alt={psychologyfaculty.name}
+                          className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                       </div>
+                      <div className="p-6">
+                        <h3 className="text-xl font-bold text-gray-900 mb-1">
+                          {psychologyfaculty.name}
+                        </h3>
+                        <p className="text-blue-600 font-semibold mb-2">
+                          {psychologyfaculty.designation}
+                        </p>
+                        <p className="text-gray-600 text-sm mb-3">
+                          {psychologyfaculty.qualifications}
+                        </p>
 
-                      <div className="space-y-2 border-t pt-4">
-                        <div className="flex items-center gap-2 text-sm text-gray-600">
-                          <Phone className="h-4 w-4 text-blue-500" />
-                          <span>{faculty.phone}</span>
+                        <div className="space-y-2 mb-4">
+                          <div className="text-sm"></div>
+                          <div className="text-sm"></div>
+                          <div className="text-sm"></div>
                         </div>
-                        <div className="flex items-center gap-2 text-sm text-gray-600">
-                          <Mail className="h-4 w-4 text-blue-500" />
-                          <span>{faculty.email}</span>
+
+                        <div className="space-y-2 border-t pt-4">
+                          <div className="flex items-center gap-2 text-sm text-gray-600">
+                            <Phone className="h-4 w-4 text-blue-500" />
+                            <span>{psychologyfaculty.phone}</span>
+                          </div>
+                          <div className="flex items-center gap-2 text-sm text-gray-600">
+                            <Mail className="h-4 w-4 text-blue-500" />
+                            <span>{psychologyfaculty.email}</span>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                ))}
+                  )
+                )}
               </div>
             </div>
           </section>
