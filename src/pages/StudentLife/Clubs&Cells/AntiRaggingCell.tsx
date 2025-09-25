@@ -70,7 +70,7 @@ const AntiRaggingCell: React.FC = () => {
           {/* Act Overview */}
           <div className="bg-white rounded-2xl shadow-lg p-8 mb-8">
             <div className="flex items-center mb-6">
-              <Scale className="h-8 w-8 text-red-600 mr-4" />
+              <Scale className="h-8 w-8 text-black-600 mr-4" />
               <h2 className="text-3xl font-bold text-gray-900">
                 Kerala Prohibition of Ragging Act 1998
               </h2>
@@ -149,28 +149,28 @@ const AntiRaggingCell: React.FC = () => {
 
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-red-50 rounded-xl p-6 border border-red-200">
-                <h4 className="font-bold text-red-800 mb-3">Prohibition</h4>
-                <p className="text-red-700">
+                <h4 className="font-bold text-black-800 mb-3">Prohibition</h4>
+                <p className="text-black-700">
                   Ragging within or outside any educational institution is{" "}
                   <strong>strictly prohibited</strong>.
                 </p>
               </div>
 
-              <div className="bg-orange-50 rounded-xl p-6 border border-orange-200">
-                <h4 className="font-bold text-orange-800 mb-3">
+              <div className="bg-red-50 rounded-xl p-6 border border-red-200">
+                <h4 className="font-bold text-black-800 mb-3">
                   Criminal Penalty
                 </h4>
-                <p className="text-orange-700">
+                <p className="text-black-700">
                   Imprisonment up to <strong>2 years</strong> and fine up to{" "}
                   <strong>₹10,000</strong> for offenders.
                 </p>
               </div>
 
-              <div className="bg-purple-50 rounded-xl p-6 border border-purple-200">
-                <h4 className="font-bold text-purple-800 mb-3">
+              <div className="bg-red-50 rounded-xl p-6 border border-red-200">
+                <h4 className="font-bold text-black-800 mb-3">
                   Academic Penalty
                 </h4>
-                <p className="text-purple-700">
+                <p className="text-black-700">
                   <strong>Dismissal</strong> from institution and{" "}
                   <strong>3-year ban</strong> from other institutions.
                 </p>
@@ -189,14 +189,14 @@ const AntiRaggingCell: React.FC = () => {
 
             <div className="space-y-6">
               <div className="bg-blue-50 rounded-xl p-6 border border-blue-200">
-                <h4 className="font-bold text-blue-800 mb-3">
+                <h4 className="font-bold text-green-800 mb-3">
                   Immediate Action Required
                 </h4>
-                <p className="text-blue-700 mb-4">
+                <p className="text-green-700 mb-4">
                   When any student, parent, guardian, or teacher complains in
                   writing of ragging to the head of the educational institution:
                 </p>
-                <div className="space-y-2 text-blue-700">
+                <div className="space-y-2 text-green-700">
                   <p>
                     • <strong>Within 7 days:</strong> Head of institution must
                     enquire into the matter
