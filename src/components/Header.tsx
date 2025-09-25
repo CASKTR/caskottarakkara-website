@@ -58,14 +58,14 @@ const TopBar: React.FC<{ onNavigate: (section: string) => void }> = ({
             </div>
           </Link>
           {/* Contact Info on the right side */}
-          <div className="flex flex-col items-end ml-auto text-right font-sans">
-            <span className="flex items-center gap-2 text-gray-700 text-[13px] md:text-[15px] font-semibold">
+          <div className="flex flex-col items-start justify-start ml-0 text-left font-sans">
+            <span className="flex items-center gap-2 justify-start text-gray-700 text-[13px] md:text-[15px] font-semibold">
               <Phone size={18} className="text-blue-600" />
               <a href="tel:8089754259" className="hover:underline">
                 8089754259
               </a>
             </span>
-            <span className="flex items-center gap-2 text-gray-700 text-[13px] md:text-[15px] font-semibold mt-1">
+            <span className="flex items-center gap-2 justify-start text-gray-700 text-[13px] md:text-[15px] font-semibold mt-1">
               <Mail size={18} className="text-blue-600" />
               <a
                 href="mailto:caskottarakkara.ihrd@gmail.com"
