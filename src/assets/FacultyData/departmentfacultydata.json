@@ -1,35 +1,35 @@
 {
   "computersciencefaculty": [
     {
-      "name": "Smt. Bindu. S",
+      "name": "Smt. Bindhu. S",
       "designation": "Assistant Professor & Head of Department",
-      "qualifications": "Msc. Computer Science",
-      "phone": "+91-9876543211",
-      "email": "hod.cse@cas.edu.in",
+      "qualifications": "MSc. Computer Science",
+      "phone": "+91-9446283003",
+      "email": "*********",
       "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
       "name": "Smt. Anzalna. H",
       "designation": "Assistant Professor",
-      "qualifications": "Msc. Computer Science, Mphil Computer Science",
-      "phone": "+91-9876543212",
-      "email": "priya.nair@cas.edu.in",
+      "qualifications": "MSc. Computer Science, Mphil Computer Science",
+      "phone": "+91-9567666807",
+      "email": "sajeevanzalna@gmail.com",
       "image": "https://images.pexels.com/photos/3727464/pexels-photo-3727464.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
       "name": "Smt. Afsana. N",
       "designation": "Assistant Professor",
-      "qualifications": "Msc Computer Science",
-      "phone": "+91-9876543213",
-      "email": "arun.pillai@cas.edu.in",
+      "qualifications": "MSc Computer Science",
+      "phone": "+91-9895992693",
+      "email": "********",
       "image": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
       "name": "Smt. Saranya. S",
       "designation": "Assistant Professor",
-      "qualifications": "BCA, Msc Computer Science",
-      "phone": "+91-9876543213",
-      "email": "arun.pillai@cas.edu.in",
+      "qualifications": "BCA, MSc Computer Science",
+      "phone": "+91-9744070927",
+      "email": "saranyasaru93@gmail.com",
       "image": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400"
     }
   ],
@@ -47,8 +47,8 @@
       "name": "Sri. Manoj MS",
       "designation": "Assistant Professor",
       "qualifications": "MCom, NET",
-      "phone": "+91-8746662683",
-      "email": "msmanoj.madhu83@gmail.com",
+      "phone": "+91- 9188458680",
+      "email": "*********",
       "image": "https://images.pexels.com/photos/3727464/pexels-photo-3727464.jpeg?auto=compress&cs=tinysrgb&w=400"
     }
   ],
@@ -57,8 +57,8 @@
       "name": "Ms. Jincy Johnson",
       "designation": "Assistant Professor & Head of Department",
       "qualifications": "MSc Psychology, SET",
-      "phone": "+91-9876543211",
-      "email": "hod.commerce@cas.edu.in",
+      "phone": "+91-8590641504",
+      "email": "*********",
       "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
@@ -83,24 +83,66 @@
       "name": "Ms. Sangeetha Santhosh",
       "designation": "Assistant Professor & Head of Department",
       "qualifications": "MA in Journalism & Mass Communication, SET, NET",
-      "phone": "+91-9876543211",
-      "email": "hod.commerce@cas.edu.in",
+      "phone": "+91-8289911226",
+      "email": "*********",
       "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
       "name": "Ms. Arunima Sanal",
       "designation": "Assistant Professor",
       "qualifications": "MA Mass Communication with UGC NET",
-      "phone": "+91-9876543212",
-      "email": "priya.nair@cas.edu.in",
+      "phone": "+91-8606010797",
+      "email": "arunimasanal24@gmail.com",
       "image": "https://images.pexels.com/photos/3727464/pexels-photo-3727464.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
       "name": "Sri. Prasanth. P",
-      "designation": "Assistant Professor",
-      "qualifications": "Sri. Prasanth. P",
-      "phone": "+91-9876543213",
-      "email": "arun.pillai@cas.edu.in",
+      "designation": "Assistant Professor in Journalism",
+      "qualifications": "*********",
+      "phone": "+91-8129741249",
+      "email": "*********",
+      "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
+    }
+  ],
+  "genraldepartmentfaculty": [
+    {
+      "name": "Mr. Antony Varghese",
+      "designation": "Assistant Professor in Mathematics & Statistics",
+      "qualifications": "MSc, BEd in Mathematics",
+      "phone": "+91-9447957916",
+      "email": "*********",
+      "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "name": "Mrs. Sunitha. S",
+      "designation": "Assistant Professor in Hindi",
+      "qualifications": "MA Hindi",
+      "phone": "+91 9495236990",
+      "email": "sunithajit@gmail.com",
+      "image": "https://images.pexels.com/photos/3727464/pexels-photo-3727464.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "name": "Mrs. Rethi. S",
+      "designation": "Assistant Professor in Zoology",
+      "qualifications": "MA English Literature, MSc Zoology, MEd Science",
+      "phone": "+91-7594913105",
+      "email": "*********",
+      "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "name": "Mrs. Valsamma. J",
+      "designation": "Assistant Professor in Malayalam",
+      "qualifications": "MA, MPhil in Malayalam",
+      "phone": "+91-9496491858",
+      "email": "valsalaantony80@gmail.com",
+      "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "name": "Mrs. Anjali Vijay",
+      "designation": "Assistant Professor in English",
+      "qualifications": "MA English, NET",
+      "phone": "+91 70349 82279",
+      "email": "*********",
       "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
     }
   ]

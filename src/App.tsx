@@ -3,6 +3,7 @@ import ComputerSciencePage from "./pages/Academics/Departments/ComputerScience";
 import BcomPage from "./pages/Academics/Departments/Bcom";
 import Journalism from "./pages/Academics/Departments/Journalism";
 import Psychology from "./pages/Academics/Departments/Psychology";
+import GeneralDepartmentsPage from "./pages/Academics/Departments/GeneralDepartments";
 import CollegeCourseBasket from "./pages/Academics/AcademicPrograms/CollegeCourseBasket";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AccreditationRecognitionStatus from "./pages/Academics/Accreditation&RecognitionStatus";
@@ -163,6 +164,10 @@ function App() {
         <Route
           path="/academics/departments/psychology"
           element={<Psychology />}
+        />
+        <Route
+          path="/academics/departments/generaldepartments"
+          element={<GeneralDepartmentsPage />}
         />
         <Route
           path="/academics/academicprogrammes/coursebasket"

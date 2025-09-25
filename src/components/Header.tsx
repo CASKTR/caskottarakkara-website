@@ -159,6 +159,10 @@ const MainNavBar: React.FC<{
               label: "Department of Journalism & Mass Communication",
               route: "/academics/departments/journalism",
             },
+            {
+              label: "General Departments",
+              route: "/academics/departments/generaldepartments",
+            },
           ],
         },
         { label: "FYUGP", route: "/academics/fyugp" },
