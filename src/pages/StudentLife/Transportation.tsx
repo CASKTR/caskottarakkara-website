@@ -52,7 +52,7 @@ const committeeMembers = [
     department: "Administrative Office",
   },
   {
-    name: "Sri Premachandran Pillai K",
+    name: "Sri. Premachandran Pillai K",
     position: "LGS",
     role: "Operational Support",
     department: "Support Staff",

@@ -312,6 +312,42 @@ const AntiRaggingCell: React.FC = () => {
             </div>
           </div>
 
+          {/* Anti-Ragging Posters */}
+          <div className="mb-12">
+            <h3 className="text-2xl font-bold text-gray-800 mb-6 text-center">
+              Anti-Ragging Posters
+            </h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+              <div className="w-full h-96 bg-gray-200 rounded-xl flex items-center justify-center overflow-hidden">
+                <img
+                  src="https://caskottarakkara.ihrd.ac.in/images/ragging_1.jpg"
+                  alt="Anti Ragging Poster 1"
+                  className="object-contain w-full h-full rounded-xl"
+                />
+              </div>
+              <div className="w-full h-96 bg-gray-200 rounded-xl flex items-center justify-center overflow-hidden">
+                <img
+                  src="https://caskottarakkara.ihrd.ac.in/images/ragging_2_-_Copy.jpg"
+                  alt="Anti Ragging Poster 2"
+                  className="object-cover w-full h-full"
+                />
+              </div>
+              <div className="w-full h-96 bg-gray-200 rounded-xl flex items-center justify-center overflow-hidden">
+                <img
+                  src="https://caskottarakkara.ihrd.ac.in/images/ragging_3_-_Copy.jpg"
+                  alt="Anti Ragging Poster 3"
+                  className="object-cover w-full h-full"
+                />
+              </div>
+              <div className="w-full h-96 bg-gray-200 rounded-xl flex items-center justify-center overflow-hidden">
+                <img
+                  src="https://caskottarakkara.ihrd.ac.in/images/ragging__4_-_Copy.jpg"
+                  alt="Anti Ragging Poster 4"
+                  className="object-cover w-full h-full"
+                />
+              </div>
+            </div>
+          </div>
           {/* Contact Information (Replaced) */}
           <div className="text-center mb-8">
             <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-full mb-4">
