@@ -167,24 +167,29 @@ const RTIDetails = () => {
                 </div>
               </div>
             </div>
-            <div className="relative">
-              <div className="absolute -inset-4 bg-gradient-to-r from-blue-400 to-indigo-500 rounded-2xl opacity-20 blur-lg"></div>
-              <div className="relative bg-white rounded-2xl p-8 shadow-2xl">
-                <div className="text-center">
-                  <div className="bg-blue-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
-                    <Info className="h-10 w-10 text-blue-600" />
+            <div className="bg-green-50 border-green-200 border rounded-lg p-6 transition-all duration-200 hover:shadow-lg">
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0">
+                  <div className="p-3 bg-white rounded-lg shadow-sm">
+                    <Info className="w-6 h-6" />
                   </div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                    RTI Act 2005
+                </div>
+                <div className="flex-1 min-w-0">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                    RTI Circular
                   </h3>
-                  <p className="text-gray-600 mb-6">
-                    Parliamentary Act No. 22 of 2005
+                  <p className="text-gray-600 mb-4">
+                    Access Right to Information circulars and related
+                    documentation
                   </p>
-                  <div className="bg-blue-50 rounded-lg p-4">
-                    <p className="text-sm text-blue-800 font-medium">
-                      "Every citizen has the right to information"
-                    </p>
-                  </div>
+                  <a
+                    href="https://yourwordpresssite.com/wp-content/uploads/2024/06/rti-circular.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md transition-colors duration-200 font-medium inline-block"
+                  >
+                    Download RTI Circular
+                  </a>
                 </div>
               </div>
             </div>

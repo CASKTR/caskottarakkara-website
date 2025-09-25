@@ -34,7 +34,6 @@ import WomensGrievanceCellPage from "./pages/StudentLife/Women'sGrievanceCell";
 import RTIDetails from "./pages/Information/RTIDetails";
 import CircularsAndNotices from "./pages/Information/CircularsAndNotices";
 import ScholarshipsPage from "./pages/Academics/Scholarships";
-import DownloadsPage from "./pages/Academics/Downloads";
 import AntiRaggingCell from "./pages/StudentLife/Clubs&Cells/AntiRaggingCell";
 import IEDCPage from "./pages/StudentLife/Clubs&Cells/EDClub";
 import CollegeSenate from "./pages/StudentLife/Clubs&Cells/CollegeSenate";
@@ -42,6 +41,7 @@ import TransportationPage from "./pages/StudentLife/Transportation";
 import AlumniSection from "./components/AlumniSection";
 import GallerySection from "./components/GallerySection";
 import ContactUs from "./pages/Information/Contact";
+import DownloadsPage from "./pages/Information/Downloads";
 
 function HomePage({
   activeSection,
