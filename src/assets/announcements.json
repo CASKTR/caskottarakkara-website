@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Semester End Examination Schedule Released",
+    "description": "The semester end examination schedule for all undergraduate and postgraduate programs has been released. Students are advised to check their respective timetables on the college portal. The examinations will commence from December 1st, 2025 and continue till December 20th, 2025. All students must carry their hall tickets and ID cards for the examination. Supplementary examinations will be conducted in January 2026. For any queries regarding the examination schedule, contact the examination cell.",
+    "date": "2025-09-25",
+    "category": "Exam"
+  },
+  {
+    "id": 2,
+    "title": "Annual Cultural Festival 'Kaleidoscope 2025'",
+    "description": "We are excited to announce our annual cultural festival 'Kaleidoscope 2025' scheduled for October 15-17, 2025. The festival will feature competitions in music, dance, drama, literary events, and fine arts. Registration is now open for all events. Students can register through the college portal or visit the Student Activity Center. Cash prizes worth Rs. 1,00,000 will be distributed among winners. Celebrity guests and renowned artists will grace the occasion. Don't miss this spectacular celebration of talent and creativity!",
+    "date": "2025-09-24",
+    "category": "Event"
+  },
+  {
+    "id": 3,
+    "title": "Library Renovation Notice",
+    "description": "The college library will undergo renovation from October 1st to October 15th, 2025. During this period, the library will remain closed. Students can access digital resources through the online portal. Book return dates have been automatically extended. The renovated library will feature modern study spaces, improved lighting, and enhanced digital infrastructure. We apologize for any inconvenience caused.",
+    "date": "2025-09-23",
+    "category": "Notice"
+  },
+  {
+    "id": 4,
+    "title": "Guest Lecture on Artificial Intelligence",
+    "description": "The Department of Computer Science is organizing a guest lecture on 'Future of Artificial Intelligence in Healthcare' by Dr. Priya Sharma, Senior Research Scientist at Google Research. The lecture is scheduled for September 30th, 2025 at 2:00 PM in the Main Auditorium. All students and faculty members are invited to attend. This session will cover latest developments in AI, machine learning applications in medical diagnosis, and career opportunities in AI research.",
+    "date": "2025-09-22",
+    "category": "Event"
+  },
+  {
+    "id": 5,
+    "title": "Fee Payment Deadline Extension",
+    "description": "Due to technical issues with the online payment gateway, the semester fee payment deadline has been extended to October 5th, 2025. Students who have not yet paid their fees can do so through the college portal or visit the accounts office during working hours. Late fee charges will be waived for payments made by the extended deadline. For payment-related queries, contact the accounts department.",
+    "date": "2025-09-21",
+    "category": "Notice"
+  },
+  {
+    "id": 6,
+    "title": "Inter-College Sports Meet 2025",
+    "description": "Our college is hosting the Inter-College Sports Meet 2025 from November 10-15, 2025. Events include athletics, football, basketball, volleyball, cricket, and indoor games. Students interested in participating should register with their respective department sports coordinators by October 1st, 2025. Training sessions will begin from October 5th. This is a great opportunity to represent our college and showcase sporting talents.",
+    "date": "2025-09-20",
+    "category": "Event"
+  }
+]

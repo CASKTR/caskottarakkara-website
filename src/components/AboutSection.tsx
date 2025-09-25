@@ -188,7 +188,7 @@ const AboutSection: React.FC = () => {
             Our Journey Through Time
           </h2>
           <div className="rounded-3xl bg-white shadow-xl ring-1 ring-gray-100 p-6 md:p-8">
-            <div className="grid lg:grid-cols-3 gap-6">
+            <div className="grid lg:grid-cols-2 gap-6">
               {/* Foundation & Early Years section removed as requested */}
               <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl p-6 ring-1 ring-emerald-100 shadow-sm hover:shadow-md transition-shadow">
                 <div className="flex items-center gap-2 mb-2 text-emerald-700">

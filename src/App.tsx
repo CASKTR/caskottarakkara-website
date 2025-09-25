@@ -32,7 +32,6 @@ import PlacementCellActivities from "./pages/StudentLife/PlacementCellActivities
 import StudentGrievanceRedressal from "./pages/StudentLife/StudentGrievanceRedressal";
 import WomensGrievanceCellPage from "./pages/StudentLife/Women'sGrievanceCell";
 import RTIDetails from "./pages/Information/RTIDetails";
-import CircularsAndNotices from "./pages/Information/CircularsAndNotices";
 import ScholarshipsPage from "./pages/Academics/Scholarships";
 import AntiRaggingCell from "./pages/StudentLife/Clubs&Cells/AntiRaggingCell";
 import IEDCPage from "./pages/StudentLife/Clubs&Cells/EDClub";
@@ -42,6 +41,7 @@ import AlumniSection from "./components/AlumniSection";
 import GallerySection from "./components/GallerySection";
 import ContactUs from "./pages/Information/Contact";
 import DownloadsPage from "./pages/Information/Downloads";
+import AnnouncementsPage from "./pages/Information/Announcements";
 
 function HomePage({
   activeSection,
@@ -224,8 +224,8 @@ function App() {
         />
         <Route path="/information/rtidetails" element={<RTIDetails />} />
         <Route
-          path="/information/circularsandnotices"
-          element={<CircularsAndNotices />}
+          path="/information/announcements"
+          element={<AnnouncementsPage />}
         />
         <Route path="/information/downloads" element={<DownloadsPage />} />
         <Route
