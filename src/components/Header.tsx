@@ -27,57 +27,60 @@ const TopBar: React.FC<{ onNavigate: (section: string) => void }> = ({
   onNavigate,
 }) => {
   return (
-    <div className="fixed top-0 left-0 right-0 z-50 bg-white shadow-sm border-b border-gray-200">
-      <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-[70px] md:h-[80px] lg:h-[90px] py-3">
-          {/* Logo and College Info */}
-          <Link
-            to="/"
-            className="flex items-center cursor-pointer transition-transform duration-300 hover:scale-105 min-w-0 flex-shrink-0 pl-0 -ml-12"
-            style={{ gap: "10px" }}
-            onClick={() => onNavigate("home")}
-          >
-            <div className="ml-8 sm:ml-0">
-              <LogoBlock />
-            </div>
-            <div className="block min-w-0 flex-shrink-0 ml-0 sm:ml-0">
-              <div className="flex flex-col items-start text-left max-w-[280px] lg:max-w-[320px] xl:max-w-[360px] space-y-0 font-serif">
-                <h1 className="font-bold text-gray-900 leading-tight text-[15px] sm:text-[16px] md:text-[17px] lg:text-[18px] xl:text-[19px] break-words">
-                  College of Applied Science,
-                </h1>
-                <h2 className="font-bold text-gray-900 leading-tight text-[14px] sm:text-[15px] md:text-[16px] lg:text-[17px] xl:text-[18px] break-words">
-                  Kottarakkara
-                </h2>
-                <p className="text-gray-600 font-medium text-[11px] sm:text-[12px] md:text-[13px] lg:text-[14px] leading-tight break-words">
-                  Managed by IHRD, Government of Kerala
-                </p>
-                <p className="text-gray-500 text-[9px] sm:text-[10px] md:text-[11px] lg:text-[12px] font-normal leading-tight break-words">
-                  Affiliated to Kerala University.
-                </p>
+    <>
+      {/* TopBar always visible */}
+      <div className="fixed top-0 left-0 right-0 z-50 bg-white shadow-sm border-b border-gray-200">
+        <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between h-[70px] md:h-[80px] lg:h-[90px] py-3">
+            {/* Logo and College Info */}
+            <Link
+              to="/"
+              className="flex items-center cursor-pointer transition-transform duration-300 hover:scale-105 min-w-0 flex-shrink-0 pl-0 -ml-12"
+              style={{ gap: "10px" }}
+              onClick={() => onNavigate("home")}
+            >
+              <div className="ml-8 sm:ml-0">
+                <LogoBlock />
               </div>
+              <div className="block min-w-0 flex-shrink-0 ml-0 sm:ml-0">
+                <div className="flex flex-col items-start text-left max-w-[280px] lg:max-w-[320px] xl:max-w-[360px] space-y-0 font-serif">
+                  <h1 className="font-bold text-gray-900 leading-tight text-[15px] sm:text-[16px] md:text-[17px] lg:text-[18px] xl:text-[19px] break-words">
+                    College of Applied Science,
+                  </h1>
+                  <h2 className="font-bold text-gray-900 leading-tight text-[14px] sm:text-[15px] md:text-[16px] lg:text-[17px] xl:text-[18px] break-words">
+                    Kottarakkara
+                  </h2>
+                  <p className="text-gray-600 font-medium text-[11px] sm:text-[12px] md:text-[13px] lg:text-[14px] leading-tight break-words">
+                    Managed by IHRD, Government of Kerala
+                  </p>
+                  <p className="text-gray-500 text-[9px] sm:text-[10px] md:text-[11px] lg:text-[12px] font-normal leading-tight break-words">
+                    Affiliated to Kerala University.
+                  </p>
+                </div>
+              </div>
+            </Link>
+            {/* Contact Info on the right side (desktop/tablet only) */}
+            <div className="hidden md:flex flex-col items-start justify-start ml-0 text-left font-sans">
+              <span className="flex items-center gap-2 justify-start text-gray-700 text-[13px] md:text-[15px] font-semibold">
+                <Phone size={18} className="text-blue-600" />
+                <a href="tel:8089754259" className="hover:underline">
+                  8089754259
+                </a>
+              </span>
+              <span className="flex items-center gap-2 justify-start text-gray-700 text-[13px] md:text-[15px] font-semibold mt-1">
+                <Mail size={18} className="text-blue-600" />
+                <a
+                  href="mailto:caskottarakkara.ihrd@gmail.com"
+                  className="hover:underline"
+                >
+                  caskottarakkara.ihrd@gmail.com
+                </a>
+              </span>
             </div>
-          </Link>
-          {/* Contact Info on the right side */}
-          <div className="flex flex-col items-start justify-start ml-0 text-left font-sans">
-            <span className="flex items-center gap-2 justify-start text-gray-700 text-[13px] md:text-[15px] font-semibold">
-              <Phone size={18} className="text-blue-600" />
-              <a href="tel:8089754259" className="hover:underline">
-                8089754259
-              </a>
-            </span>
-            <span className="flex items-center gap-2 justify-start text-gray-700 text-[13px] md:text-[15px] font-semibold mt-1">
-              <Mail size={18} className="text-blue-600" />
-              <a
-                href="mailto:caskottarakkara.ihrd@gmail.com"
-                className="hover:underline"
-              >
-                caskottarakkara.ihrd@gmail.com
-              </a>
-            </span>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
@@ -254,8 +257,10 @@ const MainNavBar: React.FC<{
         { label: "Downloads", route: "/information/downloads" },
         { label: "RTI Details", route: "/information/rtidetails" },
 
-        { label: "Announcements", route: "/information/announcements" },
-        { label: "News & Events", route: "/information/news&events" },
+        {
+          label: "Announcements & Notices",
+          route: "/information/announcementsandnotices",
+        },
       ],
     },
     {

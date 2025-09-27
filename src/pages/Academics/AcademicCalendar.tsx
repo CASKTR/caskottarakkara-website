@@ -7,7 +7,7 @@ import {
 } from "lucide-react";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import academicCalendar2024 from "../../assets/academiccalendar.json";
+import academicCalendar2024 from "../../../public/assets/academiccalendar.json";
 
 const AcademicCalendar: React.FC = () => {
   const [selectedCalendar, setSelectedCalendar] = useState("34");
@@ -153,7 +153,7 @@ const AcademicCalendar: React.FC = () => {
                       </tr>
                     </thead>
                     <tbody className="divide-y divide-gray-200">
-                      {(academicCalendar2024["2024"] ?? []).map(
+                      {(academicCalendar2024.calendar2024 ?? []).map(
                         (entry, index) => (
                           <tr
                             key={entry.no}

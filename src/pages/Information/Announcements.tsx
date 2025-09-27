@@ -11,7 +11,7 @@ import {
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 
-import mockAnnouncementsData from "../../assets/announcements.json";
+import mockAnnouncementsData from "../../../public/assets/AnnouncementData/announcements.json";
 
 // Announcement type definition
 type Announcement = {
@@ -20,6 +20,7 @@ type Announcement = {
   description: string;
   date: string;
   category: string;
+  documentUrl?: string;
 };
 // Individual Announcement Card Component
 const AnnouncementCard = ({ announcement }: { announcement: Announcement }) => {
@@ -103,10 +104,17 @@ const AnnouncementCard = ({ announcement }: { announcement: Announcement }) => {
                     <Bell className="w-4 h-4 mr-1" />
                     Click to collapse
                   </div>
-                  <button className="inline-flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium rounded-lg transition-colors">
-                    Click Here
-                    <ExternalLink className="w-4 h-4" />
-                  </button>
+                  {announcement.documentUrl && (
+                    <a
+                      href={announcement.documentUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium rounded-lg transition-colors"
+                    >
+                      Click Here
+                      <ExternalLink className="w-4 h-4" />
+                    </a>
+                  )}
                 </div>
               </div>
             </div>

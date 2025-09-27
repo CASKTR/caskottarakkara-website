@@ -1,24 +1,26 @@
 [
   {
     "id": 1,
-    "title": "Semester End Examination Schedule Released",
-    "description": "The semester end examination schedule for all undergraduate and postgraduate programs has been released. Students are advised to check their respective timetables on the college portal. The examinations will commence from December 1st, 2025 and continue till December 20th, 2025. All students must carry their hall tickets and ID cards for the examination. Supplementary examinations will be conducted in January 2026. For any queries regarding the examination schedule, contact the examination cell.",
-    "date": "2025-09-25",
-    "category": "Exam"
+    "title": "Training Program on Placement Grooming on September 29th, 2025",
+    "description": "The College of Applied Science, Kottarakkara is organizing a Training Program on Placement Grooming to help students prepare for their career journey on September 29, 9:00 AM – 4:30 PM by Divya Raj (Professional Transformation Coach, Personality Development Executive at KKEM, Skill Development Executive at ASAP)\nStudents are encouraged to participate and make the most of this opportunity.",
+    "date": "2025-09-23",
+    "category": "Event",
+    "documentUrl": "/documents/placement-training.pdf"
   },
   {
     "id": 2,
-    "title": "Annual Cultural Festival 'Kaleidoscope 2025'",
-    "description": "We are excited to announce our annual cultural festival 'Kaleidoscope 2025' scheduled for October 15-17, 2025. The festival will feature competitions in music, dance, drama, literary events, and fine arts. Registration is now open for all events. Students can register through the college portal or visit the Student Activity Center. Cash prizes worth Rs. 1,00,000 will be distributed among winners. Celebrity guests and renowned artists will grace the occasion. Don't miss this spectacular celebration of talent and creativity!",
-    "date": "2025-09-24",
-    "category": "Event"
+    "title": "PTA Meeting of Second Year Students from September 24th, 2025",
+    "description": "This is to inform all parents that they are invited to meet with teachers between 10:00 AM and 3:00 PM. Your presence and participation are highly appreciated.",
+    "date": "2025-09-23",
+    "category": "Notice"
   },
   {
     "id": 3,
-    "title": "Library Renovation Notice",
-    "description": "The college library will undergo renovation from October 1st to October 15th, 2025. During this period, the library will remain closed. Students can access digital resources through the online portal. Book return dates have been automatically extended. The renovated library will feature modern study spaces, improved lighting, and enhanced digital infrastructure. We apologize for any inconvenience caused.",
+    "title": "College Union Election 2025-26",
+    "description": "The college union election for the academic year 2025-26 will be held on October 10th, 2025. The nomination period ends on October 3rd, 2025. Voting will take place in the college from 10:00 AM to 1:00 PM on the election day",
     "date": "2025-09-23",
-    "category": "Notice"
+    "category": "Notice",
+    "documentUrl": "/documents/collegeunionelection-notice.pdf"
   },
   {
     "id": 4,

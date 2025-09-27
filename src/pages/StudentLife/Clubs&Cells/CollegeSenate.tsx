@@ -10,7 +10,7 @@ import {
 
 import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
-import unionMembers from "../../../assets/unionmembers.json";
+import unionMembers from "../../../../public/assets/unionmembers.json";
 
 const CollegeSenate = () => {
   const [scrollY, setScrollY] = useState(0);

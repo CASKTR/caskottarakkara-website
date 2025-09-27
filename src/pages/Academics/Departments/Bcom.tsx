@@ -17,7 +17,7 @@ import {
 } from "lucide-react";
 import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
-import facultyDataJson from "../../../assets/FacultyData/departmentfacultydata.json";
+import facultyDataJson from "../../../../public/assets/FacultyData/departmentfacultydata.json";
 
 const achievements = [
   {

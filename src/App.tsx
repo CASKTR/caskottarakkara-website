@@ -6,6 +6,7 @@ import Psychology from "./pages/Academics/Departments/Psychology";
 import GeneralDepartmentsPage from "./pages/Academics/Departments/GeneralDepartments";
 import CollegeCourseBasket from "./pages/Academics/AcademicPrograms/CollegeCourseBasket";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
 import AccreditationRecognitionStatus from "./pages/Academics/Accreditation&RecognitionStatus";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -119,6 +120,7 @@ function App() {
 
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route
           path="/"
@@ -224,7 +226,7 @@ function App() {
         />
         <Route path="/information/rtidetails" element={<RTIDetails />} />
         <Route
-          path="/information/announcements"
+          path="/information/announcementsandnotices"
           element={<AnnouncementsPage />}
         />
         <Route path="/information/downloads" element={<DownloadsPage />} />

@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { Phone, Mail, ChevronRight } from "lucide-react";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import headOfDepartmentsDataJson from "../../assets/FacultyData/headofdepartmentsdata.json";
+import headOfDepartmentsDataJson from "../../../public/assets/FacultyData/headofdepartmentsdata.json";
 
 const HeadOfDepartmentsPage: React.FC = () => {
   const [scrollY, setScrollY] = useState(0);

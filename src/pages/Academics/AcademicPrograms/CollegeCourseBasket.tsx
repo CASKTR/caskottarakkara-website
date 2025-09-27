@@ -12,8 +12,8 @@ import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
 
 // Import course data
-import courseData2024 from "../../../assets/CourseBasket/coursebasket2024.json";
-import courseData2025 from "../../../assets/CourseBasket/coursebasket2025.json";
+import courseData2024 from "../../../../public/assets/CourseBasket/coursebasket2024.json";
+import courseData2025 from "../../../../public/assets/CourseBasket/coursebasket2025.json";
 
 interface Course {
   semester: number;

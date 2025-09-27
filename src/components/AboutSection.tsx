@@ -1,3 +1,4 @@
+import AnnouncementTicker from "./AnnouncementTicker";
 import React from "react";
 import {
   MapPin,
@@ -18,10 +19,14 @@ const AboutSection: React.FC = () => {
       {/* Overview */}
       <div id="overview" className={`${sectionPadding} bg-white`}>
         <div className="max-w-7xl mx-auto">
+          {/* Announcements Ticker */}
+          <AnnouncementTicker />
+
           {/* Section accent and label */}
           <div className="flex justify-center">
             <div className="h-1.5 w-28 rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 mb-6" />
           </div>
+
           <div className="flex justify-center mb-6">
             <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 ring-1 ring-blue-200">
               <Sparkles className="h-3.5 w-3.5" />

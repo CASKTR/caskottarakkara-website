@@ -16,7 +16,7 @@ import {
 } from "lucide-react";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import { nssImages } from "../../assets/images/nss-images";
+import { nssImages } from "../../../public/assets/images/nss-images";
 
 const NSS: React.FC = () => {
   const [scrollY, setScrollY] = useState(0);
