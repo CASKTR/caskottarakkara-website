@@ -72,7 +72,7 @@ const activities = [
     date: "Monthly",
     description:
       "Regular sessions with industry professionals sharing insights on latest technologies.",
-    participants: "200+ students",
+    participants: "23+ students",
     image:
       "https://images.pexels.com/photos/1181676/pexels-photo-1181676.jpeg?auto=compress&cs=tinysrgb&w=400",
   },
@@ -248,7 +248,7 @@ const JournalismPage: React.FC = () => {
                       </div>
                       <div className="bg-green-50 rounded-lg p-4 text-center">
                         <div className="text-3xl font-bold text-green-600 mb-2">
-                          15+
+                          3+
                         </div>
                         <div className="text-gray-700">Faculty Members</div>
                       </div>

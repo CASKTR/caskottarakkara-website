@@ -5,7 +5,7 @@ import Footer from "../../components/Footer";
 
 const feeStructure = [
   {
-    program: "BSc Psychology",
+    program: "BSc. Psychology",
     fees: {
       tuition: 17270,
       admission: 330,
@@ -15,7 +15,7 @@ const feeStructure = [
     },
   },
   {
-    program: "BSc Computer Science",
+    program: "BSc. Computer Science",
     fees: {
       tuition: 17270,
       admission: 330,

@@ -4,21 +4,21 @@
       "name": "Smt. Bindhu. S",
       "designation": "Assistant Professor & Head of Department",
       "qualifications": "MSc. Computer Science",
-      "email": "*********",
+      "email": "bindustvm12@gmail.com",
       "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
       "name": "Smt. Anzalna. H",
       "designation": "Assistant Professor",
       "qualifications": "MSc. Computer Science, Mphil Computer Science",
-      "email": "sajeevanzalna@gmail.com",
+      "email": "sajeev.anzalna@gmail.com",
       "image": "https://images.pexels.com/photos/3727464/pexels-photo-3727464.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
       "name": "Smt. Afsana. N",
       "designation": "Assistant Professor",
       "qualifications": "MSc Computer Science",
-      "email": "********",
+      "email": "fazilafsu@gmail.com",
       "image": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
@@ -35,14 +35,21 @@
       "name": "Ms. Aadarsha. S",
       "designation": "Assistant Professor & Head of Department",
       "qualifications": "MCom Finance, SET, NET",
-      "email": "hod.commerce@cas.edu.in",
+      "email": "aadarshasivan@gmail.com",
       "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
       "name": "Sri. Manoj MS",
       "designation": "Assistant Professor",
       "qualifications": "MCom, NET",
-      "email": "*********",
+      "email": "msmanoj.madhu83@gmail.com",
+      "image": "https://images.pexels.com/photos/3727464/pexels-photo-3727464.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "name": "Sri. Tony Joy",
+      "designation": "Assistant Professor",
+      "qualifications": "MCom, NET",
+      "email": "tonyjoy011@gmail.com",
       "image": "https://images.pexels.com/photos/3727464/pexels-photo-3727464.jpeg?auto=compress&cs=tinysrgb&w=400"
     }
   ],
@@ -51,7 +58,7 @@
       "name": "Ms. Jincy Johnson",
       "designation": "Assistant Professor & Head of Department",
       "qualifications": "MSc Psychology, SET",
-      "email": "*********",
+      "email": "jincyjohnsonjack@gmail.com",
       "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
@@ -62,10 +69,24 @@
       "image": "https://images.pexels.com/photos/3727464/pexels-photo-3727464.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
+      "name": "Mrs. Rethi. S",
+      "designation": "Assistant Professor in Zoology",
+      "qualifications": "MA English Literature, MSc Zoology, MEd Science",
+      "email": "rethisathidevi12@gmail.com",
+      "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
       "name": "Ms. Teena Thankachan",
       "designation": "Assistant Professor",
       "qualifications": "MSc Psychology",
       "email": "teenathankachan115@gmail.com",
+      "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "name": "Ms. Anju. P.S",
+      "designation": "Assistant Professor",
+      "qualifications": "MSc Psychology",
+      "email": "anjups91@gmail.com",
       "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
     }
   ],
@@ -74,7 +95,7 @@
       "name": "Ms. Sangeetha Santhosh",
       "designation": "Assistant Professor & Head of Department",
       "qualifications": "MA in Journalism & Mass Communication, SET, NET",
-      "email": "*********",
+      "email": "sangeethasnia113@gmail.com",
       "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
@@ -85,10 +106,10 @@
       "image": "https://images.pexels.com/photos/3727464/pexels-photo-3727464.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
-      "name": "Sri. Prasanth. P",
+      "name": "Sri. Prasanth. P.S",
       "designation": "Assistant Professor in Journalism",
       "qualifications": "*********",
-      "email": "*********",
+      "email": "prasanth23151@gmail.com",
       "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
     }
   ],
@@ -97,7 +118,7 @@
       "name": "Mr. Antony Varghese",
       "designation": "Assistant Professor in Mathematics & Statistics",
       "qualifications": "MSc, BEd in Mathematics",
-      "email": "*********",
+      "email": "antonyvarghese73@gmail.com",
       "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
@@ -107,13 +128,7 @@
       "email": "sunithajit@gmail.com",
       "image": "https://images.pexels.com/photos/3727464/pexels-photo-3727464.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
-    {
-      "name": "Mrs. Rethi. S",
-      "designation": "Assistant Professor in Zoology",
-      "qualifications": "MA English Literature, MSc Zoology, MEd Science",
-      "email": "*********",
-      "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
-    },
+
     {
       "name": "Mrs. Valsamma. J",
       "designation": "Assistant Professor in Malayalam",
@@ -125,7 +140,34 @@
       "name": "Mrs. Anjali Vijay",
       "designation": "Assistant Professor in English",
       "qualifications": "MA English, NET",
-      "email": "*********",
+      "email": "anjaliv9996@gmail.com",
+      "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
+    }
+  ],
+  "administrativestaff": [
+    {
+      "name": "Mrs. Dhanya. S",
+      "designation": "Office Staff",
+      "email": "dhanyashari@gmail.com",
+      "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "name": "Mrs. Aswathy. M",
+      "designation": "Office Staff",
+      "email": "aswathyashokan228@gmail.com",
+      "image": "https://images.pexels.com/photos/3727464/pexels-photo-3727464.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+
+    {
+      "name": "Mrs. Adithya. S. Rajeevan",
+      "designation": "Office Staff",
+      "email": "adithyasrajeevan@gmail.com",
+      "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
+    },
+    {
+      "name": "Mr. Premachandran Pillai. K",
+      "designation": "Office Staff",
+      "email": "premachandran788@gmail.com",
       "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
     }
   ]
