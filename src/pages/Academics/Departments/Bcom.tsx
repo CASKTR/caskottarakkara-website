@@ -11,7 +11,6 @@ import {
   Brain,
   Shield,
   CheckCircle,
-  Phone,
   Mail,
   ArrowRight,
 } from "lucide-react";
@@ -100,52 +99,65 @@ const activities = [
 const specializations = [
   {
     icon: Brain,
-    title: "Artificial Intelligence & Machine Learning",
+    title: "Financial Markets & Services",
     description:
-      "Advanced studies in AI algorithms, neural networks, and intelligent systems.",
+      "Covers capital markets, stock exchanges, portfolio management, and investment strategies.",
     courses: [
-      "Deep Learning",
-      "Natural Language Processing",
-      "Computer Vision",
+      "Stock Exchanges: Operations and Regulations",
+      "Financial Markets and Services",
+      "Security Analysis and Portfolio Management",
     ],
   },
   {
     icon: Shield,
-    title: "Cybersecurity",
+    title: "Banking & FinTech",
     description:
-      "Comprehensive security solutions and ethical hacking methodologies.",
-    courses: ["Network Security", "Cryptography", "Ethical Hacking"],
+      "Focus on modern banking practices, fintech innovations, and computerized accounting.",
+    courses: [
+      "Computerised Accounting",
+      "Retail Banking",
+      "Forensic Accounting & Fraud Detection",
+    ],
   },
   {
     icon: Database,
-    title: "Data Science & Analytics",
+    title: "Taxation & Accounting",
     description:
-      "Big data processing, analytics, and business intelligence solutions.",
-    courses: ["Big Data Analytics", "Data Mining", "Statistical Computing"],
+      "Comprehensive study of taxation frameworks, auditing, and corporate accounting.",
+    courses: [
+      "Income Tax Assessment",
+      "Corporate Tax Planning",
+      "Auditing Principles and Practices",
+    ],
   },
   {
     icon: Smartphone,
-    title: "Mobile & Web Development",
-    description: "Full-stack development for web and mobile applications.",
-    courses: ["React Native", "Web Technologies", "Mobile App Development"],
+    title: "Logistics & Supply Chain Management",
+    description:
+      "Covers domestic and international logistics, warehousing, procurement, and transportation.",
+    courses: [
+      "Fundamentals of Supply Chain Management",
+      "Procurement and Transportation",
+      "Warehousing",
+    ],
   },
   {
     icon: Globe,
-    title: "Computer Networks & IoT",
+    title: "Tourism & Travel Management",
     description:
-      "Network protocols, distributed systems, and Internet of Things.",
-    courses: ["Network Programming", "IoT Systems", "Cloud Computing"],
+      "Specialization in tourism products, operations, and marketing.",
+    courses: [
+      "Eco-Tourism & Sustainable Development",
+      "Tourism Products",
+      "Tour Operation & Airline Management",
+    ],
   },
   {
     icon: Cpu,
-    title: "Software Engineering",
+    title: "Marketing & Digital Business",
     description:
-      "Software design patterns, project management, and quality assurance.",
-    courses: [
-      "Software Architecture",
-      "Agile Methodology",
-      "Testing Frameworks",
-    ],
+      "Modern marketing practices with emphasis on branding, consumer behaviour, and digital trends.",
+    courses: ["Brand Management", "Consumer Behaviour", "Digital Marketing"],
   },
 ];
 
@@ -267,7 +279,7 @@ const BcomPage: React.FC = () => {
                       >
                         <div className="flex items-start space-x-4">
                           <div className="flex-shrink-0">
-                            <Icon className="h-8 w-8 text-blue-600" />
+                            <Icon className="h-6 w-6 text-green-500" />
                           </div>
                           <div>
                             <h4 className="text-lg font-semibold text-gray-900 mb-2">
@@ -367,10 +379,6 @@ const BcomPage: React.FC = () => {
 
                         <div className="space-y-2 mb-4"></div>
                         <div className="space-y-2 border-t pt-4">
-                          <div className="flex items-center gap-2 text-sm text-gray-600">
-                            <Phone className="h-4 w-4 text-blue-500" />
-                            <span>{commercefaculty.phone}</span>
-                          </div>
                           <div className="flex items-center gap-2 text-sm text-gray-600">
                             <Mail className="h-4 w-4 text-blue-500" />
                             <span>{commercefaculty.email}</span>

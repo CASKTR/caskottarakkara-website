@@ -11,7 +11,6 @@ import {
   Brain,
   Shield,
   CheckCircle,
-  Phone,
   Mail,
   ArrowRight,
 } from "lucide-react";
@@ -100,52 +99,65 @@ const activities = [
 const specializations = [
   {
     icon: Brain,
-    title: "Artificial Intelligence & Machine Learning",
+    title: "Counselling Psychology",
     description:
-      "Advanced studies in AI algorithms, neural networks, and intelligent systems.",
+      "Provides therapeutic support across settings to enhance well-being and growth.",
     courses: [
-      "Deep Learning",
-      "Natural Language Processing",
-      "Computer Vision",
+      "Career Counselling",
+      "Counselling in Schools & Colleges",
+      "Suicide Prevention",
     ],
   },
   {
     icon: Shield,
-    title: "Cybersecurity",
+    title: "Clinical Psychology",
     description:
-      "Comprehensive security solutions and ethical hacking methodologies.",
-    courses: ["Network Security", "Cryptography", "Ethical Hacking"],
+      "Focuses on understanding and treating psychological disorders using evidence-based methods.",
+    courses: [
+      "Diagnosis and Treatment of Psychological Disorders",
+      "Childhood Disorders",
+      "Neuropsychology",
+    ],
   },
   {
     icon: Database,
-    title: "Data Science & Analytics",
+    title: "Organizational Psychology",
     description:
-      "Big data processing, analytics, and business intelligence solutions.",
-    courses: ["Big Data Analytics", "Data Mining", "Statistical Computing"],
+      "Applies psychological principles to improve workplace behavior, leadership, and career growth.",
+    courses: [
+      "Workplace Motivation and Leadership",
+      "Corporate Grooming",
+      "Advertising and Psychology",
+    ],
   },
   {
     icon: Smartphone,
-    title: "Mobile & Web Development",
-    description: "Full-stack development for web and mobile applications.",
-    courses: ["React Native", "Web Technologies", "Mobile App Development"],
+    title: "School Psychology",
+    description:
+      "Supports student's learning, development, and mental health in educational settings.",
+    courses: [
+      "Applying Psychology to Education",
+      "Career Counselling",
+      "Identification of Children with Special Needs",
+    ],
   },
   {
     icon: Globe,
-    title: "Computer Networks & IoT",
+    title: "Health & Community Psychology",
     description:
-      "Network protocols, distributed systems, and Internet of Things.",
-    courses: ["Network Programming", "IoT Systems", "Cloud Computing"],
+      "Promotes mental well-being and resilience through health, environmental, and community approaches.",
+    courses: [
+      "Health Psychology and Well-Being",
+      "Community Psychology",
+      "Sports Psychology",
+    ],
   },
   {
     icon: Cpu,
-    title: "Software Engineering",
+    title: "Forensic & Applied Psychology",
     description:
-      "Software design patterns, project management, and quality assurance.",
-    courses: [
-      "Software Architecture",
-      "Agile Methodology",
-      "Testing Frameworks",
-    ],
+      "Focuses on applying psychology in legal, criminal, and practical contexts of modern society.",
+    courses: ["Forensic Psychology", "Criminal Psychology", "Cyberpsychology"],
   },
 ];
 
@@ -268,7 +280,7 @@ const PsychologyPage: React.FC = () => {
                       >
                         <div className="flex items-start space-x-4">
                           <div className="flex-shrink-0">
-                            <Icon className="h-8 w-8 text-blue-600" />
+                            <Icon className="h-6 w-6 text-green-500" />
                           </div>
                           <div>
                             <h4 className="text-lg font-semibold text-gray-900 mb-2">
@@ -373,10 +385,6 @@ const PsychologyPage: React.FC = () => {
                         </div>
 
                         <div className="space-y-2 border-t pt-4">
-                          <div className="flex items-center gap-2 text-sm text-gray-600">
-                            <Phone className="h-4 w-4 text-blue-500" />
-                            <span>{psychologyfaculty.phone}</span>
-                          </div>
                           <div className="flex items-center gap-2 text-sm text-gray-600">
                             <Mail className="h-4 w-4 text-blue-500" />
                             <span>{psychologyfaculty.email}</span>

@@ -311,7 +311,7 @@ const NSS: React.FC = () => {
               <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-indigo-600 mx-auto rounded-full"></div>
             </div>
 
-            <div className="grid md:grid-cols-4 gap-8">
+            <div className="grid md:grid-cols-2 gap-8">
               {/* Programme Officer */}
               <div className="bg-gray-50 rounded-xl p-8 shadow-lg text-center hover:shadow-xl transition-shadow">
                 <div className="w-24 h-24 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center mx-auto mb-6">
@@ -332,50 +332,19 @@ const NSS: React.FC = () => {
 
               {/* Assistant Program Coordinator */}
               <div className="bg-gray-50 rounded-xl p-8 shadow-lg text-center hover:shadow-xl transition-shadow">
-                <div className="w-24 h-24 bg-gradient-to-br from-yellow-500 to-orange-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                <div className="w-24 h-24 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center mx-auto mb-6">
                   <User className="w-12 h-12 text-white" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">
                   Sri. Manoj M.S.
                 </h3>
-                <p className="text-yellow-600 font-medium mb-2">
+                <p className="text-blue-600 font-medium mb-2">
                   Assistant Program Coordinator
                 </p>
                 <p className="text-gray-600 text-sm">
                   Assistant Professor
                   <br />
-                  Department of Commerce
-                </p>
-              </div>
-
-              {/* Volunteer Secretaries */}
-              <div className="bg-gray-50 rounded-xl p-8 shadow-lg text-center hover:shadow-xl transition-shadow">
-                <div className="w-24 h-24 bg-gradient-to-br from-green-500 to-teal-600 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <User className="w-12 h-12 text-white" />
-                </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">
-                  Amritha Jayan
-                </h3>
-                <p className="text-green-600 font-medium mb-2">
-                  Volunteer Secretary
-                </p>
-                <p className="text-gray-600 text-sm">
-                  Department of Psychology
-                </p>
-              </div>
-
-              <div className="bg-gray-50 rounded-xl p-8 shadow-lg text-center hover:shadow-xl transition-shadow">
-                <div className="w-24 h-24 bg-gradient-to-br from-purple-500 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <User className="w-12 h-12 text-white" />
-                </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">
-                  Devadath BR
-                </h3>
-                <p className="text-purple-600 font-medium mb-2">
-                  Volunteer Secretary
-                </p>
-                <p className="text-gray-600 text-sm">
-                  Department of Journalism and Mass Communication
+                  Assistant Professor Department of Commerce
                 </p>
               </div>
             </div>

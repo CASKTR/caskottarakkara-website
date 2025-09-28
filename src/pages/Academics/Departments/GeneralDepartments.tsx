@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { ChevronRight, Code, Phone, Mail } from "lucide-react";
+import { ChevronRight, Code, Mail } from "lucide-react";
 import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
 import facultyDataJson from "../../../../public/assets/FacultyData/departmentfacultydata.json";
@@ -137,10 +137,6 @@ const GeneralDepartmentsPage: React.FC = () => {
                         </p>
 
                         <div className="space-y-2 border-t pt-4">
-                          <div className="flex items-center gap-2 text-sm text-gray-600">
-                            <Phone className="h-4 w-4 text-blue-500" />
-                            <span>{genraldepartmentfaculty.phone}</span>
-                          </div>
                           <div className="flex items-center gap-2 text-sm text-gray-600">
                             <Mail className="h-4 w-4 text-blue-500" />
                             <span>{genraldepartmentfaculty.email}</span>

@@ -11,7 +11,6 @@ import {
   Brain,
   Shield,
   CheckCircle,
-  Phone,
   Mail,
   ArrowRight,
 } from "lucide-react";
@@ -362,10 +361,6 @@ const ComputerSciencePage: React.FC = () => {
                         </p>
 
                         <div className="space-y-2 border-t pt-4">
-                          <div className="flex items-center gap-2 text-sm text-gray-600">
-                            <Phone className="h-4 w-4 text-blue-500" />
-                            <span>{computersciencefaculty.phone}</span>
-                          </div>
                           <div className="flex items-center gap-2 text-sm text-gray-600">
                             <Mail className="h-4 w-4 text-blue-500" />
                             <span>{computersciencefaculty.email}</span>
