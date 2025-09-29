@@ -307,23 +307,74 @@ const Courses: React.FC = () => {
                       </div>
                     </div>
 
-                    {/* Expand/Collapse Button */}
-                    <button
-                      onClick={() => toggleProgram(index)}
-                      className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 flex items-center gap-2 self-start sm:self-center whitespace-nowrap"
-                    >
-                      {expandedPrograms.includes(index) ? (
-                        <>
-                          <ChevronUp className="h-4 w-4" />
-                          Show Less
-                        </>
-                      ) : (
-                        <>
-                          <ChevronDown className="h-4 w-4" />
-                          Learn More
-                        </>
-                      )}
-                    </button>
+                    {/* Button Group: Learn More & View Syllabus */}
+                    <div className="flex flex-col gap-2 sm:flex-row sm:gap-2">
+                      <button
+                        onClick={() => toggleProgram(index)}
+                        className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 flex items-center gap-2 self-start sm:self-center whitespace-nowrap"
+                      >
+                        {expandedPrograms.includes(index) ? (
+                          <>
+                            <ChevronUp className="h-4 w-4" />
+                            Show Less
+                          </>
+                        ) : (
+                          <>
+                            <ChevronDown className="h-4 w-4" />
+                            Learn More
+                          </>
+                        )}
+                      </button>
+                      <button
+                        className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 flex items-center gap-2 self-start sm:self-center whitespace-nowrap"
+                        // Syllabus link
+                        onClick={() => {
+                          if (
+                            program.name ===
+                              "B.Com Finance and Accounting (Honours with Research)" ||
+                            program.name ===
+                              "B.Com Co-operation (Honours with Research)"
+                          ) {
+                            window.open(
+                              "/assets/syllabus/bcom.pdf",
+                              "_blank",
+                              "noopener,noreferrer"
+                            );
+                          } else if (
+                            program.name ===
+                            "B.Sc. Psychology (Honours with Research)"
+                          ) {
+                            window.open(
+                              "/assets/syllabus/psychology.pdf",
+                              "_blank",
+                              "noopener,noreferrer"
+                            );
+                          } else if (
+                            program.name ===
+                            "B.Sc. Computer Science (Honours with Research)"
+                          ) {
+                            window.open(
+                              "/assets/syllabus/computerscience.pdf",
+                              "_blank",
+                              "noopener,noreferrer"
+                            );
+                          } else if (
+                            program.name ===
+                            "B.A. Journalism and Mass Communication (Honours with Research)"
+                          ) {
+                            window.open(
+                              "/assets/syllabus/journalism.pdf",
+                              "_blank",
+                              "noopener,noreferrer"
+                            );
+                          }
+                        }}
+                        type="button"
+                      >
+                        <BookOpen className="h-4 w-4" />
+                        View Syllabus
+                      </button>
+                    </div>
                   </div>
                 </div>
 

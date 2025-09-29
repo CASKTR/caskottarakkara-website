@@ -230,13 +230,32 @@ const CollegeSenate = () => {
             {/* Introduction */}
             <section className="text-center">
               <h1 className="text-4xl font-bold text-gray-900 mb-4">
-                Student Leadership Council
+                College Student Union
               </h1>
               <div className="w-24 h-1 bg-blue-600 mx-auto mb-6"></div>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Our College Senate represents the collective voice of students,
-                driving initiatives for academic excellence, cultural
-                enrichment, and holistic development within our institution.
+                The student's union of the College has always been an excellent
+                platform for the students to develop their leadership and
+                decision-making skills. The college union is intended to
+                organize most of the co-curricular activities of the college,
+                under the guidance of the Principal and the staff advisors
+                concerned. The objectives of the college union are: to train
+                students on the duties and responsibilities of citizenship, to
+                promote opportunities for the development of character,
+                leadership and spirit of service among students, and to promote
+                opportunities for students to organize sports, arts and other
+                cultural and recreational activities. A body of student's
+                representatives is formed every year as per the guidelines
+                issued by the Kerala University. The principal office bearers
+                include: The Chairman, Vice Chairman, General Secretary, Arts
+                Club Secretary, Student Editor, University Union Councillors and
+                Class Representatives. Elections for the College Union are
+                conducted in Parliamentary mode, in the Simple Majority Election
+                system. In the Parliamentary Mode of election, there are two
+                stages of election. In Stage I, Class Representatives are to be
+                elected from the students of each year of the Degree Courses. In
+                Stage II, the Class Representatives so elected shall elect the
+                office bearers to the above-mentioned positions.
               </p>
             </section>
 
