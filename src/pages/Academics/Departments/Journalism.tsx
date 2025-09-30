@@ -242,7 +242,7 @@ const JournalismPage: React.FC = () => {
                     <div className="grid md:grid-cols-2 gap-6 mt-8 justify-center">
                       <div className="bg-blue-50 rounded-lg p-4 text-center">
                         <div className="text-3xl font-bold text-blue-600 mb-2">
-                          200+
+                          23+
                         </div>
                         <div className="text-gray-700">Students</div>
                       </div>
