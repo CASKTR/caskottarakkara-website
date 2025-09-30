@@ -76,13 +76,11 @@ const DownloadsPage: React.FC = () => {
   // Map form ids to their URLs
   const formUrls: Record<string, string> = {
     "permission-form":
-      "https://yourwordpresssite.com/wp-content/uploads/permission-form.pdf",
-    "ksrtc-form":
-      "https://yourwordpresssite.com/wp-content/uploads/ksrtc-form.pdf",
+      "/documents/downloads-docs/application-for-permission.pdf",
+    "ksrtc-form": "/documents/downloads-docs/ksrtc-form.pdf",
     "caution-deposit-refund":
-      "https://yourwordpresssite.com/wp-content/uploads/caution-deposit-refund.pdf",
-    "no-dues-form":
-      "https://yourwordpresssite.com/wp-content/uploads/no-dues-form.pdf",
+      "/documents/downloads-docs/caution-deposit-refund.pdf",
+    "no-dues-form": "/documents/downloads-docs/no-dues-form.pdf",
   };
 
   return (

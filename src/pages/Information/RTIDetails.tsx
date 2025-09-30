@@ -183,7 +183,7 @@ const RTIDetails = () => {
                     documentation
                   </p>
                   <a
-                    href="https://yourwordpresssite.com/wp-content/uploads/2024/06/rti-circular.pdf"
+                    href="/documents/other-docs/rti-circular.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md transition-colors duration-200 font-medium inline-block"
