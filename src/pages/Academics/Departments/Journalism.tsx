@@ -483,13 +483,7 @@ const JournalismPage: React.FC = () => {
                           <Users className="h-4 w-4" />
                           <span>{activity.participants}</span>
                         </div>
-                        <button
-                          className="flex items-center gap-2 text-blue-600 hover:text-blue-700 font-medium"
-                          onClick={() =>
-                            (window.location.href =
-                              "../../studentlife/clubs&cells/intrudex")
-                          }
-                        >
+                        <button className="flex items-center gap-2 text-blue-600 hover:text-blue-700 font-medium">
                           Learn More <ArrowRight className="h-4 w-4" />
                         </button>
                       </div>

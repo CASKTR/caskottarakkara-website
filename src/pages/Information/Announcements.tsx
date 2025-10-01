@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { useLocation } from "react-router-dom";
 import {
   ChevronRight,
   ChevronDown,
@@ -23,11 +24,21 @@ type Announcement = {
   documentUrl?: string;
 };
 // Individual Announcement Card Component
-const AnnouncementCard = ({ announcement }: { announcement: Announcement }) => {
-  const [isExpanded, setIsExpanded] = useState(false);
+const AnnouncementCard = ({
+  announcement,
+  autoExpand,
+}: {
+  announcement: Announcement;
+  autoExpand?: boolean;
+}) => {
+  const [isExpanded, setIsExpanded] = useState(!!autoExpand);
+
+  useEffect(() => {
+    if (autoExpand) setIsExpanded(true);
+  }, [autoExpand]);
 
   const toggleExpanded = () => {
-    setIsExpanded(!isExpanded);
+    setIsExpanded((prev) => !prev);
   };
 
   const getCategoryColor = (category: string): string => {
@@ -61,7 +72,10 @@ const AnnouncementCard = ({ announcement }: { announcement: Announcement }) => {
   };
 
   return (
-    <div className="bg-white rounded-3xl shadow-xl ring-1 ring-gray-100 overflow-hidden hover:shadow-xl transition-all duration-300 w-full">
+    <div
+      id={`announcement-${announcement.id}`}
+      className="bg-white rounded-3xl shadow-xl ring-1 ring-gray-100 overflow-hidden hover:shadow-xl transition-all duration-300 w-full"
+    >
       <div className="p-6 cursor-pointer" onClick={toggleExpanded}>
         <div className="flex items-start justify-between mb-4">
           <div className="flex-1">
@@ -135,6 +149,8 @@ const AnnouncementsPage = () => {
   const [isNavHidden, setIsNavHidden] = useState(false);
   const [announcements, setAnnouncements] = useState<Announcement[]>([]);
   const lastScrollYRef = useRef(0);
+  const location = useLocation();
+  const [autoExpandId, setAutoExpandId] = useState<string | null>(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -159,6 +175,22 @@ const AnnouncementsPage = () => {
 
     loadAnnouncements();
   }, []);
+
+  // Auto-expand and scroll to announcement if hash is present
+  useEffect(() => {
+    if (location.hash.startsWith("#")) {
+      const id = location.hash.replace("#", "");
+      setAutoExpandId(id);
+      setTimeout(() => {
+        const el = document.getElementById(`announcement-${id}`);
+        if (el) {
+          el.scrollIntoView({ behavior: "smooth", block: "center" });
+        }
+      }, 200);
+    } else {
+      setAutoExpandId(null);
+    }
+  }, [location.hash, announcements.length]);
 
   return (
     <div className="flex flex-col min-h-screen bg-gray-50">
@@ -197,6 +229,7 @@ const AnnouncementsPage = () => {
                 <AnnouncementCard
                   key={announcement.id}
                   announcement={announcement}
+                  autoExpand={autoExpandId === String(announcement.id)}
                 />
               ))
             ) : (

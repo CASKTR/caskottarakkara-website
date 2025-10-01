@@ -236,10 +236,6 @@ const MainNavBar: React.FC<{
             },
 
             {
-              label: "INTRUDEX",
-              route: "/studentlife/clubs&cells/intrudex",
-            },
-            {
               label: "College Senate",
               route: "/studentlife/clubs&cells/collegesenate",
             },
