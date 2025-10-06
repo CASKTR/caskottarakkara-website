@@ -62,21 +62,15 @@ const AdministrativeStaffPage: React.FC = () => {
                     key={index}
                     className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group ring-1 ring-gray-100"
                   >
-                    <div className="relative">
-                      <img
-                        src={administrativestaff.image}
-                        alt={administrativestaff.name}
-                        className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                    </div>
                     <div className="p-6">
                       <h3 className="text-xl font-bold text-gray-900 mb-2">
                         {administrativestaff.name}
                       </h3>
-                      <p className="text-blue-600 font-semibold mb-2">
-                        {administrativestaff.position}
-                      </p>
+                      {administrativestaff.designation && (
+                        <p className="text-blue-600 font-semibold mb-2">
+                          {administrativestaff.designation}
+                        </p>
+                      )}
                       <div className="space-y-2 mb-4"></div>
                       <div className="space-y-2 border-t pt-4">
                         <div className="flex items-center gap-2 text-sm text-gray-600">

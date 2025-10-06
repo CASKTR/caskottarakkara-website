@@ -166,7 +166,7 @@ const AnnouncementsPage = () => {
 
   useEffect(() => {
     const loadAnnouncements = () => {
-      // Sort by date descending (newest first)
+      // Sort by date descending
       const sortedAnnouncements = [...mockAnnouncementsData].sort(
         (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
       );
