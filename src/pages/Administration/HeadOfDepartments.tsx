@@ -51,7 +51,7 @@ const HeadOfDepartmentsPage: React.FC = () => {
         </div>
       </section>
 
-      {/* Content */}
+      {/* Content  */}
       <section className="flex-1 py-10 sm:py-14">
         <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
           <div className="rounded-3xl bg-white shadow-xl ring-1 ring-gray-100 p-6 md:p-8">
