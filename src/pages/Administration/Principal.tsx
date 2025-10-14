@@ -6,13 +6,13 @@ import Footer from "../../components/Footer";
 const principalData = {
   name: "Smt. Thara. K.S",
   position: "Principal",
-  qualifications: "Ph.D. Physics",
-  phone: "+91-9447604258",
-  email: "principal@cas.edu.in",
+  qualifications: "********",
+  phone: "+91 ********",
+  email: "**********",
   achievements: [
-    "25+ years of academic experience",
-    "Recipient of Excellence in Education Award",
-    "Former Dean of Engineering",
+    "********************************",
+    "********************************",
+    "********************************",
   ],
   image:
     "https://images.pexels.com/photos/5212345/pexels-photo-5212345.jpeg?auto=compress&cs=tinysrgb&w=400",

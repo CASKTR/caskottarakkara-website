@@ -214,7 +214,7 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           </div>
         </div>
 
-        {/* Social Media and Newsletter */}
+        {/* Social Media  */}
         <div className="mt-12 pt-8 border-t border-gray-800">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
@@ -236,23 +236,6 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   </a>
                 ))}
               </div>
-            </div>
-
-            <div>
-              <h4 className="text-lg font-semibold mb-4">Newsletter</h4>
-              <div className="flex gap-2">
-                <input
-                  type="email"
-                  placeholder="Enter your email"
-                  className="flex-1 px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-white placeholder-gray-400"
-                />
-                <button className="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-300">
-                  Subscribe
-                </button>
-              </div>
-              <p className="text-gray-400 text-sm mt-2">
-                Get the latest updates and news
-              </p>
             </div>
           </div>
         </div>
@@ -298,8 +281,8 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                     setRocketLaunch(true);
                     setTimeout(() => {
                       window.scrollTo({ top: 0, behavior: "smooth" });
-                    }, 500); // delay scroll so animation is visible
-                    setTimeout(() => setRocketLaunch(false), 2200); // slow down rocket reset
+                    }, 500);
+                    setTimeout(() => setRocketLaunch(false), 2200);
                   }}
                   className="ml-4 p-4 rounded-full bg-gray-800 hover:bg-blue-600 text-white transition-colors duration-300 flex items-center justify-center shadow-lg border-2 border-blue-500 overflow-visible focus:outline-none"
                   style={{ position: "relative" }}

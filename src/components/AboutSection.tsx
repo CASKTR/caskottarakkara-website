@@ -337,7 +337,7 @@ const AboutSection: React.FC = () => {
                   </div>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-1">
-                  Dr. Murali. V.S
+                  Smt. Thara. K.S
                 </h3>
                 <p className="text-blue-600 font-medium">Principal</p>
               </div>
@@ -362,7 +362,7 @@ const AboutSection: React.FC = () => {
                     every student.
                   </p>
                   <p className="font-semibold">
-                    Warm regards, Dr. Murali. V.S, Principal
+                    Warm regards, Smt. Thara. K.S, Principal
                   </p>
                 </div>
               </div>

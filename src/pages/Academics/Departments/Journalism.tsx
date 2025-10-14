@@ -17,84 +17,8 @@ import {
 import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
 import facultyDataJson from "../../../../public/assets/FacultyData/departmentfacultydata.json";
-
-const achievements = [
-  {
-    student: "Arjun Krishnan",
-    achievement: "First Prize in National Level Hackathon 2024",
-    year: "2024",
-    category: "Competition",
-  },
-  {
-    student: "Meera Sathyan",
-    achievement: "Best Project Award - AI in Healthcare",
-    year: "2024",
-    category: "Project",
-  },
-  {
-    student: "Vishnu Mohan",
-    achievement: "Google Summer of Code 2023",
-    year: "2023",
-    category: "Internship",
-  },
-  {
-    student: "Lakshmi Nair",
-    achievement: "Microsoft Student Ambassador",
-    year: "2024",
-    category: "Recognition",
-  },
-  {
-    student: "Rahul Varma",
-    achievement: "Published Paper in IEEE Conference",
-    year: "2023",
-    category: "Research",
-  },
-  {
-    student: "Sneha Pillai",
-    achievement: "Winner - Smart India Hackathon",
-    year: "2023",
-    category: "Competition",
-  },
-];
-
-const activities = [
-  {
-    title: "Annual Tech Fest - CodeCarnival",
-    date: "March 2024",
-    description:
-      "Three-day technical festival featuring coding competitions, tech talks, and workshops.",
-    participants: "500+ students",
-    image:
-      "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=400",
-  },
-  {
-    title: "Industry Expert Lecture Series",
-    date: "Monthly",
-    description:
-      "Regular sessions with industry professionals sharing insights on latest technologies.",
-    participants: "23+ students",
-    image:
-      "https://images.pexels.com/photos/1181676/pexels-photo-1181676.jpeg?auto=compress&cs=tinysrgb&w=400",
-  },
-  {
-    title: "Coding Club Workshops",
-    date: "Weekly",
-    description:
-      "Hands-on workshops covering programming languages, frameworks, and development tools.",
-    participants: "100+ students",
-    image:
-      "https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=400",
-  },
-  {
-    title: "Research Symposium",
-    date: "November 2024",
-    description:
-      "Platform for students to present their research work and innovative projects.",
-    participants: "150+ students",
-    image:
-      "https://images.pexels.com/photos/1181678/pexels-photo-1181678.jpeg?auto=compress&cs=tinysrgb&w=400",
-  },
-];
+import studentAchievementsJson from "../../../../public/assets/DepartmentData/studentachievements.json";
+import departmentActivitiesJson from "../../../../public/assets/DepartmentData/departmentactivities.json";
 
 const specializations = [
   {
@@ -405,36 +329,38 @@ const JournalismPage: React.FC = () => {
 
             <div className="rounded-3xl bg-white shadow-xl ring-1 ring-gray-100 p-6 md:p-8">
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-                {achievements.map((achievement, index) => (
-                  <div
-                    key={index}
-                    className="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow group"
-                  >
-                    <div className="flex items-start gap-4">
-                      <div className="flex-shrink-0">
-                        <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-indigo-500 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
-                          <Trophy className="h-6 w-6 text-white" />
+                {studentAchievementsJson.journalismstudents.map(
+                  (achievement, index) => (
+                    <div
+                      key={index}
+                      className="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow group"
+                    >
+                      <div className="flex items-start gap-4">
+                        <div className="flex-shrink-0">
+                          <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-indigo-500 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
+                            <Trophy className="h-6 w-6 text-white" />
+                          </div>
                         </div>
-                      </div>
-                      <div className="flex-1">
-                        <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                          {achievement.student}
-                        </h3>
-                        <p className="text-gray-700 mb-3">
-                          {achievement.achievement}
-                        </p>
-                        <div className="flex justify-between items-center">
-                          <span className="text-sm px-3 py-1 bg-blue-100 text-blue-800 rounded-full">
-                            {achievement.category}
-                          </span>
-                          <span className="text-sm text-gray-500">
-                            {achievement.year}
-                          </span>
+                        <div className="flex-1">
+                          <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                            {achievement.student}
+                          </h3>
+                          <p className="text-gray-700 mb-3">
+                            {achievement.achievement}
+                          </p>
+                          <div className="flex justify-between items-center">
+                            <span className="text-sm px-3 py-1 bg-blue-100 text-blue-800 rounded-full">
+                              {achievement.category}
+                            </span>
+                            <span className="text-sm text-gray-500">
+                              {achievement.year}
+                            </span>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                ))}
+                  )
+                )}
               </div>
             </div>
           </section>
@@ -453,44 +379,46 @@ const JournalismPage: React.FC = () => {
             </div>
 
             <div className="space-y-6 mb-8">
-              {activities.map((activity, index) => (
-                <div
-                  key={index}
-                  className="rounded-3xl bg-white shadow-xl ring-1 ring-gray-100 p-6 md:p-8"
-                >
-                  <div className="grid md:grid-cols-3 gap-6 items-center">
-                    <div className="md:col-span-1">
-                      <img
-                        src={activity.image}
-                        alt={activity.title}
-                        className="w-full h-48 object-cover rounded-lg"
-                      />
-                    </div>
-                    <div className="md:col-span-2">
-                      <div className="flex items-start justify-between mb-4">
-                        <h3 className="text-2xl font-bold text-gray-900">
-                          {activity.title}
-                        </h3>
-                        <span className="text-sm px-3 py-1 bg-blue-100 text-blue-800 rounded-full">
-                          {activity.date}
-                        </span>
+              {departmentActivitiesJson.journalismactivities.map(
+                (activity, index) => (
+                  <div
+                    key={index}
+                    className="rounded-3xl bg-white shadow-xl ring-1 ring-gray-100 p-6 md:p-8"
+                  >
+                    <div className="grid md:grid-cols-3 gap-6 items-center">
+                      <div className="md:col-span-1">
+                        <img
+                          src={activity.image}
+                          alt={activity.title}
+                          className="w-full h-48 object-cover rounded-lg"
+                        />
                       </div>
-                      <p className="text-gray-700 mb-4 leading-relaxed">
-                        {activity.description}
-                      </p>
-                      <div className="flex items-center justify-between">
-                        <div className="flex items-center gap-2 text-sm text-gray-600">
-                          <Users className="h-4 w-4" />
-                          <span>{activity.participants}</span>
+                      <div className="md:col-span-2">
+                        <div className="flex items-start justify-between mb-4">
+                          <h3 className="text-2xl font-bold text-gray-900">
+                            {activity.title}
+                          </h3>
+                          <span className="text-sm px-3 py-1 bg-blue-100 text-blue-800 rounded-full">
+                            {activity.date}
+                          </span>
                         </div>
-                        <button className="flex items-center gap-2 text-blue-600 hover:text-blue-700 font-medium">
-                          Learn More <ArrowRight className="h-4 w-4" />
-                        </button>
+                        <p className="text-gray-700 mb-4 leading-relaxed">
+                          {activity.description}
+                        </p>
+                        <div className="flex items-center justify-between">
+                          <div className="flex items-center gap-2 text-sm text-gray-600">
+                            <Users className="h-4 w-4" />
+                            <span>{activity.participants}</span>
+                          </div>
+                          <button className="flex items-center gap-2 text-blue-600 hover:text-blue-700 font-medium">
+                            Learn More <ArrowRight className="h-4 w-4" />
+                          </button>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              ))}
+                )
+              )}
             </div>
           </section>
         </div>

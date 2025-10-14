@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 import {
   ChevronRight,
   Code,
-  Users,
   Trophy,
   Cpu,
   Database,
@@ -12,12 +11,12 @@ import {
   Shield,
   CheckCircle,
   Mail,
-  ArrowRight,
 } from "lucide-react";
 import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
 import facultyDataJson from "../../../../public/assets/FacultyData/departmentfacultydata.json";
-import studentAchievements from "../../../../public/assets/DepartmentData/studentachievements.json";
+import studentAchievementsJson from "../../../../public/assets/DepartmentData/studentachievements.json";
+import departmentActivitiesJson from "../../../../public/assets/DepartmentData/departmentactivities.json";
 
 const specializations = [
   {
@@ -153,20 +152,25 @@ const BcomPage: React.FC = () => {
                       Department Overview
                     </h3>
                     <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                      The Department of Commerce is a distinguished center for
-                      business and management education. Established with the
-                      vision of nurturing future-ready professionals, we offer a
-                      comprehensive curriculum that blends strong theoretical
-                      foundations with real-world applications.
+                      The Department of Commerce at the College of Applied
+                      Science, Kottarakkara, established in 2023, plays a vital
+                      role in shaping students for successful careers in
+                      business, finance, management, and entrepreneurship. It
+                      provides a strong foundation in subjects such as
+                      accounting, economics, taxation, banking, and business
+                      studies, helping students understand the functioning of
+                      trade and the economy. Through a career-oriented
+                      curriculum, the department equips learners with practical
+                      knowledge and professional skills required in both private
+                      and public sectors.
                     </p>
                     <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                      Our department is dedicated to fostering analytical
-                      thinking, financial literacy, entrepreneurial spirit, and
-                      problem-solving skills among students. With well-equipped
-                      classrooms, experienced faculty, and strong industry
-                      linkages, we prepare students to excel in the dynamic
-                      fields of accounting, finance, management, and
-                      entrepreneurship.
+                      It also promotes essential abilities like financial
+                      literacy, communication, leadership, and problemsolving
+                      through seminars, workshops, and internships. Furthermore,
+                      the department encourages entrepreneurship by inspiring
+                      students to develop innovative ideas and start their own
+                      ventures.
                     </p>
 
                     <div className="grid md:grid-cols-2 gap-6 mt-8 justify-center">
@@ -330,7 +334,7 @@ const BcomPage: React.FC = () => {
 
             <div className="rounded-3xl bg-white shadow-xl ring-1 ring-gray-100 p-6 md:p-8">
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-                {studentAchievements.bcomactivities.map(
+                {studentAchievementsJson.bcomstudents.map(
                   (achievement: any, index: number) => (
                     <div
                       key={index}
@@ -374,13 +378,16 @@ const BcomPage: React.FC = () => {
               </h2>
               <div className="w-24 h-1 bg-blue- rounded h-1 bg-blue-600 mx-auto mb-6"></div>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Discover our vibrant community through various technical and
-                cultural activities
+                Department conducts a variety of academic, professional, and
+                co-curricular activities aimed at developing students’
+                knowledge, skills, and personality. These activities help bridge
+                the gap between theoretical learning and practical application
+                in the world of business and commerce.
               </p>
             </div>
 
             <div className="space-y-6 mb-8">
-              {studentAchievements.bcomactivities.map(
+              {departmentActivitiesJson.bcomactivities.map(
                 (activity: any, index: number) => (
                   <div
                     key={index}
@@ -399,21 +406,12 @@ const BcomPage: React.FC = () => {
                           <h3 className="text-2xl font-bold text-gray-900">
                             {activity.title}
                           </h3>
-                          <span className="text-sm px-3 py-1 bg-blue-100 text-blue-800 rounded-full">
-                            {activity.date}
-                          </span>
                         </div>
                         <p className="text-gray-700 mb-4 leading-relaxed">
                           {activity.description}
                         </p>
                         <div className="flex items-center justify-between">
-                          <div className="flex items-center gap-2 text-sm text-gray-600">
-                            <Users className="h-4 w-4" />
-                            <span>{activity.participants}</span>
-                          </div>
-                          <button className="flex items-center gap-2 text-blue-600 hover:text-blue-700 font-medium">
-                            Learn More <ArrowRight className="h-4 w-4" />
-                          </button>
+                          <div className="flex items-center gap-2 text-sm text-gray-600"></div>
                         </div>
                       </div>
                     </div>
