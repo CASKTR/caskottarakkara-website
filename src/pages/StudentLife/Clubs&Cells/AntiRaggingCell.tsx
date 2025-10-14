@@ -392,7 +392,7 @@ const AntiRaggingCell: React.FC = () => {
                         Call Now
                       </p>
                       <p className="text-xl font-bold text-gray-800">
-                        +91-94474-12345
+                        +91-9447957916
                       </p>
                     </div>
                   </div>
@@ -412,7 +412,7 @@ const AntiRaggingCell: React.FC = () => {
                         Email
                       </p>
                       <p className="text-lg font-semibold text-gray-800">
-                        antony.varghese@college.edu.in
+                        antonyvarghese73@gmail.com
                       </p>
                     </div>
                   </div>

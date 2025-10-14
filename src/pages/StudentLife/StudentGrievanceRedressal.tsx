@@ -59,20 +59,20 @@ const GrievanceCommitteeSection: React.FC = () => {
     {
       name: "Ms. Jincy Johnson",
       department: "Assistant Professor, Psychology",
-      email: "priya.sharma@caskottarakkara.edu.in",
-      phone: "+91 9876543210",
+      email: "jincyjohnsonjack@gmail.com",
+      phone: "+91 8590641504",
     },
     {
       name: "Sri. Antony Varghese",
       department: "Assistant Professor, Mathematics",
-      email: "rajesh.kumar@caskottarakkara.edu.in",
-      phone: "+91 9876543211",
+      email: "antonyvarghese73@gmail.com",
+      phone: "+91 9447957916",
     },
     {
       name: "Sri. Prasanth P",
       department: "Assistant Professor, Journalism",
-      email: "anjali.menon@caskottarakkara.edu.in",
-      phone: "+91 9876543212",
+      email: "prasanth23151@gmail.com",
+      phone: "+91 8129741249",
     },
   ];
 
@@ -273,23 +273,18 @@ const GrievanceCommitteeSection: React.FC = () => {
                   <h4 className="font-semibold text-gray-900 mb-2">
                     Email Committee
                   </h4>
-                  <p className="text-sm text-gray-600">
-                    grievance@caskottarakkara.edu.in
-                  </p>
                 </div>
                 <div className="bg-white p-4 rounded-xl shadow-sm">
                   <Phone className="w-8 h-8 text-indigo-600 mx-auto mb-3" />
                   <h4 className="font-semibold text-gray-900 mb-2">
                     Call Committee
                   </h4>
-                  <p className="text-sm text-gray-600">+91 474-123-4567</p>
                 </div>
                 <div className="bg-white p-4 rounded-xl shadow-sm">
                   <User className="w-8 h-8 text-indigo-600 mx-auto mb-3" />
                   <h4 className="font-semibold text-gray-900 mb-2">
                     Visit Office
                   </h4>
-                  <p className="text-sm text-gray-600">Admin Block, Room 204</p>
                 </div>
               </div>
             </div>

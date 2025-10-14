@@ -5,8 +5,8 @@
       "post": "Asst. Professor in Computer Science",
       "department": "Department of Computer Science",
       "qualifications": "MSc, MPhil in Computer Science",
-      "phone": "+91-9876543211",
-      "email": "hod.cse@cas.edu.in",
+      "phone": "+91-9446283003",
+      "email": "bindustvm12@gmail.com",
       "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
@@ -15,7 +15,7 @@
       "department": "Department of B.com",
       "qualifications": "MCom Finance, SET, NET, DIFA",
       "phone": "+91-9188458680",
-      "email": "hod.ece@cas.edu.in",
+      "email": "aadarshasivan@gmail.com",
       "image": "https://images.pexels.com/photos/3727464/pexels-photo-3727464.jpeg?auto=compress&cs=tinysrgb&w=400"
     },
     {
@@ -24,8 +24,8 @@
       "department": "Department of Psychology",
       "qualifications": "MSc Psychology, SET",
       "phone": "+91-8590641504",
-      "email": "hod.it@cas.edu.in",
-      "image": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400"
+      "email": "jincyjohnsonjack@gmail.com",
+      "image": "../../../public/assets/images/faculty-images/psychology/jincyjohnson.jpeg"
     },
     {
       "name": "Ms. Sangeetha Santhosh",
@@ -33,7 +33,7 @@
       "department": "Department of Journalism & Mass Communication",
       "qualifications": "MA Journalism & Mass Communication, SET, NET",
       "phone": "+91-8289911226",
-      "email": "hod.me@cas.edu.in",
+      "email": "sangeethasnia113@gmail.com",
       "image": "https://images.pexels.com/photos/4065159/pexels-photo-4065159.jpeg?auto=compress&cs=tinysrgb&w=400"
     }
   ]

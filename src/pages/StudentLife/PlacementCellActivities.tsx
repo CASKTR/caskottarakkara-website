@@ -228,10 +228,10 @@ const PlacementCellActivities: React.FC = () => {
                 <div className="flex items-center justify-center bg-white rounded-lg p-4 border border-gray-200 w-full">
                   <Mail className="h-5 w-5 text-blue-500 mr-3" />
                   <a
-                    href="mailto:cgpc.casmvk@gmail.com"
+                    href="mailto:fazilafsu@gmail.com "
                     className="text-blue-600 hover:text-blue-500 transition-colors"
                   >
-                    cgpc.casmvk@gmail.com
+                    fazilafsu@gmail.com
                   </a>
                 </div>
                 <div className="flex items-center justify-center bg-white rounded-lg p-4 border border-gray-200 w-full">
@@ -250,10 +250,10 @@ const PlacementCellActivities: React.FC = () => {
                     />
                   </svg>
                   <a
-                    href="tel:+ +919895992693"
+                    href="tel:+ +9895992693"
                     className="text-blue-600 hover:text-blue-500 transition-colors"
                   >
-                    +91 98959 92693
+                    +91 9895992693
                   </a>
                 </div>
               </div>

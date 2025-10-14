@@ -55,8 +55,14 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
       label: "E-Grantz Kerala",
       url: "https://www.egrantz.kerala.gov.in/",
     },
-    { label: "Grievance Redressal", url: "#" },
-    { label: "Anti-Ragging", url: "#" },
+    {
+      label: "Grievance Redressal",
+      url: "studentlife/studentgrievanceredressal",
+    },
+    {
+      label: "Anti-Ragging",
+      url: "/studentlife/clubs&cells/antiraggingcell",
+    },
     {
       label: "Payment Portal",
       url: "https://pay.keralauniversity.ac.in/",

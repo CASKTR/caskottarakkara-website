@@ -233,7 +233,7 @@ const CollegeSenate = () => {
                 College Student Union
               </h1>
               <div className="w-24 h-1 bg-blue-600 mx-auto mb-6"></div>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              <p className="text-xl text-gray-600 max-w-5xl mx-auto">
                 The student's union of the College has always been an excellent
                 platform for the students to develop their leadership and
                 decision-making skills. The college union is intended to
@@ -359,29 +359,6 @@ const CollegeSenate = () => {
                 </div>
               </section>
             </div>
-
-            {/* Contact Section */}
-            <section className="bg-white rounded-3xl shadow-xl ring-1 ring-gray-100 p-6 md:p-10">
-              <div className="p-8 bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-xl text-center">
-                <Users className="w-16 h-16 text-blue-600 mx-auto mb-4" />
-                <h3 className="text-2xl font-semibold text-blue-900 mb-3">
-                  Connect with Your Senate
-                </h3>
-                <p className="text-blue-800 mb-6 max-w-2xl mx-auto">
-                  The College Senate is here to serve you. Reach out with your
-                  ideas, concerns, or suggestions to help us make our college
-                  experience better for everyone.
-                </p>
-                <div className="flex flex-col sm:flex-row gap-4 justify-center text-sm">
-                  <div className="text-blue-700">
-                    <strong>Student Affairs Office</strong>
-                  </div>
-                  <div className="text-blue-700">
-                    <strong>Email:</strong> senate@college.edu
-                  </div>
-                </div>
-              </div>
-            </section>
           </div>
         </main>
         <Footer onNavigate={noopNavigate} />

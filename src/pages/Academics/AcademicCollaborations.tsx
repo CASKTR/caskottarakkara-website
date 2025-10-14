@@ -448,10 +448,10 @@ const AcademicCollaborationsPage = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <div className="text-sm text-blue-700">
-                  <strong>Contact:</strong> Academic Affairs Office
+                  <strong>Contact:</strong> 8089754259
                 </div>
                 <div className="text-sm text-blue-700">
-                  <strong>Email:</strong> partnerships@college.edu
+                  <strong>Email:</strong> caskottarakkara.ihrd@gmail.com
                 </div>
               </div>
             </div>

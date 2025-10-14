@@ -226,12 +226,14 @@ const WomensGrievanceCellPage: React.FC = () => {
 
                   <div className="space-y-3">
                     <div className="flex items-center justify-center">
-                      <Mail className="h-5 w-5 text-purple-500 mr-3" />
-                      <span className="text-gray-700">dhanya.s@cas.edu.in</span>
+                      <Mail className="h-5 w-5 text-blue-500 mr-3" />
+                      <span className="text-gray-700">
+                        dhanyashari@gmail.com
+                      </span>
                     </div>
                     <div className="flex items-center justify-center">
-                      <Phone className="h-5 w-5 text-purple-500 mr-3" />
-                      <span className="text-gray-700">+91 9876543210</span>
+                      <Phone className="h-5 w-5 text-blue-500 mr-3" />
+                      <span className="text-gray-700">+91 8547232871</span>
                     </div>
                   </div>
 
@@ -262,12 +264,12 @@ const WomensGrievanceCellPage: React.FC = () => {
                     <div className="flex items-center justify-center">
                       <Mail className="h-5 w-5 text-blue-500 mr-3" />
                       <span className="text-gray-700">
-                        arunima.sanal@cas.edu.in
+                        arunimasanal24@gmail.com{" "}
                       </span>
                     </div>
                     <div className="flex items-center justify-center">
                       <Phone className="h-5 w-5 text-blue-500 mr-3" />
-                      <span className="text-gray-700">+91 9876543211</span>
+                      <span className="text-gray-700">+91 8606010797</span>
                     </div>
                   </div>
                 </div>
