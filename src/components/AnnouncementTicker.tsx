@@ -121,7 +121,7 @@ const AnnouncementTicker: React.FC = () => {
                                 )}
                               </span>
                             </div>
-                            <p className="text-gray-800 font-bold text-lg font-serif leading-snug group-hover:text-blue-700 transition-colors whitespace-normal">
+                            <p className="text-gray-800 font-bold text-sm lg:text-lg font-serif leading-snug group-hover:text-blue-700 transition-colors whitespace-normal">
                               {announcement.title}
                             </p>
                           </div>

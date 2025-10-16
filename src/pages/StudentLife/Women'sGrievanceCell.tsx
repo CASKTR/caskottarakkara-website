@@ -6,8 +6,6 @@ import {
   Shield,
   Mail,
   Phone,
-  MapPin,
-  Calendar,
   User,
 } from "lucide-react";
 
@@ -315,53 +313,6 @@ const WomensGrievanceCellPage: React.FC = () => {
         </section>
       </div>
 
-      {/* Contact Section */}
-      <section className="py-12 bg-gray-900 text-white">
-        <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Get in Touch
-            </h2>
-            <p className="text-xl text-gray-300">
-              We're here to support and empower you
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-purple-600 rounded-full mb-4">
-                <Mail className="h-8 w-8" />
-              </div>
-              <h3 className="text-lg font-semibold mb-2">Email</h3>
-              <p className="text-gray-300">womenscell@cas.edu.in</p>
-            </div>
-
-            <div className="text-center">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-purple-600 rounded-full mb-4">
-                <MapPin className="h-8 w-8" />
-              </div>
-              <h3 className="text-lg font-semibold mb-2">Location</h3>
-              <p className="text-gray-300">
-                College of Applied Science
-                <br />
-                Kottarakkara
-              </p>
-            </div>
-
-            <div className="text-center">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-purple-600 rounded-full mb-4">
-                <Calendar className="h-8 w-8" />
-              </div>
-              <h3 className="text-lg font-semibold mb-2">Availability</h3>
-              <p className="text-gray-300">
-                Monday - Friday
-                <br />
-                9:00 AM - 5:00 PM
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
       <Footer onNavigate={noopNavigate} />
     </div>
   );

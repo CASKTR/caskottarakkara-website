@@ -348,7 +348,7 @@ const AntiRaggingCell: React.FC = () => {
               </div>
             </div>
           </div>
-          {/* Contact Information (Replaced) */}
+          {/* Contact Information */}
           <div className="text-center mb-8">
             <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-full mb-4">
               <Shield className="h-8 w-8 text-white" />
