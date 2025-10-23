@@ -5,28 +5,28 @@
       "designation": "Assistant Professor & Head of Department",
       "qualifications": "MSc. Computer Science",
       "email": "bindustvm12@gmail.com",
-      "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
+      "image": ""
     },
     {
       "name": "Smt. Anzalna. H",
       "designation": "Assistant Professor",
       "qualifications": "MSc. Computer Science, Mphil Computer Science",
       "email": "sajeev.anzalna@gmail.com",
-      "image": "https://images.pexels.com/photos/3727464/pexels-photo-3727464.jpeg?auto=compress&cs=tinysrgb&w=400"
+      "image": ""
     },
     {
       "name": "Smt. Afsana. N",
       "designation": "Assistant Professor",
       "qualifications": "MSc Computer Science",
       "email": "fazilafsu@gmail.com",
-      "image": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400"
+      "image": "../../../public/assets/images/faculty-images/cs/afsana.jpg"
     },
     {
       "name": "Smt. Saranya. S",
       "designation": "Assistant Professor",
       "qualifications": "BCA, MSc Computer Science",
       "email": "saranyasaru93@gmail.com",
-      "image": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400"
+      "image": "../../../public/assets/images/faculty-images/cs/saranya.jpg"
     }
   ],
 
@@ -36,14 +36,14 @@
       "designation": "Assistant Professor & Head of Department",
       "qualifications": "MCom Finance, SET, NET",
       "email": "aadarshasivan@gmail.com",
-      "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
+      "image": ""
     },
     {
       "name": "Sri. Manoj MS",
       "designation": "Assistant Professor",
       "qualifications": "MCom, NET",
       "email": "msmanoj.madhu83@gmail.com",
-      "image": "https://images.pexels.com/photos/3727464/pexels-photo-3727464.jpeg?auto=compress&cs=tinysrgb&w=400"
+      "image": "../../../public/assets/images/faculty-images/bcom/manoj.jpg"
     },
     {
       "name": "Sri. Tony Joy",
@@ -66,14 +66,14 @@
       "designation": "Assistant Professor",
       "qualifications": "MSc Psychology, SET",
       "email": "nisababu143@gmail.com",
-      "image": "../../../public/assets/images/faculty-images/psychology/nisa.jpeg"
+      "image": "../../../public/assets/images/faculty-images/psychology/nisa.jpg"
     },
     {
       "name": "Ms. Rethi. S",
       "designation": "Assistant Professor in Zoology",
       "qualifications": "MA English Literature, MSc Zoology, MEd Science",
       "email": "rethisathidevi12@gmail.com",
-      "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
+      "image": ""
     },
     {
       "name": "Ms. Teena Thankachan",
@@ -87,7 +87,7 @@
       "designation": "Assistant Professor",
       "qualifications": "MSc Psychology",
       "email": "anjups91@gmail.com",
-      "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
+      "image": ""
     }
   ],
   "journalismfaculty": [
@@ -96,7 +96,7 @@
       "designation": "Assistant Professor & Head of Department",
       "qualifications": "MA in Journalism & Mass Communication, SET, NET",
       "email": "sangeethasnia113@gmail.com",
-      "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
+      "image": "../../../public/assets/images/faculty-images/journalism/sangeethasanthosh.jpg"
     },
     {
       "name": "Ms. Arunima Sanal",
@@ -110,7 +110,7 @@
       "designation": "Assistant Professor in Journalism",
       "qualifications": "*********",
       "email": "prasanth23151@gmail.com",
-      "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
+      "image": ""
     }
   ],
   "genraldepartmentfaculty": [
@@ -119,14 +119,14 @@
       "designation": "Assistant Professor in Mathematics & Statistics",
       "qualifications": "MSc, BEd in Mathematics",
       "email": "antonyvarghese73@gmail.com",
-      "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
+      "image": ""
     },
     {
       "name": "Mrs. Sunitha. S",
       "designation": "Assistant Professor in Hindi",
       "qualifications": "MA Hindi",
       "email": "sunithajit@gmail.com",
-      "image": "https://images.pexels.com/photos/3727464/pexels-photo-3727464.jpeg?auto=compress&cs=tinysrgb&w=400"
+      "image": ""
     },
 
     {
@@ -134,14 +134,14 @@
       "designation": "Assistant Professor in Malayalam",
       "qualifications": "MA, MPhil in Malayalam",
       "email": "valsalaantony80@gmail.com",
-      "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
+      "image": ""
     },
     {
       "name": "Mrs. Anjali Vijay",
       "designation": "Assistant Professor in English",
       "qualifications": "MA English, NET",
       "email": "anjaliv9996@gmail.com",
-      "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
+      "image": ""
     }
   ],
   "administrativestaff": [
