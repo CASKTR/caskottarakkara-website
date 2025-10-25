@@ -27,7 +27,6 @@ import AcademicCalendar from "./pages/Academics/AcademicCalendar";
 import OnlineProgramsPage from "./pages/Academics/OnlinePrograms";
 import AcademicCollaborationsPage from "./pages/Academics/AcademicCollaborations";
 import IQAC from "./pages/Academics/IQAC";
-import Library from "./pages/Academics/Library";
 import FYUGP from "./pages/Academics/FYUGP";
 import PlacementCellActivities from "./pages/StudentLife/PlacementCellActivities";
 import StudentGrievanceRedressal from "./pages/StudentLife/StudentGrievanceRedressal";
@@ -181,7 +180,6 @@ function App() {
         />
         <Route path="/academics/iqac" element={<IQAC />} />
         <Route path="/academics/scholarships" element={<ScholarshipsPage />} />
-        <Route path="/academics/library" element={<Library />} />
         <Route path="/academics/fyugp" element={<FYUGP />} />
         <Route
           path="/academics/academiccollaborations"

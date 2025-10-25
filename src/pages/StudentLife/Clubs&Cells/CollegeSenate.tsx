@@ -1,12 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import {
-  Users,
-  User,
-  UserCheck,
-  ChevronRight,
-  Crown,
-  Briefcase,
-} from "lucide-react";
+import { User, ChevronRight, Crown } from "lucide-react";
 
 import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
@@ -86,89 +79,6 @@ const CollegeSenate = () => {
     }
   };
 
-  const MemberCard = ({
-    member,
-    isLadyRep = false,
-    isHighlighted = false,
-  }: {
-    member: Member;
-    isLadyRep?: boolean;
-    isHighlighted?: boolean;
-  }) => {
-    // Lady Representative styling override
-    const isLadyRepresentative =
-      isLadyRep ||
-      member.position === "Lady Representative" ||
-      member.course === "Lady Representative";
-    return (
-      <div
-        className={`
-        bg-white rounded-xl shadow-lg hover:shadow-xl 
-        transition-all duration-300 
-        p-6 border-l-4 hover:scale-105 
-          ${
-            isLadyRepresentative
-              ? "border-purple-500"
-              : isHighlighted
-              ? "border-blue-500"
-              : member.category === "executive"
-              ? "border-blue-500"
-              : member.category === "secretary"
-              ? "border-green-500"
-              : "border-purple-400"
-          }
-      `}
-      >
-        <div className="flex items-start space-x-4">
-          <div className="flex-shrink-0">
-            <div
-              className={`
-              w-12 h-12 rounded-full shadow-lg
-                bg-gradient-to-br ${
-                  isLadyRepresentative
-                    ? "from-purple-500 to-purple-600"
-                    : getGradient(member.position || "representative")
-                }
-              flex items-center justify-center text-white
-            `}
-            >
-              {getIcon(
-                isLadyRepresentative
-                  ? "Lady Representative"
-                  : member.position || "representative"
-              )}
-            </div>
-          </div>
-          <div className="flex-grow">
-            <h3 className="text-xl font-bold text-gray-800 mb-1">
-              {member.name}
-            </h3>
-            {(member.position || isLadyRepresentative) && (
-              <p
-                className={`
-                  font-semibold mb-2
-                  ${
-                    isLadyRepresentative
-                      ? "text-purple-600"
-                      : member.category === "executive"
-                      ? "text-blue-600"
-                      : member.category === "secretary"
-                      ? "text-green-600"
-                      : "text-purple-600"
-                  }
-                `}
-              >
-                {isLadyRepresentative ? "Lady Representative" : member.position}
-              </p>
-            )}
-            <p className="text-gray-600">
-              {isLadyRepresentative ? "" : member.course}
-            </p>
-          </div>
-        </div>
-      </div>
-    );
-  };
   interface SectionHeaderProps {
     title: string;
     subtitle: string;
@@ -193,6 +103,40 @@ const CollegeSenate = () => {
       <div className={`w-24 h-1 bg-${color}-600 mx-auto mt-4`}></div>
     </div>
   );
+
+  // MemberCard //
+  const MemberCard: React.FC<{ member: Member; isHighlighted?: boolean }> = ({
+    member,
+    isHighlighted = false,
+  }) => {
+    const pos = member.position || "";
+    const gradient = getGradient(pos);
+    return (
+      <div
+        className={`flex items-center p-4 rounded-xl shadow-sm ${
+          isHighlighted ? "" : "bg-white"
+        }`}
+      >
+        <div
+          className={`flex-shrink-0 w-16 h-16 rounded-full bg-gradient-to-br ${gradient} p-1 mr-4`}
+        >
+          <div className="flex items-center justify-center w-full h-full bg-white rounded-full">
+            {getIcon(pos)}
+          </div>
+        </div>
+        <div className="min-w-0">
+          <div className="text-lg font-bold text-gray-900 truncate">
+            {member.name}
+          </div>
+          {member.position && (
+            <div className="text-sm font-bold text-gray-600 truncate">
+              {member.position}
+            </div>
+          )}
+        </div>
+      </div>
+    );
+  };
 
   function noopNavigate(): void {}
 
@@ -233,36 +177,28 @@ const CollegeSenate = () => {
                 College Student Union
               </h1>
               <div className="w-24 h-1 bg-blue-600 mx-auto mb-6"></div>
-              <p className="text-xl text-gray-600 max-w-5xl mx-auto">
-                The student's union of the College has always been an excellent
-                platform for the students to develop their leadership and
-                decision-making skills. The college union is intended to
-                organize most of the co-curricular activities of the college,
-                under the guidance of the Principal and the staff advisors
-                concerned. The objectives of the college union are: to train
-                students on the duties and responsibilities of citizenship, to
-                promote opportunities for the development of character,
-                leadership and spirit of service among students, and to promote
-                opportunities for students to organize sports, arts and other
-                cultural and recreational activities. A body of student's
-                representatives is formed every year as per the guidelines
-                issued by the Kerala University. The principal office bearers
-                include: The Chairman, Vice Chairman, General Secretary, Arts
-                Club Secretary, Student Editor, University Union Councillors and
-                Class Representatives. Elections for the College Union are
-                conducted in Parliamentary mode, in the Simple Majority Election
-                system. In the Parliamentary Mode of election, there are two
-                stages of election. In Stage I, Class Representatives are to be
-                elected from the students of each year of the Degree Courses. In
-                Stage II, the Class Representatives so elected shall elect the
-                office bearers to the above-mentioned positions.
+              <p className="text-x2 text-black-600 max-w-5xl mx-auto">
+                The Student's Union of the College serves as an excellent
+                platform for students to develop leadership and decision-making
+                skills. Guided by the Principal and staff advisors, the Union
+                organizes most co-curricular activities and encourages
+                participation in sports, arts, and cultural events. Its main
+                objectives are to promote responsible citizenship, leadership,
+                character development, and a spirit of service among students.
+                Every year, a new body of student representatives is elected as
+                per Kerala University guidelines. The principal office bearers
+                include the Chairman, Vice Chairman, General Secretary, Arts
+                Club Secretary, Student Editor, University Union Councillors,
+                and Class Representatives. Elections are conducted in a
+                two-stage Parliamentary mode following the simple majority
+                system.
               </p>
             </section>
 
             {/* Executive Committee */}
             <section className="bg-white rounded-3xl shadow-xl ring-1 ring-gray-100 p-6 md:p-10">
               <SectionHeader
-                title="Executive Committee"
+                title="Senate Leadership"
                 subtitle="Leading with vision and dedication to student welfare"
                 icon={Crown}
                 color="blue"
@@ -283,82 +219,6 @@ const CollegeSenate = () => {
                 ))}
               </div>
             </section>
-
-            {/* Secretaries */}
-            <section className="bg-white rounded-3xl shadow-xl ring-1 ring-gray-100 p-6 md:p-10">
-              <SectionHeader
-                title="Department Secretaries"
-                subtitle="Specialized leadership for diverse student activities"
-                icon={Briefcase}
-                color="green"
-              />
-              <div className="grid gap-6 lg:grid-cols-3">
-                {unionMembers.secretaryMembers.map((member, index) => (
-                  <MemberCard
-                    key={index}
-                    member={{
-                      ...member,
-                      category: member.category as
-                        | "executive"
-                        | "secretary"
-                        | "representative",
-                    }}
-                  />
-                ))}
-              </div>
-            </section>
-
-            {/* Representatives Section */}
-            <div className="grid gap-8 md:grid-cols-2">
-              {/* Lady Representatives */}
-              <section className="bg-white rounded-3xl shadow-xl ring-1 ring-purple-100 p-6 md:p-8">
-                <SectionHeader
-                  title="Lady Representatives"
-                  subtitle="Advocating for women's participation and empowerment"
-                  icon={Users}
-                  color="purple"
-                />
-                <div className="space-y-6">
-                  {unionMembers.ladyRepresentatives.map((member, index) => (
-                    <MemberCard
-                      key={index}
-                      member={{
-                        ...member,
-                        category: member.category as
-                          | "executive"
-                          | "secretary"
-                          | "representative",
-                      }}
-                      isLadyRep={true}
-                    />
-                  ))}
-                </div>
-              </section>
-
-              {/* Year Representatives */}
-              <section className="bg-white rounded-3xl shadow-xl p-6 md:p-8">
-                <SectionHeader
-                  title="Year Representatives"
-                  subtitle="Bridging communication between students and administration"
-                  icon={UserCheck}
-                  color="purple"
-                />
-                <div className="space-y-6">
-                  {unionMembers.yearRepresentatives.map((member, index) => (
-                    <MemberCard
-                      key={index}
-                      member={{
-                        ...member,
-                        category: member.category as
-                          | "executive"
-                          | "secretary"
-                          | "representative",
-                      }}
-                    />
-                  ))}
-                </div>
-              </section>
-            </div>
           </div>
         </main>
         <Footer onNavigate={noopNavigate} />

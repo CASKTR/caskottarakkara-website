@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 import {
   ChevronRight,
   Users,
-  Heart,
   Award,
   Calendar,
   Clock,
@@ -10,13 +9,11 @@ import {
   Instagram,
   ExternalLink,
   CheckCircle,
-  Target,
-  BookOpen,
-  Leaf,
 } from "lucide-react";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import { nssImages } from "../../../public/assets/images/nss-images";
+import nssactivitiesData from "../../../public/assets/nssactivities.json";
 
 const NSS: React.FC = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -37,39 +34,6 @@ const NSS: React.FC = () => {
   }, []);
 
   const noopNavigate = () => {};
-
-  const activities = [
-    {
-      icon: Heart,
-      title: "Social Service Activities",
-      description: "Community outreach and support programs",
-    },
-    {
-      icon: Leaf,
-      title: "Cleaning Initiatives",
-      description: "Environmental cleanliness drives",
-    },
-    {
-      icon: BookOpen,
-      title: "Nature Study Programmes",
-      description: "Environmental awareness and conservation",
-    },
-    {
-      icon: Users,
-      title: "Personality Development",
-      description: "Leadership and character building programs",
-    },
-    {
-      icon: Target,
-      title: "Awareness Campaigns",
-      description: "Educational campaigns on social issues",
-    },
-    {
-      icon: CheckCircle,
-      title: "Anti-Drug Campaigns",
-      description: "Programs against drug addiction and AIDS",
-    },
-  ];
 
   const requirements = [
     {
@@ -193,13 +157,13 @@ const NSS: React.FC = () => {
               <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-indigo-600 mx-auto rounded-full"></div>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {activities.map((activity, index) => (
+              {nssactivitiesData.nssactivities.map((activity, index) => (
                 <div
                   key={index}
                   className="bg-gray-50 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
                 >
                   <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-                    <activity.icon className="w-6 h-6 text-blue-600" />
+                    <CheckCircle className="w-6 h-6 text-blue-600" />
                   </div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">
                     {activity.title}

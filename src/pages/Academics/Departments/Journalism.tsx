@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 import {
   ChevronRight,
   Code,
-  Users,
   Trophy,
   Monitor,
   Camera,
@@ -12,7 +11,6 @@ import {
   BookOpen,
   CheckCircle,
   Mail,
-  ArrowRight,
 } from "lucide-react";
 import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
@@ -146,21 +144,26 @@ const JournalismPage: React.FC = () => {
                       Department Overview
                     </h3>
                     <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                      The Department of Journalism and Mass Communication is a
-                      dynamic center dedicated to media studies, communication,
-                      and storytelling. Established with the vision of nurturing
-                      ethical, creative, and socially responsible media
-                      professionals, we provide a curriculum that blends theory
-                      with hands-on industry experience.
+                      The Department of Journalism and Mass Communication at the
+                      College of Applied Science, Kottarakkara, is the first and
+                      only media department under IHRD in the state to offer an
+                      undergraduate programme in Journalism and Mass
+                      Communication. Established in 2023, the department aims to
+                      provide students with a comprehensive understanding of
+                      both conceptual and practical skills required to engage
+                      with past and contemporary media phenomena and
+                      technologies. Whether a student is interested in pursuing
+                      a career in the media industry, film, television,
+                      journalism, photography, advertising, or many other
+                      fields, the department offers both a broad-based
+                      curriculum and hands-on opportunities.
                     </p>
                     <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                      Our department emphasizes critical thinking, creativity,
-                      and practical exposure to prepare students for the rapidly
-                      evolving media landscape. With modern studios, digital
-                      labs, experienced faculty, and strong media partnerships,
-                      we equip students to excel in fields such as journalism,
-                      advertising, public relations, broadcasting, film studies,
-                      and digital media.
+                      The programme provides theoretical as well as practical
+                      inputs to Mass Communication students in print and visual
+                      media through newspaper production, production of short
+                      films, Public Service Advertisements, documentaries, and
+                      news bulletin production.
                     </p>
 
                     <div className="grid md:grid-cols-2 gap-6 mt-8 justify-center">
@@ -348,14 +351,7 @@ const JournalismPage: React.FC = () => {
                           <p className="text-gray-700 mb-3">
                             {achievement.achievement}
                           </p>
-                          <div className="flex justify-between items-center">
-                            <span className="text-sm px-3 py-1 bg-blue-100 text-blue-800 rounded-full">
-                              {achievement.category}
-                            </span>
-                            <span className="text-sm text-gray-500">
-                              {achievement.year}
-                            </span>
-                          </div>
+                          <div className="flex justify-between items-center"></div>
                         </div>
                       </div>
                     </div>
@@ -398,21 +394,12 @@ const JournalismPage: React.FC = () => {
                           <h3 className="text-2xl font-bold text-gray-900">
                             {activity.title}
                           </h3>
-                          <span className="text-sm px-3 py-1 bg-blue-100 text-blue-800 rounded-full">
-                            {activity.date}
-                          </span>
                         </div>
                         <p className="text-gray-700 mb-4 leading-relaxed">
                           {activity.description}
                         </p>
                         <div className="flex items-center justify-between">
-                          <div className="flex items-center gap-2 text-sm text-gray-600">
-                            <Users className="h-4 w-4" />
-                            <span>{activity.participants}</span>
-                          </div>
-                          <button className="flex items-center gap-2 text-blue-600 hover:text-blue-700 font-medium">
-                            Learn More <ArrowRight className="h-4 w-4" />
-                          </button>
+                          <div className="flex items-center gap-2 text-sm text-gray-600"></div>
                         </div>
                       </div>
                     </div>
